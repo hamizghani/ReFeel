@@ -1,0 +1,12 @@
+{
+  "brand": "refeel",
+  "version": "1.0.0",
+  "palette": {
+    "primary": "#184e38",
+    "accent": "#2d6a4f",
+    "soft": "#f2f7f4",
+    "tint": "#e5efe8",
+    "ink": "#141d18",
+    "canvas": "#fbfcfb"
+  }
+}

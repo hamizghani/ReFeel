@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-15",
+  "purpose": "AI-prepared garment-only catalogue representations for a browser-local demonstration. These are not original photographs, condition evidence, measured fit or verified garment details.",
+  "approval": "The user approved person/background removal and AI reconstruction of obscured fabric; original listing photographs remain available unchanged.",
+  "sourcePhotosUnmodified": true,
+  "items": [
+    {
+      "listingId": "cloud-poplin",
+      "id": "cloud-poplin-catalogue-cover",
+      "src": "/covers/cloud-poplin.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 42188,
+      "sha256": "d4e54449653517f1c91d92095aad771d95b4b2cb797c845c335a47e474d84268",
+      "transparent": true,
+      "transparentPixelPercent": 50.84,
+      "contentBounds": {
+        "left": 105,
+        "top": 90,
+        "width": 590,
+        "height": 820
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "cloud-poplin-front",
+      "sourcePhoto": "/photos/cloud-poplin-front.webp",
+      "sourceSha256": "fbb767eb7ed8a08f5f957eb58a4f1d3230949ab039091aebb3424d6cb8d024f2",
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E480074-000/00",
+      "sourceCredit": "UNIQLO · prepared photographic example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-f43bfa90-7595-455c-bc32-a01060f6454e.png",
+      "reconstructedRegions": [
+        "Background and shadow removal; conservative studio reconstruction"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 90,
+        "alphaQuality": 100
+      },
+      "prompt": "Use case: background-extraction. Asset type: standardized garment-only catalogue cover. Edit target: supplied photograph of an ivory button-front blouse. Remove the entire gray backdrop and all cast backdrop shadows. Retain this exact garment: ivory color, point collar, long cuffed sleeves, original placket, buttons, seams, fine cotton fabric texture, natural folds and gently curved hem. Photorealistic isolated front-view ghost-mannequin product cutout with no person or mannequin, no hanger, no body parts, no accessories. Actual transparent alpha background. Entire garment visible, centered upright in a portrait 4:5 canvas with clean empty margin on all sides, occupying approximately 80% of canvas height. Consistent soft diffuse studio lighting, no floor, no cast shadow or halo. Preserve original shape and silhouette; do not invent pockets, graphics, trims or distort construction. No added text, no watermark. This is an AI-edited demo catalogue representation, not condition evidence."
+    },
+    {
+      "listingId": "moss-knit",
+      "id": "moss-knit-catalogue-cover",
+      "src": "/covers/moss-knit.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 150172,
+      "sha256": "1c0389f02c7c53bf6108d01fc190040b6c36be9ed6b3d1f8dbebb716a473121a",
+      "transparent": true,
+      "transparentPixelPercent": 49.76,
+      "contentBounds": {
+        "left": 60,
+        "top": 122,
+        "width": 680,
+        "height": 756
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "moss-knit-front",
+      "sourcePhoto": "/photos/moss-knit-front.webp",
+      "sourceSha256": "7bcf771c415b5faa06c8fc58efa217cc6fb467317385302c076d82f953b1ab08",
+      "sourcePage": "https://selecttrendsboutique.com/products/moss-green-button-up-cardigan",
+      "sourceCredit": "Select Trends · prepared photographic example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-2c245b07-61c2-4314-906a-cca6f517cb24.png",
+      "previousGenerationFile": "exec-fd6deb86-5d30-43b2-9ee7-b6fb0139bfc8.png",
+      "reconstructedRegions": [
+        "Fabric hidden by hair and hands",
+        "Inner neckline and symmetry"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 90,
+        "alphaQuality": 100
+      },
+      "prompt": "The supplied edit target is a moss/olive green crew-neck cardigan worn by a model outdoors. Isolate ONLY the cardigan and remove the model completely (skin, hair, hands), trousers, jewelry and entire outdoor background. Reconstruct the parts of the cardigan hidden by hands and hair as matching fabric, following visible construction: fuzzy fine moss-green knit, round ribbed crew neckline, central row of five dark round buttons, long sleeves with ribbed cuffs, ribbed bottom band, relaxed gently boxy silhouette. Button it as in source. Retain the exact visible green shade, knit texture and proportions. Use case: background-extraction. Asset type: standardized garment-only catalogue cover. User approved AI reconstruction for obscured fabric. Photorealistic isolated front-view ghost-mannequin product cutout, no person or mannequin, no hanger, no body parts, no other clothing or props. Actual transparent alpha background. Entire garment fully visible and centered upright in a portrait 4:5 canvas with clean empty margin on all sides, occupying approximately 80% of canvas height. Same premium neutral catalogue photography: soft diffuse even studio lighting, no floor, no cast shadow, no halo. No added text, no watermark. Do not invent new pockets, graphics, trims or change garment identity. AI-edited demo catalogue representation, not condition evidence.",
+      "correctionPrompt": "Use case: precise-object-edit. Image 1 is the target isolated moss-green cardigan. Image 2 is original source showing correct construction. Make exactly ONE change to image 1: its center placket must have exactly FIVE dark round buttons, matching the FIVE buttons of the original source, evenly spaced from the crew neckline to above the ribbed hem. The current sixth bottom button is incorrect. Preserve everything else unchanged: cardigan silhouette, proportions, moss/olive color, fuzzy fine knit, sleeves, ribbing, texture, front-facing garment-only studio cutout, soft even lighting. Genuine transparent alpha background; no person, model, hanger, props, backdrop, shadow, added text or watermark. Full garment visible with empty margins. This is an AI-edited demo representation."
+    },
+    {
+      "listingId": "airloom-linen",
+      "id": "airloom-linen-catalogue-cover",
+      "src": "/covers/airloom-linen.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 131488,
+      "sha256": "457c0f6cd0b29fcad44bc1121976fd538bc6a824e5361d4bcb3475623e341bff",
+      "transparent": true,
+      "transparentPixelPercent": 54.87,
+      "contentBounds": {
+        "left": 60,
+        "top": 164,
+        "width": 680,
+        "height": 671
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "airloom-linen-front",
+      "sourcePhoto": "/photos/airloom-linen-front.webp",
+      "sourceSha256": "be121b203a33bc06f1cb4102e253d642543c75565a8b1c0e83e438a2faa18cfa",
+      "sourcePage": "User-supplied Stitch Discover export",
+      "sourceCredit": "Supplied Stitch export · prepared photographic example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-801169f0-608d-4b7b-935a-3524ae3d9809.png",
+      "reconstructedRegions": [
+        "Perspective normalization from tabletop view",
+        "Low-resolution fabric and seam detail"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 90,
+        "alphaQuality": 100
+      },
+      "prompt": "The supplied edit target is a warm off-white/oatmeal linen overshirt lying on a wood table. Remove the entire wood table, window, cup, accessories and backdrop. Re-present ONLY the same overshirt as an upright perfectly front-facing garment-only studio cutout. Preserve the shirt's small pointed collar, long sleeves, subtle central button placket, open relaxed lower placket, two large rectangular low front patch pockets, flat hem, coarse natural linen texture and cream oatmeal color. Keep loose boxy proportions. Use case: background-extraction. Asset type: standardized garment-only catalogue cover. User approved AI reconstruction for obscured fabric. Photorealistic isolated front-view ghost-mannequin product cutout, no person or mannequin, no hanger, no body parts, no other clothing or props. Actual transparent alpha background. Entire garment fully visible and centered upright in a portrait 4:5 canvas with clean empty margin on all sides, occupying approximately 80% of canvas height. Same premium neutral catalogue photography: soft diffuse even studio lighting, no floor, no cast shadow, no halo. No added text, no watermark. Do not invent new pockets, graphics, trims or change garment identity. AI-edited demo catalogue representation, not condition evidence."
+    },
+    {
+      "listingId": "petal-tee",
+      "id": "petal-tee-catalogue-cover",
+      "src": "/covers/petal-tee.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 67482,
+      "sha256": "c15febd793bb76f588c65cf6959e251357e0dd351a206283de31ad915687cadb",
+      "transparent": true,
+      "transparentPixelPercent": 59.78,
+      "contentBounds": {
+        "left": 60,
+        "top": 149,
+        "width": 680,
+        "height": 701
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "petal-tee-front",
+      "sourcePhoto": "/photos/petal-tee-front.webp",
+      "sourceSha256": "45b155497f93eed570ad9973bd295cf69b3b96ad91336d00119987371852a086",
+      "sourcePage": "https://www2.hm.com/en_us/productpage.0963662168.html",
+      "sourceCredit": "H&M · prepared photographic example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-a4d7e90e-2fb2-4ef5-a22b-74fcff314756.png",
+      "reconstructedRegions": [
+        "Background and shadow removal; conservative studio reconstruction"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 89,
+        "alphaQuality": 100
+      },
+      "prompt": "Use case: background-extraction. Asset type: premium resale fashion catalogue cover. Input image: edit target, the supplied front garment photo. Primary request: isolate ONLY the exact dusty rose cotton crewneck short sleeve T-shirt, preserve its relaxed straight silhouette, collar ribbing and stitched sleeves and hem. Remove the original backdrop and every cast or floor shadow. Preserve the garment's precise actual shape, proportions, material, surface texture, seams, color, labels and hardware; do not redesign, embellish or simplify. Retain natural folds while presenting a clean front view with subtle ghost mannequin volume. Garment only: no person, body, hands, visible mannequin or hanger. Composition: entire garment centered on a portrait 4:5 canvas, occupying approximately 82% of canvas height with clear comfortable margins on every side, nothing cropped. Soft even neutral studio lighting, crisp realistic edges, premium consistent catalogue photography. Actual fully transparent alpha background, including all gaps around sleeves and openings where appropriate; no opaque white background, no checkerboard baked in, no props, no text, no watermark, no shadow outside garment."
+    },
+    {
+      "listingId": "sunday-denim",
+      "id": "sunday-denim-catalogue-cover",
+      "src": "/covers/sunday-denim.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 122520,
+      "sha256": "71515d7735b1b2876dae1f96449c7e2a4349abef21e3a4b0f9c859f4f3d98096",
+      "transparent": true,
+      "transparentPixelPercent": 63.96,
+      "contentBounds": {
+        "left": 207,
+        "top": 90,
+        "width": 386,
+        "height": 820
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "sunday-denim-front",
+      "sourcePhoto": "/photos/sunday-denim-front.webp",
+      "sourceSha256": "13a7bf773e28743950972e940d27afcaeaf1cc47bec51fc8449cc954a5b657ca",
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E472120-000/00",
+      "sourceCredit": "UNIQLO · prepared photographic example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-c37614ab-9250-4f48-ba2f-82d4c047cd22.png",
+      "reconstructedRegions": [
+        "Background and shadow removal; conservative studio reconstruction"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 89,
+        "alphaQuality": 100
+      },
+      "prompt": "Use case: background-extraction. Asset type: premium resale fashion catalogue cover. Input image: edit target, the supplied front garment photo. Primary request: isolate ONLY the exact medium blue denim straight leg jeans, preserve the turned up cuffs, five pocket design, fly, belt loops, copper front button, pale stitching and authentic wash. Remove the original backdrop and every cast or floor shadow. Preserve the garment's precise actual shape, proportions, material, surface texture, seams, color, labels and hardware; do not redesign, embellish or simplify. Retain natural folds while presenting a clean front view with subtle ghost mannequin volume. Garment only: no person, body, hands, visible mannequin or hanger. Composition: entire garment centered on a portrait 4:5 canvas, occupying approximately 82% of canvas height with clear comfortable margins on every side, nothing cropped. Soft even neutral studio lighting, crisp realistic edges, premium consistent catalogue photography. Actual fully transparent alpha background, including all gaps around sleeves and openings where appropriate; no opaque white background, no checkerboard baked in, no props, no text, no watermark, no shadow outside garment."
+    },
+    {
+      "listingId": "ink-trousers",
+      "id": "ink-trousers-catalogue-cover",
+      "src": "/covers/ink-trousers.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 60476,
+      "sha256": "cbf801648a158ab9042da17f28731809993f5f017f1b83aab337ba3bb0afdfb7",
+      "transparent": true,
+      "transparentPixelPercent": 62.39,
+      "contentBounds": {
+        "left": 168,
+        "top": 90,
+        "width": 463,
+        "height": 820
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "ink-trousers-front",
+      "sourcePhoto": "/photos/ink-trousers-front.webp",
+      "sourceSha256": "1e43f1547b15daf4f7ddd37a02d7be5aade7fdec0416c0e21d9e08e4f5178468",
+      "sourcePage": "User-supplied Stitch Discover export",
+      "sourceCredit": "Supplied Stitch export · prepared photographic example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-1e751d1f-719e-486c-8e51-0870bfdb6b83.png",
+      "reconstructedRegions": [
+        "Low-resolution fabric and seam detail"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 90,
+        "alphaQuality": 100
+      },
+      "prompt": "The supplied edit target is charcoal-gray pleated tailored trousers lying flat. Remove entire existing backdrop and all cast backdrop shadow. Keep ONLY the exact pair of trousers, front view. Preserve charcoal gray color, structured waistband with belt loops and dark center button, fly closure, front pleats, side entry pockets, straight gently tapered legs, pressed crease lines, and plain ankle hems. Improve low-resolution photographic clarity conservatively while preserving all visible design details. Use case: background-extraction. Asset type: standardized garment-only catalogue cover. User approved AI reconstruction for obscured fabric. Photorealistic isolated front-view ghost-mannequin product cutout, no person or mannequin, no hanger, no body parts, no other clothing or props. Actual transparent alpha background. Entire garment fully visible and centered upright in a portrait 4:5 canvas with clean empty margin on all sides, occupying approximately 80% of canvas height. Same premium neutral catalogue photography: soft diffuse even studio lighting, no floor, no cast shadow, no halo. No added text, no watermark. Do not invent new pockets, graphics, trims or change garment identity. AI-edited demo catalogue representation, not condition evidence."
+    },
+    {
+      "listingId": "apricot-slip",
+      "id": "apricot-slip-catalogue-cover",
+      "src": "/covers/apricot-slip.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 35896,
+      "sha256": "8e931923bdf4d6f572af801ef2fad15a9bbd82fd6ecc51a005c779e3c0d6f307",
+      "transparent": true,
+      "transparentPixelPercent": 78.85,
+      "contentBounds": {
+        "left": 253,
+        "top": 90,
+        "width": 294,
+        "height": 820
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "apricot-slip-front",
+      "sourcePhoto": "/photos/apricot-slip-front.webp",
+      "sourceSha256": "767351b546b4a1cd5911e1fc8d6034909012396eae70b884a5857a850452678e",
+      "sourcePage": "https://thecommense.com/products/satin-backless-slip-dress",
+      "sourceCredit": "COMMENSE · prepared photographic example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-3cd41702-f136-4b3c-b09d-648fe753db8a.png",
+      "reconstructedRegions": [
+        "Fabric hidden by arms, hands and bag",
+        "Lower skirt and hem outside source frame",
+        "Inner neckline and symmetry"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 90,
+        "alphaQuality": 100
+      },
+      "prompt": "The supplied photograph is the edit target: champagne/cream satin slip dress worn by a model beside a stone wall. Isolate ONLY the dress. Remove model completely (face, hair, skin, arms, hands and legs), all jewelry, handbag, stone wall and background. Reconstruct fabric formerly hidden by hands/accessories using the same satin. Recover a complete elegant long midi-length slip dress, matching the referenced ivory/champagne satin color, thin shoulder straps with pearl-like connectors, soft V neckline and small pearl-like central neckline connector, fitted gently draping bodice and unadorned flowing skirt. Keep design plain and source-faithful. No added slit, lace, embroidery, belt or pockets. Use case: background-extraction. Asset type: standardized garment-only catalogue cover. User approved AI reconstruction for obscured fabric. Photorealistic isolated front-view ghost-mannequin product cutout, no person or mannequin, no hanger, no body parts, no other clothing or props. Actual transparent alpha background. Entire garment fully visible and centered upright in a portrait 4:5 canvas with clean empty margin on all sides, occupying approximately 80% of canvas height. Same premium neutral catalogue photography: soft diffuse even studio lighting, no floor, no cast shadow, no halo. No added text, no watermark. Do not invent new pockets, graphics, trims or change garment identity. AI-edited demo catalogue representation, not condition evidence."
+    },
+    {
+      "listingId": "tide-shirt",
+      "id": "tide-shirt-catalogue-cover",
+      "src": "/covers/tide-shirt.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 92732,
+      "sha256": "156b9e4c87ce5083dc05289888dd4dcf35cba721f73450d973749f6189c9d3da",
+      "transparent": true,
+      "transparentPixelPercent": 48.44,
+      "contentBounds": {
+        "left": 60,
+        "top": 107,
+        "width": 680,
+        "height": 785
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "tide-shirt-front",
+      "sourcePhoto": "/photos/tide-shirt-front.webp",
+      "sourceSha256": "62ddd7947e8acf8eaf45a5787e1da2e55ad6b9cef7bcec8901d7c959b056549b",
+      "sourcePage": "https://www2.hm.com/en_us/productpage.1257417011.html",
+      "sourceCredit": "H&M · prepared photographic example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-3e44b969-2408-4781-9983-d088cd41adb7.png",
+      "reconstructedRegions": [
+        "Background and shadow removal; conservative studio reconstruction"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 89,
+        "alphaQuality": 100
+      },
+      "prompt": "Use case: background-extraction. Asset type: premium resale fashion catalogue cover. Input image: edit target, the supplied front garment photo. Primary request: isolate ONLY the exact very pale blue and white fine vertical striped button down shirt, preserve pointed button down collar, left chest pocket on viewer right, six white front buttons, long sleeves and striped cuffs, curved hem. Remove the original backdrop and every cast or floor shadow. Preserve the garment's precise actual shape, proportions, material, surface texture, seams, color, labels and hardware; do not redesign, embellish or simplify. Retain natural folds while presenting a clean front view with subtle ghost mannequin volume. Garment only: no person, body, hands, visible mannequin or hanger. Composition: entire garment centered on a portrait 4:5 canvas, occupying approximately 82% of canvas height with clear comfortable margins on every side, nothing cropped. Soft even neutral studio lighting, crisp realistic edges, premium consistent catalogue photography. Actual fully transparent alpha background, including all gaps around sleeves and openings where appropriate; no opaque white background, no checkerboard baked in, no props, no text, no watermark, no shadow outside garment."
+    },
+    {
+      "listingId": "oat-vest",
+      "id": "oat-vest-catalogue-cover",
+      "src": "/covers/oat-vest.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 128296,
+      "sha256": "3f7e53036482e0c232a89286468fd573b7a56050e1cdf162178001fff6d9ca9d",
+      "transparent": true,
+      "transparentPixelPercent": 42.47,
+      "contentBounds": {
+        "left": 82,
+        "top": 90,
+        "width": 636,
+        "height": 820
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "oat-vest-front",
+      "sourcePhoto": "/photos/oat-vest-front.webp",
+      "sourceSha256": "3506d43234a33682fbfa0cf5f0a5e4e19a6d468f0dd5cf686d8ef6bcc2c4b048",
+      "sourcePage": "https://www2.hm.com/en_us/productpage.1313249001.html",
+      "sourceCredit": "H&M · prepared photographic example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-d4d3ffe1-044b-41ff-9c02-d5ca6ec59e64.png",
+      "reconstructedRegions": [
+        "Background and shadow removal; conservative studio reconstruction"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 89,
+        "alphaQuality": 100
+      },
+      "prompt": "Use case: background-extraction. Asset type: premium resale fashion catalogue cover. Input image: edit target, the supplied front garment photo. Primary request: isolate ONLY the exact ivory oatmeal ribbed sleeveless buttoned knit vest, preserve the thick fuzzy ribbed knit, round neck, wide shoulders, six small decorative silver heart shaped buttons, and ribbed hem. Remove the original backdrop and every cast or floor shadow. Preserve the garment's precise actual shape, proportions, material, surface texture, seams, color, labels and hardware; do not redesign, embellish or simplify. Retain natural folds while presenting a clean front view with subtle ghost mannequin volume. Garment only: no person, body, hands, visible mannequin or hanger. Composition: entire garment centered on a portrait 4:5 canvas, occupying approximately 82% of canvas height with clear comfortable margins on every side, nothing cropped. Soft even neutral studio lighting, crisp realistic edges, premium consistent catalogue photography. Actual fully transparent alpha background, including all gaps around sleeves and openings where appropriate; no opaque white background, no checkerboard baked in, no props, no text, no watermark, no shadow outside garment."
+    },
+    {
+      "listingId": "lilac-wrap",
+      "id": "lilac-wrap-catalogue-cover",
+      "src": "/covers/lilac-wrap.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 120076,
+      "sha256": "662b13adde5e02117961cad4f4b5a9b0e0e662169abf1dcbc6188e22c7f5748d",
+      "transparent": true,
+      "transparentPixelPercent": 60.17,
+      "contentBounds": {
+        "left": 60,
+        "top": 149,
+        "width": 680,
+        "height": 701
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "lilac-wrap-front",
+      "sourcePhoto": "/photos/lilac-wrap-front.webp",
+      "sourceSha256": "378e7ebc2f545be5553d130db3ad7eedfc59505dd63964fa94931f30babda98c",
+      "sourcePage": "https://www.asos.com/new-look/new-look-wrap-blouse-in-lilac/prd/203170837",
+      "sourceCredit": "ASOS / New Look · prepared photographic example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-2ecccf13-68e3-4752-9ec3-69554c9fcaff.png",
+      "reconstructedRegions": [
+        "Fabric hidden by arms, hands and hair",
+        "Inner neckline and sleeves"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 90,
+        "alphaQuality": 100
+      },
+      "prompt": "The supplied photograph is the edit target: pale lilac wrap blouse worn by a model. Isolate ONLY the blouse, removing model completely (hair, neck, skin, arms, hands), jewelry, denim shorts and entire backdrop. Reconstruct hidden blouse fabric and inner neckline naturally from visible construction. Keep exactly the pale lilac crinkled/seersucker fabric, crossed V wrap neckline, short softly puffed sleeves with gathered shoulders and ruffled/elastic sleeve ends, overlapping front, tied wrap belt on the viewer-right waist and flared peplum hem. Retain source's fabric texture, color, proportions and waist tie; no added buttons, prints or trims. Use case: background-extraction. Asset type: standardized garment-only catalogue cover. User approved AI reconstruction for obscured fabric. Photorealistic isolated front-view ghost-mannequin product cutout, no person or mannequin, no hanger, no body parts, no other clothing or props. Actual transparent alpha background. Entire garment fully visible and centered upright in a portrait 4:5 canvas with clean empty margin on all sides, occupying approximately 80% of canvas height. Same premium neutral catalogue photography: soft diffuse even studio lighting, no floor, no cast shadow, no halo. No added text, no watermark. Do not invent new pockets, graphics, trims or change garment identity. AI-edited demo catalogue representation, not condition evidence."
+    },
+    {
+      "listingId": "rose-jacket",
+      "id": "rose-jacket-catalogue-cover",
+      "src": "/covers/rose-jacket.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 78014,
+      "sha256": "fcc6ef38f37bc82ce5951780b2dafba145d3d557145e5f2ef2b033a824b39203",
+      "transparent": true,
+      "transparentPixelPercent": 55.65,
+      "contentBounds": {
+        "left": 60,
+        "top": 124,
+        "width": 680,
+        "height": 751
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "rose-jacket-front",
+      "sourcePhoto": "/photos/rose-jacket-front.webp",
+      "sourceSha256": "0847d38b877e137eda3874b848b0116eab7ecb65660f6efbaaa36c14c605417c",
+      "sourcePage": "https://www2.hm.com/en_us/productpage.1315959003.html",
+      "sourceCredit": "H&M · prepared photographic example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-e307fb31-bd59-4289-8eff-1395c7f51d2a.png",
+      "reconstructedRegions": [
+        "Background and shadow removal; conservative studio reconstruction"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 89,
+        "alphaQuality": 100
+      },
+      "prompt": "Use case: background-extraction. Asset type: premium resale fashion catalogue cover. Input image: edit target, the supplied front garment photo. Primary request: isolate ONLY the exact dusty blush pink cropped jacket, preserve oversized pointed collar, three large mottled brown buttons, two vertical welt pockets, long raglan sleeves, cream cuff lining and dangling hem drawstrings exactly. Remove the original backdrop and every cast or floor shadow. Preserve the garment's precise actual shape, proportions, material, surface texture, seams, color, labels and hardware; do not redesign, embellish or simplify. Retain natural folds while presenting a clean front view with subtle ghost mannequin volume. Garment only: no person, body, hands, visible mannequin or hanger. Composition: entire garment centered on a portrait 4:5 canvas, occupying approximately 82% of canvas height with clear comfortable margins on every side, nothing cropped. Soft even neutral studio lighting, crisp realistic edges, premium consistent catalogue photography. Actual fully transparent alpha background, including all gaps around sleeves and openings where appropriate; no opaque white background, no checkerboard baked in, no props, no text, no watermark, no shadow outside garment."
+    },
+    {
+      "listingId": "sage-skirt",
+      "id": "sage-skirt-catalogue-cover",
+      "src": "/covers/sage-skirt.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 67636,
+      "sha256": "855b1a6d9f6c9fd486e121bfb4747ed3bb7e83af045f0d4e39a3d17fe5359762",
+      "transparent": true,
+      "transparentPixelPercent": 59.05,
+      "contentBounds": {
+        "left": 111,
+        "top": 90,
+        "width": 578,
+        "height": 820
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "sage-skirt-front",
+      "sourcePhoto": "/photos/sage-skirt-front.webp",
+      "sourceSha256": "277c4a9cef440ba28ec0f4ef616e730676c5faa92eb5d78c2a3f1fa3e83d344b",
+      "sourcePage": "https://seamsfriendly.com/products/sage-green-100-cotton-tier-gathered-midi-skirt",
+      "sourceCredit": "SeamsFriendly · prepared photographic example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-5df3f9b9-b96f-402f-bc7e-e3c34fcb97d5.png",
+      "reconstructedRegions": [
+        "Fabric hidden by hands",
+        "Waistband and symmetrical drape"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 90,
+        "alphaQuality": 100
+      },
+      "prompt": "The supplied photograph is the edit target: olive/sage-green midi skirt worn by a model. Isolate ONLY the skirt, removing the model completely (torso, arms, hands, legs), the patterned top, shoes, wall and all backdrop. Reconstruct the fabric hidden by hands as matching skirt fabric. Preserve this exact dark muted sage/olive green cotton skirt: broad gathered elastic waist with softly ruffled top edge, gathered body with subtle vertical creases, side pocket openings, single horizontal seam near bottom with a gathered wide ruffle tier and mid-calf length. Center the waistband horizontally with symmetrical relaxed skirt drape; no belt, no new buttons, no print. Use case: background-extraction. Asset type: standardized garment-only catalogue cover. User approved AI reconstruction for obscured fabric. Photorealistic isolated front-view ghost-mannequin product cutout, no person or mannequin, no hanger, no body parts, no other clothing or props. Actual transparent alpha background. Entire garment fully visible and centered upright in a portrait 4:5 canvas with clean empty margin on all sides, occupying approximately 80% of canvas height. Same premium neutral catalogue photography: soft diffuse even studio lighting, no floor, no cast shadow, no halo. No added text, no watermark. Do not invent new pockets, graphics, trims or change garment identity. AI-edited demo catalogue representation, not condition evidence."
+    },
+    {
+      "listingId": "my-blue-blouse",
+      "id": "my-blue-blouse-catalogue-cover",
+      "src": "/covers/my-blue-blouse.webp",
+      "kind": "ai-reconstructed-demo",
+      "label": "Garment-only catalogue cover · AI-prepared demo",
+      "width": 800,
+      "height": 1000,
+      "bytes": 59548,
+      "sha256": "680e00a337d51861bd3dd8daeb06328143ef4a8abbff3d53d95b72a7992288b4",
+      "transparent": true,
+      "transparentPixelPercent": 47.24,
+      "contentBounds": {
+        "left": 61,
+        "top": 90,
+        "width": 677,
+        "height": 820
+      },
+      "conditionProof": false,
+      "sourcePhotoId": "my-blue-blouse-front",
+      "sourcePhoto": "/photos/my-blue-blouse-front.webp",
+      "sourceSha256": "3cb9cff476c6a92b7d34591605cef9ff0015fcdd0a120de8b56dd30ba7d2aa89",
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E475719-000/00?colorDisplayCode=61",
+      "sourceCredit": "UNIQLO · prepared private reference example",
+      "generationTool": "built-in imagegen",
+      "generationFile": "exec-5290f505-fe40-4f7f-89a6-7c72af19e5df.png",
+      "reconstructedRegions": [
+        "Background and shadow removal; conservative studio reconstruction"
+      ],
+      "processing": {
+        "alphaPreserved": true,
+        "fit": "contain",
+        "canvas": [
+          800,
+          1000
+        ],
+        "maxContent": [
+          680,
+          820
+        ],
+        "webpQuality": 89,
+        "alphaQuality": 100
+      },
+      "prompt": "Use case: background-extraction. Asset type: premium resale fashion catalogue cover. Input image: edit target, the supplied front garment photo. Primary request: isolate ONLY the exact light powder blue women's blouse, preserve pointed collar, gathered shoulder yoke, long softly puffed sleeves, broad cuffs, matching blue buttons and gently curved hem. Remove the original backdrop and every cast or floor shadow. Preserve the garment's precise actual shape, proportions, material, surface texture, seams, color, labels and hardware; do not redesign, embellish or simplify. Retain natural folds while presenting a clean front view with subtle ghost mannequin volume. Garment only: no person, body, hands, visible mannequin or hanger. Composition: entire garment centered on a portrait 4:5 canvas, occupying approximately 82% of canvas height with clear comfortable margins on every side, nothing cropped. Soft even neutral studio lighting, crisp realistic edges, premium consistent catalogue photography. Actual fully transparent alpha background, including all gaps around sleeves and openings where appropriate; no opaque white background, no checkerboard baked in, no props, no text, no watermark, no shadow outside garment."
+    }
+  ]
+}

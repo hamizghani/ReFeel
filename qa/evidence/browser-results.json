@@ -1,0 +1,261 @@
+{
+  "mode": "production",
+  "results": [
+    {
+      "name": "Marketplace and visible seller entry · 320",
+      "status": "passed"
+    },
+    {
+      "name": "Product motion and original photos · 320",
+      "status": "passed"
+    },
+    {
+      "name": "Relative feel and synchronized pair · 320",
+      "status": "passed"
+    },
+    {
+      "name": "Marketplace and visible seller entry · 390",
+      "status": "passed"
+    },
+    {
+      "name": "Product motion and original photos · 390",
+      "status": "passed"
+    },
+    {
+      "name": "Relative feel and synchronized pair · 390",
+      "status": "passed"
+    },
+    {
+      "name": "Marketplace and visible seller entry · 768",
+      "status": "passed"
+    },
+    {
+      "name": "Product motion and original photos · 768",
+      "status": "passed"
+    },
+    {
+      "name": "Relative feel and synchronized pair · 768",
+      "status": "passed"
+    },
+    {
+      "name": "Marketplace and visible seller entry · 1440",
+      "status": "passed"
+    },
+    {
+      "name": "Product motion and original photos · 1440",
+      "status": "passed"
+    },
+    {
+      "name": "Relative feel and synchronized pair · 1440",
+      "status": "passed"
+    },
+    {
+      "name": "Actual cloth deformation, manual exploration and frame timing",
+      "status": "passed"
+    },
+    {
+      "name": "Six-second held instruction, immediate Next and short-screen controls",
+      "status": "passed"
+    },
+    {
+      "name": "Reduced-motion poses retain manual controls and Next",
+      "status": "passed"
+    },
+    {
+      "name": "Missing model falls back to original photos",
+      "status": "passed"
+    },
+    {
+      "name": "Missing original photo offers retry and recovers",
+      "status": "passed"
+    },
+    {
+      "name": "Non-modeled garments retain photos and no fake model",
+      "status": "passed"
+    },
+    {
+      "name": "Editing familiar feel affects comparison and persists",
+      "status": "passed"
+    },
+    {
+      "name": "Ordinary search, filters, saves and Search by feel handoff",
+      "status": "passed"
+    },
+    {
+      "name": "Source views return to the comparison without losing readiness",
+      "status": "passed"
+    },
+    {
+      "name": "Primary route accessibility · 390",
+      "status": "passed"
+    },
+    {
+      "name": "Primary route accessibility · 1440",
+      "status": "passed"
+    },
+    {
+      "name": "Bag, candidate-only Buy now, decline recovery and stable receipts",
+      "status": "passed"
+    }
+  ],
+  "pageErrors": [],
+  "accessibility": [
+    {
+      "width": 320,
+      "route": "/listing/cloud-poplin/compare",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/listing/cloud-poplin/compare",
+      "violations": []
+    },
+    {
+      "width": 768,
+      "route": "/listing/cloud-poplin/compare",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/listing/cloud-poplin/compare",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/shop",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/listing/cloud-poplin",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/match",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/wardrobe",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/sell",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/sell/capture",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/orders",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/account",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/about",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/shop",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/listing/cloud-poplin",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/match",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/wardrobe",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/sell",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/sell/capture",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/orders",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/account",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/about",
+      "violations": []
+    }
+  ],
+  "motion": [
+    {
+      "environment": "Headless Chromium using software WebGL, not a physical phone",
+      "snapshots": [
+        {
+          "steps": 16,
+          "displacement": 0.038226,
+          "strain": 0.15,
+          "energy": 16.089638,
+          "yaw": -0.0475
+        },
+        {
+          "steps": 177,
+          "displacement": 0.068789,
+          "strain": 0.0935,
+          "energy": 1.231893,
+          "yaw": -0.04
+        },
+        {
+          "steps": 309,
+          "displacement": 0.076707,
+          "strain": 0.15,
+          "energy": 1.555561,
+          "yaw": -0.04
+        },
+        {
+          "steps": 469,
+          "displacement": 0.10803,
+          "strain": 0.15,
+          "energy": 0.055041,
+          "yaw": -0.04
+        }
+      ],
+      "manualRotationRadians": 0.34485,
+      "frameMs": {
+        "median": 16.700000000000728,
+        "p95": 49.899999999999636,
+        "max": 50.100000000000364
+      }
+    }
+  ],
+  "limits": [
+    "Headless Chromium with software WebGL and simulated phone viewports",
+    "No physical-device performance or Safari/Firefox acceptance",
+    "Prepared garment mechanics, not calibrated textile properties",
+    "Local-only prototype, no actual camera recording or live commerce"
+  ]
+}

@@ -1,0 +1,283 @@
+.garment-viewer {
+  width: 100%;
+  min-width: 0;
+}
+.gv-stage {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: 18px;
+  background: #eeeaf1;
+  outline-offset: 4px;
+}
+.gv-paired .gv-stage {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2px;
+}
+.gv-panel {
+  position: relative;
+  min-width: 0;
+  height: clamp(310px, 42vw, 510px);
+  background: var(--gv-background, #eeeaf1);
+  overflow: hidden;
+}
+.gv-compact .gv-panel {
+  height: 280px;
+}
+.gv-item-label {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  right: 16px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #29252d;
+  pointer-events: none;
+}
+.gv-item-label span {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  opacity: 0.65;
+}
+.gv-item-label strong {
+  font-size: 13px;
+  font-weight: 600;
+}
+.gv-poster {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  object-fit: contain;
+  user-select: none;
+}
+.gv-poster-hidden {
+  visibility: hidden;
+}
+.gv-poster-drape {
+  transform: rotate(-5deg) scale(1.02);
+}
+.gv-poster-movement {
+  transform: rotate(4deg) scale(1.02);
+}
+.gv-poster-surface {
+  transform: scale(2.7);
+  transform-origin: 50% 53%;
+}
+.gv-poster-label {
+  transform: scale(3.5);
+  transform-origin: 50% 27%;
+}
+.gv-poster-wear {
+  transform: scale(2.3);
+  transform-origin: 78% 67%;
+}
+.gv-ground {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  bottom: 12%;
+  height: 9px;
+  background: rgba(42, 33, 43, 0.12);
+  border-radius: 50%;
+  filter: blur(9px);
+  pointer-events: none;
+}
+.gv-canvas {
+  position: absolute;
+  display: block;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  touch-action: none;
+  cursor: grab;
+}
+.gv-canvas:active {
+  cursor: grabbing;
+}
+.gv-view-label {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 7px 11px;
+  border-radius: 20px;
+  font-size: 10px;
+  color: #39323d;
+  pointer-events: none;
+}
+.gv-loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 16px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #3a3340;
+  font-size: 12px;
+  box-shadow: 0 3px 20px #3025340c;
+}
+.gv-spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #e4dcec;
+  border-top-color: #64506d;
+  border-radius: 50%;
+  animation: gv-spin 0.9s linear infinite;
+}
+.gv-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+.gv-modes {
+  display: flex;
+  gap: 3px;
+  padding: 4px;
+  border-radius: 50px;
+  background: #f0edf2;
+}
+.garment-viewer .gv-modes button {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: #6c6372;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 0 13px;
+  min-height: 44px;
+  cursor: pointer;
+}
+.garment-viewer .gv-modes button.gv-mode-active {
+  background: #29232f;
+  color: #fff;
+}
+.gv-camera-controls {
+  display: flex;
+  gap: 3px;
+}
+.garment-viewer .gv-camera-controls button {
+  display: grid;
+  place-items: center;
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid #e1dbe5;
+  border-radius: 50px;
+  background: #fffdfa;
+  color: #342a3b;
+  font-size: 19px;
+  cursor: pointer;
+  padding: 0 7px;
+}
+.garment-viewer .gv-camera-controls .gv-reset {
+  font-size: 10px;
+  min-width: 53px;
+}
+.gv-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 9px;
+}
+.gv-caption p {
+  max-width: 620px;
+  margin: 0;
+  color: #686171;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.gv-view-actions {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+.garment-viewer .gv-view-actions button {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #aa9fb2;
+  padding: 0;
+  min-height: 44px;
+  white-space: nowrap;
+  font-size: 10px;
+  color: #6a576f;
+  cursor: pointer;
+}
+.gv-capture-mode {
+  color: #6c6372;
+  font-size: 12px;
+}
+.garment-viewer button:focus-visible,
+.gv-stage:focus-visible {
+  outline: 2px solid #766096;
+  outline-offset: 3px;
+}
+@keyframes gv-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 600px) {
+  .gv-panel {
+    height: 340px;
+  }
+  .gv-paired .gv-stage {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .gv-paired .gv-panel {
+    height: 310px;
+  }
+  .gv-compact .gv-panel {
+    height: 250px;
+  }
+  .gv-caption {
+    flex-direction: column;
+    gap: 3px;
+  }
+  .gv-toolbar {
+    justify-content: center;
+    gap: 8px;
+  }
+  .gv-modes {
+    flex: 1;
+    justify-content: center;
+  }
+  .garment-viewer .gv-modes button {
+    padding: 0 11px;
+    min-height: 44px;
+  }
+  .garment-viewer .gv-camera-controls button {
+    min-width: 44px;
+  }
+  .gv-item-label {
+    top: 16px;
+    left: 16px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gv-spinner {
+    animation: none;
+    border-top-color: #64506d;
+  }
+}

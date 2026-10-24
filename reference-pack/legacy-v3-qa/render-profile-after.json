@@ -1,0 +1,93 @@
+{
+  "environment": "Headless Chromium, Swiftshader, 390x844, DPR1, oneview, three4secondguidedclothruns",
+  "runs": [
+    {
+      "frames": 15,
+      "median": 150,
+      "p95": 1333.2999999999993,
+      "max": 1333.2999999999993,
+      "data": {
+        "variant": "cloud",
+        "step": "3",
+        "playing": "true",
+        "garmentReady": "true",
+        "physicsSteps": "217",
+        "meshCount": "6",
+        "maxDisplacement": "0.099373",
+        "physicsStrain": "0.1016",
+        "physicsEnergy": "4.016958",
+        "garmentYaw": "-0.0800",
+        "cameraDistance": "1.85043",
+        "cameraAzimuth": "0.00000",
+        "cameraPolar": "1.54918",
+        "cameraTargetY": "-0.00500",
+        "renderCalls": "7",
+        "renderTriangles": "14186",
+        "physicsMs": "11.800",
+        "deformationMs": "3.700",
+        "renderMs": "1.700",
+        "frameCpuMs": "18.200",
+        "authoredParts": "40"
+      }
+    },
+    {
+      "frames": 53,
+      "median": 50.100000000000364,
+      "p95": 200,
+      "max": 383.2999999999993,
+      "data": {
+        "variant": "cloud",
+        "step": "3",
+        "playing": "true",
+        "garmentReady": "true",
+        "physicsSteps": "537",
+        "meshCount": "6",
+        "maxDisplacement": "0.132896",
+        "physicsStrain": "0.1416",
+        "physicsEnergy": "1.805676",
+        "garmentYaw": "-0.0800",
+        "cameraDistance": "1.85043",
+        "cameraAzimuth": "0.00000",
+        "cameraPolar": "1.54918",
+        "cameraTargetY": "-0.00500",
+        "renderCalls": "7",
+        "renderTriangles": "14186",
+        "physicsMs": "12.100",
+        "deformationMs": "4.500",
+        "renderMs": "0.800",
+        "frameCpuMs": "17.900",
+        "authoredParts": "40"
+      }
+    },
+    {
+      "frames": 90,
+      "median": 49.900000000001455,
+      "p95": 83.29999999999927,
+      "max": 116.79999999999927,
+      "data": {
+        "variant": "cloud",
+        "step": "3",
+        "playing": "true",
+        "garmentReady": "true",
+        "physicsSteps": "999",
+        "meshCount": "6",
+        "maxDisplacement": "0.131169",
+        "physicsStrain": "0.1449",
+        "physicsEnergy": "0.563487",
+        "garmentYaw": "-0.0800",
+        "cameraDistance": "1.85043",
+        "cameraAzimuth": "0.00000",
+        "cameraPolar": "1.54918",
+        "cameraTargetY": "-0.00500",
+        "renderCalls": "7",
+        "renderTriangles": "14186",
+        "physicsMs": "17.200",
+        "deformationMs": "6.200",
+        "renderMs": "0.700",
+        "frameCpuMs": "24.700",
+        "authoredParts": "40"
+      }
+    }
+  ],
+  "errors": []
+}

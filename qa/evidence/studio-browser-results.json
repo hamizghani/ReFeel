@@ -1,0 +1,58 @@
+{
+  "mode": "production",
+  "results": [
+    {
+      "name": "Seller zero-wait Next, Back, replay and publication at 320",
+      "status": "passed"
+    },
+    {
+      "name": "Seller zero-wait Next, Back, replay and publication at 390",
+      "status": "passed"
+    },
+    {
+      "name": "Seller zero-wait Next, Back, replay and publication at 1440",
+      "status": "passed"
+    },
+    {
+      "name": "Buyer animated reference, four descriptions and six rapid Next steps at 320",
+      "status": "passed"
+    },
+    {
+      "name": "Buyer animated reference, four descriptions and six rapid Next steps at 390",
+      "status": "passed"
+    },
+    {
+      "name": "Buyer animated reference, four descriptions and six rapid Next steps at 1440",
+      "status": "passed"
+    },
+    {
+      "name": "Seller four edited descriptions remain private until publication",
+      "status": "passed"
+    },
+    {
+      "name": "Quick Next does not duplicate completion or retain stale timer callbacks",
+      "status": "passed"
+    },
+    {
+      "name": "Step navigation keeps keyboard focus on the primary action",
+      "status": "passed"
+    },
+    {
+      "name": "Step inspection updates the deep link without changing readiness",
+      "status": "passed"
+    },
+    {
+      "name": "Short mobile viewport keeps Next visible without scrolling",
+      "status": "passed"
+    },
+    {
+      "name": "Continuity: changing a step reuses the renderer for a smooth camera transition",
+      "status": "passed"
+    },
+    {
+      "name": "Short mobile viewport keeps the buyer Start action visible",
+      "status": "passed"
+    }
+  ],
+  "pageErrors": []
+}

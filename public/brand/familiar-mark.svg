@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="familiar-mark-title familiar-mark-desc" color="#25232A">
+  <title id="familiar-mark-title">Familiar mark</title>
+  <desc id="familiar-mark-desc">An open evidence frame encloses a continuous folded loop: a compact symbol of familiar garments and traceable evidence.</desc>
+  <!-- Construction source: original 64-unit geometric mark. A 5-unit open frame surrounds a 6-unit folded loop, with a diagonal return recalling a garment fold. Rounded joins preserve the silhouette at favicon size. Monochrome, editable SVG paths; no hanger, camera, font, or third-party art. Trademark clearance has not been assessed. -->
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path id="evidence-frame" stroke-width="5" d="M42 8H20C13.37 8 8 13.37 8 20V44C8 50.63 13.37 56 20 56H44C50.63 56 56 50.63 56 44V32"/>
+    <path id="folded-loop" stroke-width="6" d="M41 20H32C27.58 20 24 23.58 24 28V38C24 42.42 27.58 46 32 46H33C37.42 46 41 42.42 41 38C41 33.58 37.42 30 33 30H21M41 20L34 27"/>
+  </g>
+</svg>

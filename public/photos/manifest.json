@@ -1,0 +1,831 @@
+{
+  "purpose": "Prepared sample media for a browser-local demonstrator; not newly captured seller inventory or verified condition proof.",
+  "items": [
+    {
+      "listingId": "cloud-poplin",
+      "id": "cloud-poplin-front",
+      "kind": "front",
+      "label": "Front view",
+      "src": "/photos/cloud-poplin-front.webp",
+      "width": 888,
+      "height": 1232,
+      "bytes": 10666,
+      "sha256": "fbb767eb7ed8a08f5f957eb58a4f1d3230949ab039091aebb3424d6cb8d024f2",
+      "originalSource": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/480074/sub/goods_480074_sub14_3x4.jpg?width=1200",
+      "originalSize": [
+        1200,
+        1600
+      ],
+      "crop": [
+        0.13,
+        0.12,
+        0.87,
+        0.89
+      ],
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E480074-000/00",
+      "sourceCredit": "UNIQLO \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "cloud-poplin",
+      "id": "cloud-poplin-detail",
+      "kind": "detail",
+      "label": "Sleeve and cuff detail",
+      "src": "/photos/cloud-poplin-detail.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 31938,
+      "sha256": "9fd46f74019e573faa4faeca0e851cfc6afb93ec9f80137ce09f9acc7c111508",
+      "originalSource": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/480074/feature/idgoods_480074_feature1.jpg?width=1200",
+      "originalSize": [
+        1200,
+        1200
+      ],
+      "crop": null,
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E480074-000/00",
+      "sourceCredit": "UNIQLO \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "cloud-poplin",
+      "id": "cloud-poplin-label",
+      "kind": "label",
+      "label": "Neck label and collar",
+      "src": "/photos/cloud-poplin-label.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 23734,
+      "sha256": "2c31a661d95900c93f680ca06370771f99dea75d6f48f766c4f4759e324317de",
+      "originalSource": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/480074/feature/idgoods_480074_feature2.jpg?width=1200",
+      "originalSize": [
+        1200,
+        1200
+      ],
+      "crop": null,
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E480074-000/00",
+      "sourceCredit": "UNIQLO \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "cloud-poplin",
+      "id": "cloud-poplin-detail-2",
+      "kind": "detail",
+      "label": "On-body example",
+      "src": "/photos/cloud-poplin-detail-2.webp",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 34096,
+      "sha256": "e38ceb187d9228ab2f8a223a0d81a8d2d2e4ee834d79fc9928e1fd82ddc202bc",
+      "originalSource": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/480074/sub/idgoods_480074_sub7_3x4.jpg?width=1200",
+      "originalSize": [
+        1200,
+        1600
+      ],
+      "crop": null,
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E480074-000/00",
+      "sourceCredit": "UNIQLO \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "moss-knit",
+      "id": "moss-knit-front",
+      "kind": "front",
+      "label": "Front view",
+      "src": "/photos/moss-knit-front.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 106848,
+      "sha256": "7bcf771c415b5faa06c8fc58efa217cc6fb467317385302c076d82f953b1ab08",
+      "originalSource": "https://cdn.shopify.com/s/files/1/1133/7422/files/moss-green-button-up-cardigan-2291983.jpg?v=1788912310&width=1200",
+      "originalSize": [
+        800,
+        1200
+      ],
+      "crop": null,
+      "sourcePage": "https://selecttrendsboutique.com/products/moss-green-button-up-cardigan",
+      "sourceCredit": "Select Trends \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "moss-knit",
+      "id": "moss-knit-back",
+      "kind": "back",
+      "label": "Back view",
+      "src": "/photos/moss-knit-back.webp",
+      "width": 800,
+      "height": 1200,
+      "bytes": 113388,
+      "sha256": "c5673c6f47280573a445f63e5f6b9e002beeaf354cd352fcf6f9662f79ac33dd",
+      "originalSource": "https://cdn.shopify.com/s/files/1/1133/7422/files/moss-green-button-up-cardigan-3624055.jpg?v=1788912310&width=1200",
+      "originalSize": [
+        800,
+        1200
+      ],
+      "crop": null,
+      "sourcePage": "https://selecttrendsboutique.com/products/moss-green-button-up-cardigan",
+      "sourceCredit": "Select Trends \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "moss-knit",
+      "id": "moss-knit-detail",
+      "kind": "detail",
+      "label": "Knit and buttons: photo crop",
+      "src": "/photos/moss-knit-detail.webp",
+      "width": 528,
+      "height": 636,
+      "bytes": 48812,
+      "sha256": "8dce77aa226b88228b3050894cf1819b4199888345ba019ab7d70151015b73b0",
+      "originalSource": "https://cdn.shopify.com/s/files/1/1133/7422/files/moss-green-button-up-cardigan-7965596.jpg?v=1788912310&width=1200",
+      "originalSize": [
+        800,
+        1200
+      ],
+      "crop": [
+        0.18,
+        0.22,
+        0.84,
+        0.75
+      ],
+      "sourcePage": "https://selecttrendsboutique.com/products/moss-green-button-up-cardigan",
+      "sourceCredit": "Select Trends \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "airloom-linen",
+      "id": "airloom-linen-front",
+      "kind": "front",
+      "label": "Full garment, flat",
+      "src": "/photos/airloom-linen-front.webp",
+      "width": 512,
+      "height": 279,
+      "bytes": 29288,
+      "sha256": "be121b203a33bc06f1cb4102e253d642543c75565a8b1c0e83e438a2faa18cfa",
+      "originalSource": "https://lh3.googleusercontent.com/aida-public/AB6AXuDEoXikxmU-gTwvssBxS9vAHNVJ52knZeD8Gen-MsxlP4G0smh6DYM5xQPCtAraJRxY99-Rjgeh15cAQZsOejXIGp9Rie6BNs06KMog-ml9_v9hYieXFNccBh6EoKdL8GR6QIakcLk0h5-DssQkm9aubqkC49kAlEJc7dT0hZVJH6YNaZ_BuVmgnj1ahvkeKcxSXOBaJ8pQedumwL89IxHwTlGPCxzfOSJk6114973zCh0IWoPvS0KsXg",
+      "originalSize": [
+        512,
+        279
+      ],
+      "crop": null,
+      "sourcePage": "User-supplied Stitch Discover export",
+      "sourceCredit": "Supplied Stitch export \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "airloom-linen",
+      "id": "airloom-linen-detail",
+      "kind": "detail",
+      "label": "Pocket and fabric: photo crop",
+      "src": "/photos/airloom-linen-detail.webp",
+      "width": 282,
+      "height": 213,
+      "bytes": 14784,
+      "sha256": "908d4a2128a19a7d52cfbd28e7fd7f7eccab437931a04bd7b6a7f500f1368da1",
+      "originalSource": "https://lh3.googleusercontent.com/aida-public/AB6AXuDEoXikxmU-gTwvssBxS9vAHNVJ52knZeD8Gen-MsxlP4G0smh6DYM5xQPCtAraJRxY99-Rjgeh15cAQZsOejXIGp9Rie6BNs06KMog-ml9_v9hYieXFNccBh6EoKdL8GR6QIakcLk0h5-DssQkm9aubqkC49kAlEJc7dT0hZVJH6YNaZ_BuVmgnj1ahvkeKcxSXOBaJ8pQedumwL89IxHwTlGPCxzfOSJk6114973zCh0IWoPvS0KsXg",
+      "originalSize": [
+        512,
+        279
+      ],
+      "crop": [
+        0.25,
+        0.12,
+        0.8,
+        0.88
+      ],
+      "sourcePage": "User-supplied Stitch Discover export",
+      "sourceCredit": "Supplied Stitch export \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "petal-tee",
+      "id": "petal-tee-front",
+      "kind": "front",
+      "label": "Front view",
+      "src": "/photos/petal-tee-front.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 57712,
+      "sha256": "45b155497f93eed570ad9973bd295cf69b3b96ad91336d00119987371852a086",
+      "originalSource": "https://image.hm.com/assets/hm/bb/1b/bb1bc9b036cd1a1340b28da6b78d72ee573784a3.jpg?imwidth=1200",
+      "originalSize": [
+        1260,
+        1890
+      ],
+      "crop": null,
+      "sourcePage": "https://www2.hm.com/en_us/productpage.0963662168.html",
+      "sourceCredit": "H&M \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "petal-tee",
+      "id": "petal-tee-back",
+      "kind": "back",
+      "label": "On-body back view",
+      "src": "/photos/petal-tee-back.webp",
+      "width": 869,
+      "height": 1322,
+      "bytes": 77248,
+      "sha256": "ef9a26572ea45ed4d03263722a3305552c6bd1c86bacfb0be3571cd4bba34d3c",
+      "originalSource": "https://image.hm.com/assets/hm/44/23/4423b37ae1115439eaf40f787a8cd8fade5e1351.jpg?imwidth=1200",
+      "originalSize": [
+        1260,
+        1889
+      ],
+      "crop": [
+        0.16,
+        0.09,
+        0.85,
+        0.79
+      ],
+      "sourcePage": "https://www2.hm.com/en_us/productpage.0963662168.html",
+      "sourceCredit": "H&M \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "petal-tee",
+      "id": "petal-tee-detail",
+      "kind": "detail",
+      "label": "Jersey fabric detail",
+      "src": "/photos/petal-tee-detail.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 698730,
+      "sha256": "34b087fe4114c7f01538c8c59c98ce97b4811543debaaa445a6858e8d5a7c0bb",
+      "originalSource": "https://image.hm.com/assets/hm/e8/e2/e8e233edc0cae731ecba70b3727889df0ba78466.jpg?imwidth=1200",
+      "originalSize": [
+        1260,
+        1890
+      ],
+      "crop": null,
+      "sourcePage": "https://www2.hm.com/en_us/productpage.0963662168.html",
+      "sourceCredit": "H&M \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "sunday-denim",
+      "id": "sunday-denim-front",
+      "kind": "front",
+      "label": "Front view",
+      "src": "/photos/sunday-denim-front.webp",
+      "width": 912,
+      "height": 1232,
+      "bytes": 138172,
+      "sha256": "13a7bf773e28743950972e940d27afcaeaf1cc47bec51fc8449cc954a5b657ca",
+      "originalSource": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/472120/item/goods_65_472120_3x4.jpg?width=1200",
+      "originalSize": [
+        1200,
+        1600
+      ],
+      "crop": [
+        0.12,
+        0.13,
+        0.88,
+        0.9
+      ],
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E472120-000/00",
+      "sourceCredit": "UNIQLO \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "sunday-denim",
+      "id": "sunday-denim-detail",
+      "kind": "detail",
+      "label": "Waistband and pocket detail",
+      "src": "/photos/sunday-denim-detail.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 495232,
+      "sha256": "0ec6cd41af1a649e7cfd60c9f55870af46e583fbd54671ed9dcbad153205ae39",
+      "originalSource": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/472120/feature/idgoods_472120_feature2.jpg?width=1200",
+      "originalSize": [
+        1200,
+        1200
+      ],
+      "crop": null,
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E472120-000/00",
+      "sourceCredit": "UNIQLO \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "sunday-denim",
+      "id": "sunday-denim-detail-2",
+      "kind": "detail",
+      "label": "Denim weave detail",
+      "src": "/photos/sunday-denim-detail-2.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 529292,
+      "sha256": "b24651147de540b1daefa942c46a7018cbb4de23b9609eaa3fddc99b3627f4f2",
+      "originalSource": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/472120/feature/idgoods_472120_feature3.jpg?width=1200",
+      "originalSize": [
+        1200,
+        1200
+      ],
+      "crop": null,
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E472120-000/00",
+      "sourceCredit": "UNIQLO \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "ink-trousers",
+      "id": "ink-trousers-front",
+      "kind": "front",
+      "label": "Front view",
+      "src": "/photos/ink-trousers-front.webp",
+      "width": 308,
+      "height": 267,
+      "bytes": 4492,
+      "sha256": "1e43f1547b15daf4f7ddd37a02d7be5aade7fdec0416c0e21d9e08e4f5178468",
+      "originalSource": "https://lh3.googleusercontent.com/aida-public/AB6AXuCink8SAHRpFgtUWHcEMoGQAXC6RSJxIPQIIcMGc0yW1QI-0B6cKvYfD8FfTfWRufukp7Sg9IGD7ygYZMj4-ESi38L1U4WSSB6bMoUA3Fbba8jrqg5RWa3e4oPvSfgOTxcl6xvMe4nq3ktmE70zh2NwlmCqjohJFK8Zu3jGjm4yVfySPzvi4UknuLeLENw31SSrygzVzI5N-YeBadPbKQv0TZAFkzgW8PU2SNH6AQwgC_7cdGR_YU0HEw",
+      "originalSize": [
+        512,
+        279
+      ],
+      "crop": [
+        0.2,
+        0.02,
+        0.8,
+        0.98
+      ],
+      "sourcePage": "User-supplied Stitch Discover export",
+      "sourceCredit": "Supplied Stitch export \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "ink-trousers",
+      "id": "ink-trousers-detail",
+      "kind": "detail",
+      "label": "Pleat and waistband: photo crop",
+      "src": "/photos/ink-trousers-detail.webp",
+      "width": 210,
+      "height": 126,
+      "bytes": 2420,
+      "sha256": "8a90c93c3e4a5a408aff24cb4dd6c2009b50abe25543ec0aa92d717217516d4a",
+      "originalSource": "https://lh3.googleusercontent.com/aida-public/AB6AXuCink8SAHRpFgtUWHcEMoGQAXC6RSJxIPQIIcMGc0yW1QI-0B6cKvYfD8FfTfWRufukp7Sg9IGD7ygYZMj4-ESi38L1U4WSSB6bMoUA3Fbba8jrqg5RWa3e4oPvSfgOTxcl6xvMe4nq3ktmE70zh2NwlmCqjohJFK8Zu3jGjm4yVfySPzvi4UknuLeLENw31SSrygzVzI5N-YeBadPbKQv0TZAFkzgW8PU2SNH6AQwgC_7cdGR_YU0HEw",
+      "originalSize": [
+        512,
+        279
+      ],
+      "crop": [
+        0.29,
+        0.03,
+        0.7,
+        0.48
+      ],
+      "sourcePage": "User-supplied Stitch Discover export",
+      "sourceCredit": "Supplied Stitch export \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "apricot-slip",
+      "id": "apricot-slip-front",
+      "kind": "front",
+      "label": "Front view",
+      "src": "/photos/apricot-slip-front.webp",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 348472,
+      "sha256": "767351b546b4a1cd5911e1fc8d6034909012396eae70b884a5857a850452678e",
+      "originalSource": "https://cdn.shopify.com/s/files/1/0603/2094/0289/files/B1740739201997.jpg?v=1760325137&width=1200",
+      "originalSize": [
+        1200,
+        1600
+      ],
+      "crop": null,
+      "sourcePage": "https://thecommense.com/products/satin-backless-slip-dress",
+      "sourceCredit": "COMMENSE \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "apricot-slip",
+      "id": "apricot-slip-back",
+      "kind": "back",
+      "label": "On-body back view",
+      "src": "/photos/apricot-slip-back.webp",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 373844,
+      "sha256": "ca9aabf54de6974b9c03cb81347d2e92ff0ee5f18903eac89442e272ca218d9a",
+      "originalSource": "https://cdn.shopify.com/s/files/1/0603/2094/0289/files/B1740739179888.jpg?v=1760325137&width=1200",
+      "originalSize": [
+        1200,
+        1600
+      ],
+      "crop": null,
+      "sourcePage": "https://thecommense.com/products/satin-backless-slip-dress",
+      "sourceCredit": "COMMENSE \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "apricot-slip",
+      "id": "apricot-slip-detail",
+      "kind": "detail",
+      "label": "Bodice and fabric detail",
+      "src": "/photos/apricot-slip-detail.webp",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 122068,
+      "sha256": "6f9c5a21ae89d15d999f57b54bee47e4f1d5e981c4be6aa946f6f72fb73b4d00",
+      "originalSource": "https://cdn.shopify.com/s/files/1/0603/2094/0289/files/B1740739173279.jpg?v=1760325137&width=1200",
+      "originalSize": [
+        1200,
+        1600
+      ],
+      "crop": null,
+      "sourcePage": "https://thecommense.com/products/satin-backless-slip-dress",
+      "sourceCredit": "COMMENSE \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "tide-shirt",
+      "id": "tide-shirt-front",
+      "kind": "front",
+      "label": "Front view",
+      "src": "/photos/tide-shirt-front.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 59918,
+      "sha256": "62ddd7947e8acf8eaf45a5787e1da2e55ad6b9cef7bcec8901d7c959b056549b",
+      "originalSource": "https://image.hm.com/assets/hm/b1/a1/b1a168578c0031696cfd9cf22c945eda0dcdf851.jpg?imwidth=1200",
+      "originalSize": [
+        1260,
+        1890
+      ],
+      "crop": null,
+      "sourcePage": "https://www2.hm.com/en_us/productpage.1257417011.html",
+      "sourceCredit": "H&M \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "tide-shirt",
+      "id": "tide-shirt-back",
+      "kind": "back",
+      "label": "On-body back view",
+      "src": "/photos/tide-shirt-back.webp",
+      "width": 970,
+      "height": 1171,
+      "bytes": 76950,
+      "sha256": "7c7b99d184ef20d6196388ec90591f31dcb2bfc3562efd83a7497545b9dc690c",
+      "originalSource": "https://image.hm.com/assets/hm/85/21/8521c7f4bc77fb691b7f3a5c59d5686617bb311a.jpg?imwidth=1200",
+      "originalSize": [
+        1260,
+        1890
+      ],
+      "crop": [
+        0.12,
+        0.15,
+        0.89,
+        0.77
+      ],
+      "sourcePage": "https://www2.hm.com/en_us/productpage.1257417011.html",
+      "sourceCredit": "H&M \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "tide-shirt",
+      "id": "tide-shirt-detail",
+      "kind": "detail",
+      "label": "Collar and stripe detail",
+      "src": "/photos/tide-shirt-detail.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 244648,
+      "sha256": "3fb832cc91bd1aca18573128f0640cc700dabb9cd8f7f4fe8fb20ffbfa4e30ef",
+      "originalSource": "https://image.hm.com/assets/hm/d1/5d/d15dd2e7d5266d4385d8a29103600e5bca246629.jpg?imwidth=1200",
+      "originalSize": [
+        1260,
+        1890
+      ],
+      "crop": null,
+      "sourcePage": "https://www2.hm.com/en_us/productpage.1257417011.html",
+      "sourceCredit": "H&M \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "oat-vest",
+      "id": "oat-vest-front",
+      "kind": "front",
+      "label": "Front view",
+      "src": "/photos/oat-vest-front.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 91964,
+      "sha256": "3506d43234a33682fbfa0cf5f0a5e4e19a6d468f0dd5cf686d8ef6bcc2c4b048",
+      "originalSource": "https://image.hm.com/assets/hm/d6/8d/d68dda7c9a224b350ac58aa35f9310f7215bfed2.jpg?imwidth=1200",
+      "originalSize": [
+        1260,
+        1890
+      ],
+      "crop": null,
+      "sourcePage": "https://www2.hm.com/en_us/productpage.1313249001.html",
+      "sourceCredit": "H&M \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "oat-vest",
+      "id": "oat-vest-detail",
+      "kind": "detail",
+      "label": "Ribbing and button detail",
+      "src": "/photos/oat-vest-detail.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 195482,
+      "sha256": "1509735cf45ff90bbaeed4170b7d38575986f8e99dcdde9845d1269c22f17387",
+      "originalSource": "https://image.hm.com/assets/hm/04/13/0413a7ff4c13ea1e1413469e33a94f2a4a0c4b35.jpg?imwidth=1200",
+      "originalSize": [
+        1260,
+        1890
+      ],
+      "crop": null,
+      "sourcePage": "https://www2.hm.com/en_us/productpage.1313249001.html",
+      "sourceCredit": "H&M \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "lilac-wrap",
+      "id": "lilac-wrap-front",
+      "kind": "front",
+      "label": "On-body front view",
+      "src": "/photos/lilac-wrap-front.webp",
+      "width": 1000,
+      "height": 1275,
+      "bytes": 71456,
+      "sha256": "378e7ebc2f545be5553d130db3ad7eedfc59505dd63964fa94931f30babda98c",
+      "originalSource": "https://images.asos-media.com/products/new-look-wrap-blouse-in-lilac/203170837-1-lilac?$n_640w$&wid=1000&fit=constrain",
+      "originalSize": [
+        1000,
+        1275
+      ],
+      "crop": null,
+      "sourcePage": "https://www.asos.com/new-look/new-look-wrap-blouse-in-lilac/prd/203170837",
+      "sourceCredit": "ASOS / New Look \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "lilac-wrap",
+      "id": "lilac-wrap-detail",
+      "kind": "detail",
+      "label": "Wrap and tie: photo crop",
+      "src": "/photos/lilac-wrap-detail.webp",
+      "width": 590,
+      "height": 536,
+      "bytes": 37154,
+      "sha256": "4d759ce620b0c8990da8d295da79e31893540fa6931f856aa5638eaaf1eaa151",
+      "originalSource": "https://images.asos-media.com/products/new-look-wrap-blouse-in-lilac/203170837-1-lilac?$n_640w$&wid=1000&fit=constrain",
+      "originalSize": [
+        1000,
+        1275
+      ],
+      "crop": [
+        0.24,
+        0.32,
+        0.83,
+        0.74
+      ],
+      "sourcePage": "https://www.asos.com/new-look/new-look-wrap-blouse-in-lilac/prd/203170837",
+      "sourceCredit": "ASOS / New Look \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "rose-jacket",
+      "id": "rose-jacket-front",
+      "kind": "front",
+      "label": "Front view",
+      "src": "/photos/rose-jacket-front.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 55590,
+      "sha256": "0847d38b877e137eda3874b848b0116eab7ecb65660f6efbaaa36c14c605417c",
+      "originalSource": "https://image.hm.com/assets/hm/cd/15/cd15de6f2fa38659979d36ce30ade695265032e2.jpg?imwidth=1200",
+      "originalSize": [
+        1260,
+        1890
+      ],
+      "crop": null,
+      "sourcePage": "https://www2.hm.com/en_us/productpage.1315959003.html",
+      "sourceCredit": "H&M \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "rose-jacket",
+      "id": "rose-jacket-back",
+      "kind": "back",
+      "label": "On-body back view",
+      "src": "/photos/rose-jacket-back.webp",
+      "width": 870,
+      "height": 812,
+      "bytes": 40716,
+      "sha256": "1666a946b6ea59574e71e4383fbdfa29c48a040878dacc3dbcd04a81aa78b13a",
+      "originalSource": "https://image.hm.com/assets/hm/80/a3/80a3ec4cf3c6aa916b9903b8753dec29a565cf80.jpg?imwidth=1200",
+      "originalSize": [
+        1260,
+        1889
+      ],
+      "crop": [
+        0.17,
+        0.17,
+        0.86,
+        0.6
+      ],
+      "sourcePage": "https://www2.hm.com/en_us/productpage.1315959003.html",
+      "sourceCredit": "H&M \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "rose-jacket",
+      "id": "rose-jacket-detail",
+      "kind": "detail",
+      "label": "Buttons and fabric detail",
+      "src": "/photos/rose-jacket-detail.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 596822,
+      "sha256": "0f6f7a7a51324aec32844cee91411172e69c2a7ddbdb1a3d339cb789853cd095",
+      "originalSource": "https://image.hm.com/assets/hm/95/1c/951c82ccc78f672224e24424ff21f125aad10117.jpg?imwidth=1200",
+      "originalSize": [
+        1260,
+        1890
+      ],
+      "crop": null,
+      "sourcePage": "https://www2.hm.com/en_us/productpage.1315959003.html",
+      "sourceCredit": "H&M \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "sage-skirt",
+      "id": "sage-skirt-front",
+      "kind": "front",
+      "label": "On-body front view",
+      "src": "/photos/sage-skirt-front.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 55242,
+      "sha256": "277c4a9cef440ba28ec0f4ef616e730676c5faa92eb5d78c2a3f1fa3e83d344b",
+      "originalSource": "https://cdn.shopify.com/s/files/1/0050/3264/0601/files/sage-green-100-cotton-tier-gathered-midi-skirt-522263.jpg?v=1722549881&width=1200",
+      "originalSize": [
+        1200,
+        1200
+      ],
+      "crop": null,
+      "sourcePage": "https://seamsfriendly.com/products/sage-green-100-cotton-tier-gathered-midi-skirt",
+      "sourceCredit": "SeamsFriendly \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "sage-skirt",
+      "id": "sage-skirt-back",
+      "kind": "back",
+      "label": "On-body back view",
+      "src": "/photos/sage-skirt-back.webp",
+      "width": 840,
+      "height": 636,
+      "bytes": 25462,
+      "sha256": "c9ac40bdb72097858174a3981e588b7279dd8d90e5aee01bffd48c345b5688da",
+      "originalSource": "https://cdn.shopify.com/s/files/1/0050/3264/0601/files/sage-green-100-cotton-tier-gathered-midi-skirt-576198.jpg?v=1722549881&width=1200",
+      "originalSize": [
+        1200,
+        1200
+      ],
+      "crop": [
+        0.14,
+        0.33,
+        0.84,
+        0.86
+      ],
+      "sourcePage": "https://seamsfriendly.com/products/sage-green-100-cotton-tier-gathered-midi-skirt",
+      "sourceCredit": "SeamsFriendly \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "sage-skirt",
+      "id": "sage-skirt-detail",
+      "kind": "detail",
+      "label": "Hem and gathered tier detail",
+      "src": "/photos/sage-skirt-detail.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 69724,
+      "sha256": "7756410b058d8d37df70f337c9cdfd18ac965f0d958dc794a167368eb8886c62",
+      "originalSource": "https://cdn.shopify.com/s/files/1/0050/3264/0601/files/sage-green-100-cotton-tier-gathered-midi-skirt-592165.jpg?v=1722549881&width=1200",
+      "originalSize": [
+        1200,
+        1200
+      ],
+      "crop": null,
+      "sourcePage": "https://seamsfriendly.com/products/sage-green-100-cotton-tier-gathered-midi-skirt",
+      "sourceCredit": "SeamsFriendly \u00b7 prepared photographic example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "my-blue-blouse",
+      "id": "my-blue-blouse-front",
+      "kind": "front",
+      "label": "Front view",
+      "src": "/photos/my-blue-blouse-front.webp",
+      "width": 888,
+      "height": 1232,
+      "bytes": 33790,
+      "sha256": "3cb9cff476c6a92b7d34591605cef9ff0015fcdd0a120de8b56dd30ba7d2aa89",
+      "originalSource": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/475719/item/goods_61_475719_3x4.jpg?width=1200",
+      "originalSize": [
+        1200,
+        1600
+      ],
+      "crop": [
+        0.13,
+        0.12,
+        0.87,
+        0.89
+      ],
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E475719-000/00?colorDisplayCode=61",
+      "sourceCredit": "UNIQLO \u00b7 prepared private reference example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "my-blue-blouse",
+      "id": "my-blue-blouse-detail",
+      "kind": "detail",
+      "label": "Collar and placket: photo crop",
+      "src": "/photos/my-blue-blouse-detail.webp",
+      "width": 348,
+      "height": 496,
+      "bytes": 10520,
+      "sha256": "96b9c4f5eae04d74c0d6dc7126e1853e1bc67d893a80ae13154973e891a80de6",
+      "originalSource": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/475719/item/goods_61_475719_3x4.jpg?width=1200",
+      "originalSize": [
+        1200,
+        1600
+      ],
+      "crop": [
+        0.37,
+        0.22,
+        0.66,
+        0.53
+      ],
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E475719-000/00?colorDisplayCode=61",
+      "sourceCredit": "UNIQLO \u00b7 prepared private reference example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    },
+    {
+      "listingId": "my-blue-blouse",
+      "id": "my-blue-blouse-detail-2",
+      "kind": "detail",
+      "label": "Hem and sleeve: photo crop",
+      "src": "/photos/my-blue-blouse-detail-2.webp",
+      "width": 660,
+      "height": 464,
+      "bytes": 16144,
+      "sha256": "ba658d2971ab6b7c3ea85d88f3a565e3c843f209716decee2df04f0acab43265",
+      "originalSource": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/475719/item/goods_61_475719_3x4.jpg?width=1200",
+      "originalSize": [
+        1200,
+        1600
+      ],
+      "crop": [
+        0.23,
+        0.5,
+        0.78,
+        0.79
+      ],
+      "sourcePage": "https://www.uniqlo.com/id/en/products/E475719-000/00?colorDisplayCode=61",
+      "sourceCredit": "UNIQLO \u00b7 prepared private reference example",
+      "sameGarmentSet": true,
+      "conditionProof": false
+    }
+  ]
+}

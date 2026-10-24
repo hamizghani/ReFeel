@@ -1,0 +1,2839 @@
+{
+  "product": "Familiar",
+  "version": "3.1.0",
+  "archive": "Familiar_V3.1_Vercel_Deployable.zip",
+  "applicationRoot": "archive root",
+  "runtime": "Photographic marketplace with one illustrative animated cloth garment; browser-local prototype",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6046,
+      "sha256": "50f136620b2cd6ef97bba8c7ba06f53902fbb8a96227ae76df1ceb657d6d46fc"
+    },
+    {
+      "path": "context/ORIGINAL_MASTER_AI_CONTEXT.md",
+      "bytes": 213477,
+      "sha256": "e257cc6cac836270d4d74dc5b5eb7ba7054e82d662e2b2ec875c0db08868f679"
+    },
+    {
+      "path": "context/UPDATED_MASTER_AI_CONTEXT.md",
+      "bytes": 7555,
+      "sha256": "c0a42b38c4fa284dad4006dd28d9cd1395cfe5feba237252b87c6127edcffb4e"
+    },
+    {
+      "path": "context/original/Familiar_TGIC_2026_Master_Context_original.md",
+      "bytes": 213477,
+      "sha256": "e257cc6cac836270d4d74dc5b5eb7ba7054e82d662e2b2ec875c0db08868f679"
+    },
+    {
+      "path": "dist/assets/AnimatedGarment-BO_rzOgP.css",
+      "bytes": 5555,
+      "sha256": "e47aea695302f0a4d2fcfbfa63b50936d04a8453ddcc72d7abdb9810794cf67d"
+    },
+    {
+      "path": "dist/assets/AnimatedGarment-not5di-S.js",
+      "bytes": 625365,
+      "sha256": "6bbb065e46537f76256da290c0b0d3105330bbc93a7ae8b51ff0e40a3ce0f412"
+    },
+    {
+      "path": "dist/assets/CheckCircle.es-C7IpWsC0.js",
+      "bytes": 2077,
+      "sha256": "0a8ac95c479b1753eb7903cbb358d121f9fc8efacfea22efda69ba92f4861f4b"
+    },
+    {
+      "path": "dist/assets/CommercePages-DQY6vuml.css",
+      "bytes": 21643,
+      "sha256": "15410726a857ff600198ae3df402ad3d731ea2f4786d2445b496fa98c9eb4dcb"
+    },
+    {
+      "path": "dist/assets/CommercePages-ZojUFs3g.js",
+      "bytes": 55550,
+      "sha256": "1dd995147d4035927f8555af1442c0aa6be58cf2c968453ebc8549fb919a08a7"
+    },
+    {
+      "path": "dist/assets/FeelPages-ruLrY1pa.js",
+      "bytes": 49984,
+      "sha256": "7be588b821c161cc4e5a28c01f099869cf73f7cd94af54d33ef3c8f662971eff"
+    },
+    {
+      "path": "dist/assets/FeelPages-zylbkozA.css",
+      "bytes": 50998,
+      "sha256": "5fb2ecf31bdaa6becafdf43c9f3858380c1dacbc33c6a64b667125db651ab509"
+    },
+    {
+      "path": "dist/assets/PencilSimple.es-veqx2L2a.js",
+      "bytes": 2446,
+      "sha256": "69eb0d96053527940133a0eaf879c5f780d26197ee24bc842152490790a31078"
+    },
+    {
+      "path": "dist/assets/SellerPage-w7YwxzRY.js",
+      "bytes": 2097,
+      "sha256": "4debc809b8191d4207dd0c8efc04490ea4a8c0a20ec08fb9555a3526f8ac6ac9"
+    },
+    {
+      "path": "dist/assets/StudioPages-Cx2SmZBw.css",
+      "bytes": 36271,
+      "sha256": "189bf1ed3397561a7ddb5fbf31a75e2afed8aff7287ea23ea58c7dfa0e2d26ff"
+    },
+    {
+      "path": "dist/assets/StudioPages-mHY5bgi4.js",
+      "bytes": 68441,
+      "sha256": "f94098d0448d5c79c11519eb59db25f155bfa88e2aecc418573c75a854bf111a"
+    },
+    {
+      "path": "dist/assets/index-BIzbOEZE.js",
+      "bytes": 390702,
+      "sha256": "7ce8fd349bd19276af3de7719692b1a3f8d82db968338c12325dded6a32c0d1b"
+    },
+    {
+      "path": "dist/assets/index-ChV0g6vP.css",
+      "bytes": 88852,
+      "sha256": "4398898db8c0fa077c552cf9e4f8849c69cb8c47f8c2c655392ad6aeac7eda90"
+    },
+    {
+      "path": "dist/brand/brand-manifest.json",
+      "bytes": 2327,
+      "sha256": "ecab21502955594a17660bf12ad9b9dcacb5f0ac43972f311ac1c41963b78d80"
+    },
+    {
+      "path": "dist/brand/familiar-mark-reverse.svg",
+      "bytes": 1113,
+      "sha256": "4ff0f65f36a66c893616f4e03fb1f4201e7f491a965b3d278aab26e27835bc0b"
+    },
+    {
+      "path": "dist/brand/familiar-mark.svg",
+      "bytes": 1118,
+      "sha256": "7f9ad81c2961b8a4309d2cc683b13460398353167508c438c89ec41d6a174503"
+    },
+    {
+      "path": "dist/brand/familiar-wordmark-reverse.svg",
+      "bytes": 2167,
+      "sha256": "7f26357d96b5ccb5c4f6cab39059b08c5f6371cc853250efa9a6843ab88f08e0"
+    },
+    {
+      "path": "dist/brand/familiar-wordmark.svg",
+      "bytes": 2168,
+      "sha256": "f0ad37f2127c4a34dca6b57f7e3e8ba3503ef699c726867427b74b4732b826f0"
+    },
+    {
+      "path": "dist/brand/favicon.svg",
+      "bytes": 1075,
+      "sha256": "9dc7e13de524aac8a53ab1c2506d182a15297611127448b6a99b8c3064c7be28"
+    },
+    {
+      "path": "dist/brand/logo-dark.svg",
+      "bytes": 2167,
+      "sha256": "7f26357d96b5ccb5c4f6cab39059b08c5f6371cc853250efa9a6843ab88f08e0"
+    },
+    {
+      "path": "dist/brand/logo-light.svg",
+      "bytes": 2168,
+      "sha256": "f0ad37f2127c4a34dca6b57f7e3e8ba3503ef699c726867427b74b4732b826f0"
+    },
+    {
+      "path": "dist/brand/mark.svg",
+      "bytes": 1118,
+      "sha256": "7f9ad81c2961b8a4309d2cc683b13460398353167508c438c89ec41d6a174503"
+    },
+    {
+      "path": "dist/covers/airloom-linen.webp",
+      "bytes": 131488,
+      "sha256": "457c0f6cd0b29fcad44bc1121976fd538bc6a824e5361d4bcb3475623e341bff"
+    },
+    {
+      "path": "dist/covers/apricot-slip.webp",
+      "bytes": 35896,
+      "sha256": "8e931923bdf4d6f572af801ef2fad15a9bbd82fd6ecc51a005c779e3c0d6f307"
+    },
+    {
+      "path": "dist/covers/cloud-poplin.webp",
+      "bytes": 42188,
+      "sha256": "d4e54449653517f1c91d92095aad771d95b4b2cb797c845c335a47e474d84268"
+    },
+    {
+      "path": "dist/covers/ink-trousers.webp",
+      "bytes": 60476,
+      "sha256": "cbf801648a158ab9042da17f28731809993f5f017f1b83aab337ba3bb0afdfb7"
+    },
+    {
+      "path": "dist/covers/lilac-wrap.webp",
+      "bytes": 120076,
+      "sha256": "662b13adde5e02117961cad4f4b5a9b0e0e662169abf1dcbc6188e22c7f5748d"
+    },
+    {
+      "path": "dist/covers/manifest.json",
+      "bytes": 37082,
+      "sha256": "b5a2fd8018a68df82d6705c3b6408dee0546aa99e15fbcadb0f97c4e7c8c1fc6"
+    },
+    {
+      "path": "dist/covers/moss-knit.webp",
+      "bytes": 150172,
+      "sha256": "1c0389f02c7c53bf6108d01fc190040b6c36be9ed6b3d1f8dbebb716a473121a"
+    },
+    {
+      "path": "dist/covers/my-blue-blouse.webp",
+      "bytes": 59548,
+      "sha256": "680e00a337d51861bd3dd8daeb06328143ef4a8abbff3d53d95b72a7992288b4"
+    },
+    {
+      "path": "dist/covers/oat-vest.webp",
+      "bytes": 128296,
+      "sha256": "3f7e53036482e0c232a89286468fd573b7a56050e1cdf162178001fff6d9ca9d"
+    },
+    {
+      "path": "dist/covers/petal-tee.webp",
+      "bytes": 67482,
+      "sha256": "c15febd793bb76f588c65cf6959e251357e0dd351a206283de31ad915687cadb"
+    },
+    {
+      "path": "dist/covers/rose-jacket.webp",
+      "bytes": 78014,
+      "sha256": "fcc6ef38f37bc82ce5951780b2dafba145d3d557145e5f2ef2b033a824b39203"
+    },
+    {
+      "path": "dist/covers/sage-skirt.webp",
+      "bytes": 67636,
+      "sha256": "855b1a6d9f6c9fd486e121bfb4747ed3bb7e83af045f0d4e39a3d17fe5359762"
+    },
+    {
+      "path": "dist/covers/sunday-denim.webp",
+      "bytes": 122520,
+      "sha256": "71515d7735b1b2876dae1f96449c7e2a4349abef21e3a4b0f9c859f4f3d98096"
+    },
+    {
+      "path": "dist/covers/tide-shirt.webp",
+      "bytes": 92732,
+      "sha256": "156b9e4c87ce5083dc05289888dd4dcf35cba721f73450d973749f6189c9d3da"
+    },
+    {
+      "path": "dist/evidence/airloom-linen-drape.svg",
+      "bytes": 2970,
+      "sha256": "aab288cadf81233bfb8cd730406ae0465ea194b8933b568118800eef127fc7ec"
+    },
+    {
+      "path": "dist/evidence/airloom-linen-movement-frame1.svg",
+      "bytes": 2917,
+      "sha256": "cf86dba19c14a79b569ccc6faee7e01cdd5f9fb685e2c82f1a3ec95bd2aa4e06"
+    },
+    {
+      "path": "dist/evidence/airloom-linen-movement-frame2.svg",
+      "bytes": 2916,
+      "sha256": "1774e227c8adde8eedc0a32b9e6a15929c1238bd08b697895c06735c153d0317"
+    },
+    {
+      "path": "dist/evidence/airloom-linen-movement-frame3.svg",
+      "bytes": 2916,
+      "sha256": "046171c190c99f021919101402d0de0f3ef2ac8077170d2892b4b3ebf6a17f4f"
+    },
+    {
+      "path": "dist/evidence/airloom-linen-movement.svg",
+      "bytes": 5876,
+      "sha256": "56b77c92a1f60aa389596ff209fab55849953e5ebf8aa59838b1ce7aabc3db92"
+    },
+    {
+      "path": "dist/evidence/airloom-linen-stretch.svg",
+      "bytes": 2972,
+      "sha256": "2ad69615c5d3c1cfe7c12d1a1b13e654c8d183e8ea45630f20e308833739240e"
+    },
+    {
+      "path": "dist/evidence/airloom-linen-surface.svg",
+      "bytes": 2112,
+      "sha256": "2f941ba9bef4a7d99b60ba959d6ee6d5ba19a4b438b80dcd889045e4510ed4ee"
+    },
+    {
+      "path": "dist/evidence/apricot-slip-drape.svg",
+      "bytes": 2223,
+      "sha256": "eb4eb61a5de1e6f8b01e325b5c59176523c03cd023671fe90a164995a2f45e3d"
+    },
+    {
+      "path": "dist/evidence/apricot-slip-movement.svg",
+      "bytes": 3657,
+      "sha256": "15412ac133494e771a510c353ebc132f287328230c729996137e3539e2c900ee"
+    },
+    {
+      "path": "dist/evidence/apricot-slip-stretch.svg",
+      "bytes": 2225,
+      "sha256": "c072a5cef839e8a7820910958bba6a423cdf5e42747d7b88448158c49a70be9a"
+    },
+    {
+      "path": "dist/evidence/apricot-slip-surface.svg",
+      "bytes": 2049,
+      "sha256": "32785609bd02c9f5e3815d6683db41c42ba13386c043d2dc7b7e83f2c096070d"
+    },
+    {
+      "path": "dist/evidence/cloud-poplin-drape.svg",
+      "bytes": 2901,
+      "sha256": "a7f4ece22dee318d8b2b5dad47c3882f70d03c9fd451cf02654a913cd4cdb3a5"
+    },
+    {
+      "path": "dist/evidence/cloud-poplin-label.svg",
+      "bytes": 1275,
+      "sha256": "92c08f318d6e9a503b15000e8e8556f9d1b2e37df867ac8957e7576c5fef40a3"
+    },
+    {
+      "path": "dist/evidence/cloud-poplin-movement-frame1.svg",
+      "bytes": 2848,
+      "sha256": "4e814a3d79debc6fee9cd1b7e4a60d7a2b4a6be6de228e4db40049aba7525f6e"
+    },
+    {
+      "path": "dist/evidence/cloud-poplin-movement-frame2.svg",
+      "bytes": 2847,
+      "sha256": "37194917e0752deffa2ac612b9752088d6058802a69694e9d666d68422d48120"
+    },
+    {
+      "path": "dist/evidence/cloud-poplin-movement-frame3.svg",
+      "bytes": 2847,
+      "sha256": "075249b236451a832290f1f76b05553c00b3e0fbeb6e490cd36d6cea0a75c702"
+    },
+    {
+      "path": "dist/evidence/cloud-poplin-movement.svg",
+      "bytes": 5677,
+      "sha256": "a8380534fd41a807cb839e46a572799115b57a8c4769347e146d6483e8397073"
+    },
+    {
+      "path": "dist/evidence/cloud-poplin-stretch.svg",
+      "bytes": 2903,
+      "sha256": "1a02e7e709a76c039b66e178360e15646dd20071f45035ba05ceab3a5940cbac"
+    },
+    {
+      "path": "dist/evidence/cloud-poplin-surface.svg",
+      "bytes": 2371,
+      "sha256": "943218c10ad366e9bcdeb86197d547c3113e2ab3853e674e811acf2bcec421ac"
+    },
+    {
+      "path": "dist/evidence/ink-trousers-drape.svg",
+      "bytes": 2190,
+      "sha256": "67de86dc8b339f7c46fe0d5dc1b26106469b4dcf7b57c962325cf13ceac90bca"
+    },
+    {
+      "path": "dist/evidence/ink-trousers-movement.svg",
+      "bytes": 3558,
+      "sha256": "5176d140a562e5f90a5bee4c71fb11737323b14cb519d140bae772189711c343"
+    },
+    {
+      "path": "dist/evidence/ink-trousers-stretch.svg",
+      "bytes": 2192,
+      "sha256": "9d114783713f0681d33ba46c6aceafec1324cdabd5a0a9a0b6a53932a03d9669"
+    },
+    {
+      "path": "dist/evidence/ink-trousers-surface.svg",
+      "bytes": 2040,
+      "sha256": "7fb234dc6866804fade81f2a90975da33b17f0cd783baec6a42d45aee6666524"
+    },
+    {
+      "path": "dist/evidence/lilac-wrap-drape.svg",
+      "bytes": 2419,
+      "sha256": "e05153258cd6b2a001fdd41d140f12c96d83c024cf9d403f2e6f7da7804b3824"
+    },
+    {
+      "path": "dist/evidence/lilac-wrap-movement.svg",
+      "bytes": 4249,
+      "sha256": "5afd9c1c150146c6925fa7c2533e965aaa2c9ad7b423b780c10987a71f0b3b54"
+    },
+    {
+      "path": "dist/evidence/lilac-wrap-stretch.svg",
+      "bytes": 2421,
+      "sha256": "f8cd1f9d45fa0d1f0cb6c6064b79dfd538705e63bebc3c80c316228516d12c13"
+    },
+    {
+      "path": "dist/evidence/lilac-wrap-surface.svg",
+      "bytes": 2051,
+      "sha256": "89efdf48d220440e9617a0fbf98a2b8ebab07776f887b88a0d81491d4f8adf83"
+    },
+    {
+      "path": "dist/evidence/manifest.json",
+      "bytes": 20451,
+      "sha256": "bc899acac4d460583d122b89727a0ac7411b25714031062ca5430605499e4c98"
+    },
+    {
+      "path": "dist/evidence/moss-knit-drape.svg",
+      "bytes": 2470,
+      "sha256": "0fcd13c4b6c83fc8f59110c953837b15429208364ec6043868cf66ba1c95c25f"
+    },
+    {
+      "path": "dist/evidence/moss-knit-movement-frame1.svg",
+      "bytes": 2417,
+      "sha256": "44e97fd9ea019b84cf60e35aaf5a9b8b89a962a04556a80ba32fda33e0f7100d"
+    },
+    {
+      "path": "dist/evidence/moss-knit-movement-frame2.svg",
+      "bytes": 2416,
+      "sha256": "855df542ee03ccf7d6bf5cabff60b6e19b98b1ddd25d4868e2d743c99bbb9930"
+    },
+    {
+      "path": "dist/evidence/moss-knit-movement-frame3.svg",
+      "bytes": 2416,
+      "sha256": "8809b274713818c5fe589e13de049ef8cf7a6bd81aa522a9f67998d0cdef269a"
+    },
+    {
+      "path": "dist/evidence/moss-knit-movement.svg",
+      "bytes": 4386,
+      "sha256": "4d276c99fd4d537ec5199cce06c8329f85618b8fce21c1b8b23f6d857114b365"
+    },
+    {
+      "path": "dist/evidence/moss-knit-stretch.svg",
+      "bytes": 2472,
+      "sha256": "b2b77d117de01b55b51ada6ed98d8ee49da5436895a4208b991cf11177fff6ca"
+    },
+    {
+      "path": "dist/evidence/moss-knit-surface.svg",
+      "bytes": 7568,
+      "sha256": "5eb3ceeb9eeb01a85cac628b183915945b9ca5f59938d01402763e4216fd443a"
+    },
+    {
+      "path": "dist/evidence/my-blue-blouse-drape.svg",
+      "bytes": 2393,
+      "sha256": "16babc3c7472de8ab73f22c42c36569354fb1810cb4023acf6f44a395629b8ff"
+    },
+    {
+      "path": "dist/evidence/my-blue-blouse-movement-frame1.svg",
+      "bytes": 2340,
+      "sha256": "a4937edd3918b7a08bfd49725d9fed28df160cfd33c80b987652f4f82e703bf8"
+    },
+    {
+      "path": "dist/evidence/my-blue-blouse-movement-frame2.svg",
+      "bytes": 2339,
+      "sha256": "04e90c6bca25a301f6dbaa85b2b028bf20ee64520fa4be51d6c4865213f27b86"
+    },
+    {
+      "path": "dist/evidence/my-blue-blouse-movement-frame3.svg",
+      "bytes": 2339,
+      "sha256": "a3e81c6112c30e0e01808e06d44c42162d5a6b233ea8e6dba5e3aebd3afedeba"
+    },
+    {
+      "path": "dist/evidence/my-blue-blouse-movement.svg",
+      "bytes": 4163,
+      "sha256": "32689b8bd4093e74bb50745973f37f278cbd8464e9f70d5dad70c4ca57f022a3"
+    },
+    {
+      "path": "dist/evidence/my-blue-blouse-stretch.svg",
+      "bytes": 2395,
+      "sha256": "6de21014b1ee34f989a6efbe679b03ee2cd06239fa5a17788e35c146495e3901"
+    },
+    {
+      "path": "dist/evidence/my-blue-blouse-surface.svg",
+      "bytes": 2058,
+      "sha256": "f0162fedeb0600c01a123b736f867c034d3a2a32a769d1cf8cd49cb1b81de7a5"
+    },
+    {
+      "path": "dist/evidence/oat-vest-drape.svg",
+      "bytes": 2237,
+      "sha256": "b73a633f25598211b57f7642b553cf028d4a3b01b0a0b1127614b60a57b87b6a"
+    },
+    {
+      "path": "dist/evidence/oat-vest-movement.svg",
+      "bytes": 3707,
+      "sha256": "70b83e7b97af827e6803b2890119c5199f6a8f723a4adf2276ae9987b005de34"
+    },
+    {
+      "path": "dist/evidence/oat-vest-stretch.svg",
+      "bytes": 2239,
+      "sha256": "8e2765d7cec4810f6d6c45ac81d27837c6eec35d199810f3c1e23f15a7258ed9"
+    },
+    {
+      "path": "dist/evidence/oat-vest-surface.svg",
+      "bytes": 7351,
+      "sha256": "5e501a1b4e5c4cf61dde29ff43c7825145616fe769df6771f6eeb55341d7ad0d"
+    },
+    {
+      "path": "dist/evidence/petal-tee-drape.svg",
+      "bytes": 2360,
+      "sha256": "83166b6c7eb3662f2f94117fe2cc7a085f9704d485ef9bb005fbd2912cd8205a"
+    },
+    {
+      "path": "dist/evidence/petal-tee-movement.svg",
+      "bytes": 4074,
+      "sha256": "a1582ede1ffa8b9850a93892d4ec20356f62dec614379b3d6ff7f212685117f2"
+    },
+    {
+      "path": "dist/evidence/petal-tee-stretch.svg",
+      "bytes": 2362,
+      "sha256": "8ad10f506fa97cba298e7d9f7a757d81db0d2da961b1df9a6d39ecf92d81a980"
+    },
+    {
+      "path": "dist/evidence/petal-tee-surface.svg",
+      "bytes": 2031,
+      "sha256": "166f427ceddd0442de61adc358a16e697e9e8c97976b741acfc85cd7fbc57f0f"
+    },
+    {
+      "path": "dist/evidence/rose-jacket-drape.svg",
+      "bytes": 2958,
+      "sha256": "89c9d695b29c43202d5cc91d5b9510ab89b6853a6053473db569268ab0040c23"
+    },
+    {
+      "path": "dist/evidence/rose-jacket-movement.svg",
+      "bytes": 5864,
+      "sha256": "b604746da489c6693f9044128ec11e0ba9a560c1c2bd84ba9e80b33280aa4c92"
+    },
+    {
+      "path": "dist/evidence/rose-jacket-stretch.svg",
+      "bytes": 2960,
+      "sha256": "9233dcacf8ff7408a908ece1f9bd00390bdfb0ae55c2e2dc3868eff8e58c6a98"
+    },
+    {
+      "path": "dist/evidence/rose-jacket-surface.svg",
+      "bytes": 2262,
+      "sha256": "4e146a2da752c6bd990165ebcd6508dccfca1ea4b141a838bf7716990c560629"
+    },
+    {
+      "path": "dist/evidence/sage-skirt-drape.svg",
+      "bytes": 2129,
+      "sha256": "ad39f98d71d16863c47fed3a5e2aac38f044e55e1bf03f0df456ca9e34d7e996"
+    },
+    {
+      "path": "dist/evidence/sage-skirt-movement.svg",
+      "bytes": 3379,
+      "sha256": "a9c6c4638595e654f06e9b891ced872ff49db927da66788f5b77c446fd3fe161"
+    },
+    {
+      "path": "dist/evidence/sage-skirt-stretch.svg",
+      "bytes": 2131,
+      "sha256": "6a24b0efb1081594cddd82212278db60392b7d7edc06b4155488e36f3d325702"
+    },
+    {
+      "path": "dist/evidence/sage-skirt-surface.svg",
+      "bytes": 2304,
+      "sha256": "d72ad34991ba330b560b19ade8767347a37f0b64e374b3e83c0ad38fea6c1446"
+    },
+    {
+      "path": "dist/evidence/sunday-denim-drape.svg",
+      "bytes": 2190,
+      "sha256": "c7e0c90de0bac82644b8bf7b7697b33176510b9d04df1f13e79abc11af536072"
+    },
+    {
+      "path": "dist/evidence/sunday-denim-movement.svg",
+      "bytes": 3558,
+      "sha256": "5f190e57fbb5b811f0d87aa21d1606235fe76700b1e0b5014ec99fed2e90bc58"
+    },
+    {
+      "path": "dist/evidence/sunday-denim-stretch.svg",
+      "bytes": 2192,
+      "sha256": "6d94ac1868743e17af813a111c2ae1e3eddcc1d1b068ecd7db45dbd1febfac79"
+    },
+    {
+      "path": "dist/evidence/sunday-denim-surface.svg",
+      "bytes": 5489,
+      "sha256": "309c28132eb642b2d92d80ef3aa00b37b6ca9cb92591fc74cf5edb7a67dcf466"
+    },
+    {
+      "path": "dist/evidence/tide-shirt-drape.svg",
+      "bytes": 2821,
+      "sha256": "47a1d4760fd806c714e2be8991562ca1c1d87dbf8026db207bf820c9a3cb1bcb"
+    },
+    {
+      "path": "dist/evidence/tide-shirt-movement.svg",
+      "bytes": 5455,
+      "sha256": "d39766569664369c7d25b097e4126958f78c54f9172e2c9c2646b320ac6b14e4"
+    },
+    {
+      "path": "dist/evidence/tide-shirt-stretch.svg",
+      "bytes": 2823,
+      "sha256": "70001736e7ddc1e16b2575ded63f536a78aae27d1fc47414ded3c76d00151cda"
+    },
+    {
+      "path": "dist/evidence/tide-shirt-surface.svg",
+      "bytes": 3565,
+      "sha256": "2e34fb0cd644e45d29cece280dcf0add50f35bd6cd18c1afc5ed379c75d9e699"
+    },
+    {
+      "path": "dist/fonts/OFL.txt",
+      "bytes": 4534,
+      "sha256": "e07fd1167c2aaaa6fb965dd66e1e73b13c9c95b76b2d648b6e938780f30b37af"
+    },
+    {
+      "path": "dist/fonts/newsreader-400.ttf",
+      "bytes": 109472,
+      "sha256": "b8f5e0a8bdd6a12c722ca5635d9da87e77ccbb2d0172112e34e00c4e55f2cd5a"
+    },
+    {
+      "path": "dist/fonts/newsreader-500.ttf",
+      "bytes": 111588,
+      "sha256": "68c4493c7c6c9aaff48defeeb6408e7ce705efc4c33363de4d9d6f5e07775064"
+    },
+    {
+      "path": "dist/fonts/newsreader-600.ttf",
+      "bytes": 111628,
+      "sha256": "04188d5295f4e1100ce91a96b864f15b7af5be976e9fb9cc279af737be804272"
+    },
+    {
+      "path": "dist/fonts/newsreader-OFL.txt",
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+    },
+    {
+      "path": "dist/fonts/plus-jakarta-sans-latin.woff2",
+      "bytes": 27348,
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 622,
+      "sha256": "3d7ebbff6cf5ccfa0bd93bc55564b261846ebc2ad1b325485956c9bf35311afe"
+    },
+    {
+      "path": "dist/models/cloud-animated.glb",
+      "bytes": 402392,
+      "sha256": "ca200e679e169faa670647af88ea48bd82752c4c7563d42fa050c610d15079ec"
+    },
+    {
+      "path": "dist/models/manifest.json",
+      "bytes": 772,
+      "sha256": "b6706e1f9ba5b728deb722f32b0f710c529c845ee49444c55c20cd5ed7b193c5"
+    },
+    {
+      "path": "dist/photos/airloom-linen-detail.webp",
+      "bytes": 14784,
+      "sha256": "908d4a2128a19a7d52cfbd28e7fd7f7eccab437931a04bd7b6a7f500f1368da1"
+    },
+    {
+      "path": "dist/photos/airloom-linen-front.webp",
+      "bytes": 29288,
+      "sha256": "be121b203a33bc06f1cb4102e253d642543c75565a8b1c0e83e438a2faa18cfa"
+    },
+    {
+      "path": "dist/photos/apricot-slip-back.webp",
+      "bytes": 373844,
+      "sha256": "ca9aabf54de6974b9c03cb81347d2e92ff0ee5f18903eac89442e272ca218d9a"
+    },
+    {
+      "path": "dist/photos/apricot-slip-detail.webp",
+      "bytes": 122068,
+      "sha256": "6f9c5a21ae89d15d999f57b54bee47e4f1d5e981c4be6aa946f6f72fb73b4d00"
+    },
+    {
+      "path": "dist/photos/apricot-slip-front.webp",
+      "bytes": 348472,
+      "sha256": "767351b546b4a1cd5911e1fc8d6034909012396eae70b884a5857a850452678e"
+    },
+    {
+      "path": "dist/photos/cloud-poplin-detail-2.webp",
+      "bytes": 34096,
+      "sha256": "e38ceb187d9228ab2f8a223a0d81a8d2d2e4ee834d79fc9928e1fd82ddc202bc"
+    },
+    {
+      "path": "dist/photos/cloud-poplin-detail.webp",
+      "bytes": 31938,
+      "sha256": "9fd46f74019e573faa4faeca0e851cfc6afb93ec9f80137ce09f9acc7c111508"
+    },
+    {
+      "path": "dist/photos/cloud-poplin-front.webp",
+      "bytes": 10666,
+      "sha256": "fbb767eb7ed8a08f5f957eb58a4f1d3230949ab039091aebb3424d6cb8d024f2"
+    },
+    {
+      "path": "dist/photos/cloud-poplin-label.webp",
+      "bytes": 23734,
+      "sha256": "2c31a661d95900c93f680ca06370771f99dea75d6f48f766c4f4759e324317de"
+    },
+    {
+      "path": "dist/photos/ink-trousers-detail.webp",
+      "bytes": 2420,
+      "sha256": "8a90c93c3e4a5a408aff24cb4dd6c2009b50abe25543ec0aa92d717217516d4a"
+    },
+    {
+      "path": "dist/photos/ink-trousers-front.webp",
+      "bytes": 4492,
+      "sha256": "1e43f1547b15daf4f7ddd37a02d7be5aade7fdec0416c0e21d9e08e4f5178468"
+    },
+    {
+      "path": "dist/photos/lilac-wrap-detail.webp",
+      "bytes": 37154,
+      "sha256": "4d759ce620b0c8990da8d295da79e31893540fa6931f856aa5638eaaf1eaa151"
+    },
+    {
+      "path": "dist/photos/lilac-wrap-front.webp",
+      "bytes": 71456,
+      "sha256": "378e7ebc2f545be5553d130db3ad7eedfc59505dd63964fa94931f30babda98c"
+    },
+    {
+      "path": "dist/photos/manifest.json",
+      "bytes": 29226,
+      "sha256": "d516c0d960557d0c983d09e52cb84cb1f78628dde188b99f959f104a0a4dd51a"
+    },
+    {
+      "path": "dist/photos/moss-knit-back.webp",
+      "bytes": 113388,
+      "sha256": "c5673c6f47280573a445f63e5f6b9e002beeaf354cd352fcf6f9662f79ac33dd"
+    },
+    {
+      "path": "dist/photos/moss-knit-detail.webp",
+      "bytes": 48812,
+      "sha256": "8dce77aa226b88228b3050894cf1819b4199888345ba019ab7d70151015b73b0"
+    },
+    {
+      "path": "dist/photos/moss-knit-front.webp",
+      "bytes": 106848,
+      "sha256": "7bcf771c415b5faa06c8fc58efa217cc6fb467317385302c076d82f953b1ab08"
+    },
+    {
+      "path": "dist/photos/my-blue-blouse-detail-2.webp",
+      "bytes": 16144,
+      "sha256": "ba658d2971ab6b7c3ea85d88f3a565e3c843f209716decee2df04f0acab43265"
+    },
+    {
+      "path": "dist/photos/my-blue-blouse-detail.webp",
+      "bytes": 10520,
+      "sha256": "96b9c4f5eae04d74c0d6dc7126e1853e1bc67d893a80ae13154973e891a80de6"
+    },
+    {
+      "path": "dist/photos/my-blue-blouse-front.webp",
+      "bytes": 33790,
+      "sha256": "3cb9cff476c6a92b7d34591605cef9ff0015fcdd0a120de8b56dd30ba7d2aa89"
+    },
+    {
+      "path": "dist/photos/oat-vest-detail.webp",
+      "bytes": 195482,
+      "sha256": "1509735cf45ff90bbaeed4170b7d38575986f8e99dcdde9845d1269c22f17387"
+    },
+    {
+      "path": "dist/photos/oat-vest-front.webp",
+      "bytes": 91964,
+      "sha256": "3506d43234a33682fbfa0cf5f0a5e4e19a6d468f0dd5cf686d8ef6bcc2c4b048"
+    },
+    {
+      "path": "dist/photos/petal-tee-back.webp",
+      "bytes": 77248,
+      "sha256": "ef9a26572ea45ed4d03263722a3305552c6bd1c86bacfb0be3571cd4bba34d3c"
+    },
+    {
+      "path": "dist/photos/petal-tee-detail.webp",
+      "bytes": 698730,
+      "sha256": "34b087fe4114c7f01538c8c59c98ce97b4811543debaaa445a6858e8d5a7c0bb"
+    },
+    {
+      "path": "dist/photos/petal-tee-front.webp",
+      "bytes": 57712,
+      "sha256": "45b155497f93eed570ad9973bd295cf69b3b96ad91336d00119987371852a086"
+    },
+    {
+      "path": "dist/photos/rose-jacket-back.webp",
+      "bytes": 40716,
+      "sha256": "1666a946b6ea59574e71e4383fbdfa29c48a040878dacc3dbcd04a81aa78b13a"
+    },
+    {
+      "path": "dist/photos/rose-jacket-detail.webp",
+      "bytes": 596822,
+      "sha256": "0f6f7a7a51324aec32844cee91411172e69c2a7ddbdb1a3d339cb789853cd095"
+    },
+    {
+      "path": "dist/photos/rose-jacket-front.webp",
+      "bytes": 55590,
+      "sha256": "0847d38b877e137eda3874b848b0116eab7ecb65660f6efbaaa36c14c605417c"
+    },
+    {
+      "path": "dist/photos/sage-skirt-back.webp",
+      "bytes": 25462,
+      "sha256": "c9ac40bdb72097858174a3981e588b7279dd8d90e5aee01bffd48c345b5688da"
+    },
+    {
+      "path": "dist/photos/sage-skirt-detail.webp",
+      "bytes": 69724,
+      "sha256": "7756410b058d8d37df70f337c9cdfd18ac965f0d958dc794a167368eb8886c62"
+    },
+    {
+      "path": "dist/photos/sage-skirt-front.webp",
+      "bytes": 55242,
+      "sha256": "277c4a9cef440ba28ec0f4ef616e730676c5faa92eb5d78c2a3f1fa3e83d344b"
+    },
+    {
+      "path": "dist/photos/sunday-denim-detail-2.webp",
+      "bytes": 529292,
+      "sha256": "b24651147de540b1daefa942c46a7018cbb4de23b9609eaa3fddc99b3627f4f2"
+    },
+    {
+      "path": "dist/photos/sunday-denim-detail.webp",
+      "bytes": 495232,
+      "sha256": "0ec6cd41af1a649e7cfd60c9f55870af46e583fbd54671ed9dcbad153205ae39"
+    },
+    {
+      "path": "dist/photos/sunday-denim-front.webp",
+      "bytes": 138172,
+      "sha256": "13a7bf773e28743950972e940d27afcaeaf1cc47bec51fc8449cc954a5b657ca"
+    },
+    {
+      "path": "dist/photos/tide-shirt-back.webp",
+      "bytes": 76950,
+      "sha256": "7c7b99d184ef20d6196388ec90591f31dcb2bfc3562efd83a7497545b9dc690c"
+    },
+    {
+      "path": "dist/photos/tide-shirt-detail.webp",
+      "bytes": 244648,
+      "sha256": "3fb832cc91bd1aca18573128f0640cc700dabb9cd8f7f4fe8fb20ffbfa4e30ef"
+    },
+    {
+      "path": "dist/photos/tide-shirt-front.webp",
+      "bytes": 59918,
+      "sha256": "62ddd7947e8acf8eaf45a5787e1da2e55ad6b9cef7bcec8901d7c959b056549b"
+    },
+    {
+      "path": "dist/posters/airloom-linen.svg",
+      "bytes": 416075,
+      "sha256": "c6a4897a340ff88c2c9a65ecaa5b2a3395dad98a14a3c16334684c8636e619c8"
+    },
+    {
+      "path": "dist/posters/apricot-slip.svg",
+      "bytes": 351997,
+      "sha256": "18db64608f17c87a68103f556082918c7fe92f080d8b13ea86170c78093906bd"
+    },
+    {
+      "path": "dist/posters/cloud-poplin.svg",
+      "bytes": 361315,
+      "sha256": "77fc3fccbaed2b4505c3b7f3c501965e758d3603f39ece32c036dff3f9baabd2"
+    },
+    {
+      "path": "dist/posters/coming-soon-01.svg",
+      "bytes": 372613,
+      "sha256": "1c6fa5b125db529ef30534537b159478556ecd75d560c9497a995104e33624a2"
+    },
+    {
+      "path": "dist/posters/coming-soon-02.svg",
+      "bytes": 419521,
+      "sha256": "029cc686922928889b5f863b75f9cdd6f87aa389cec6c5b3c20c8d48f0021739"
+    },
+    {
+      "path": "dist/posters/coming-soon-03.svg",
+      "bytes": 416039,
+      "sha256": "3ba2266abef755f06659b3683aa9ea9af5aeddccc0304f4d266878eee9385576"
+    },
+    {
+      "path": "dist/posters/coming-soon-04.svg",
+      "bytes": 460367,
+      "sha256": "b978acf0ef00d872a0ea4a3053f8f7f5b9c3e18f96fb8c2ee8cc75a2adf3ed05"
+    },
+    {
+      "path": "dist/posters/coming-soon-05.svg",
+      "bytes": 378789,
+      "sha256": "85d0b141c1f1ea3df7ef081cec6d4cebaf84521ee385a778930cba5c1f72d166"
+    },
+    {
+      "path": "dist/posters/coming-soon-06.svg",
+      "bytes": 356631,
+      "sha256": "b60690dfe3238265d7ab2043fc945b0ff87ee862d098afaff4ccec014c18493a"
+    },
+    {
+      "path": "dist/posters/coming-soon-07.svg",
+      "bytes": 349445,
+      "sha256": "6f26c9d56d336c81a7e60ce4945dd05df2503091fe8a6d2ff7ad19efb2fc5faf"
+    },
+    {
+      "path": "dist/posters/coming-soon-08.svg",
+      "bytes": 395375,
+      "sha256": "5bddd3a92508249b3828938aa9544a055ab9db8c875dbe86fbdfb2f7ae2959fa"
+    },
+    {
+      "path": "dist/posters/coming-soon-09.svg",
+      "bytes": 557075,
+      "sha256": "3d9e6d0f8fac2c67ad3a81bec5ca3e1467395c1404e48010308a5b88b5f657e5"
+    },
+    {
+      "path": "dist/posters/coming-soon-10.svg",
+      "bytes": 428519,
+      "sha256": "61d3ffb201351dc4cbfd622ef8bd0327729b7961029995ac96f07d454b9b094d"
+    },
+    {
+      "path": "dist/posters/coming-soon-11.svg",
+      "bytes": 383375,
+      "sha256": "a2d989689c227f51977f2b87bbc8e4ca77568bf8c5a0247bee3e50d95cbe7aad"
+    },
+    {
+      "path": "dist/posters/coming-soon-12.svg",
+      "bytes": 690619,
+      "sha256": "8d3241160c4dbad01fa72443c3e7f34a6fa70ed3c5b3cbdf1a0366feafe4cccb"
+    },
+    {
+      "path": "dist/posters/evidence-front.svg",
+      "bytes": 361460,
+      "sha256": "3766d1d6c5d551faeb116b62e0395b241eaf4c8d859381cdf35023b336833a50"
+    },
+    {
+      "path": "dist/posters/evidence-label.svg",
+      "bytes": 364996,
+      "sha256": "d09a331d15a092cfc348b39c42ab44d32049fe7bb3b3cd0c5523271597522247"
+    },
+    {
+      "path": "dist/posters/evidence-movement.svg",
+      "bytes": 353050,
+      "sha256": "0bd8925c46530a943a10a7f18d62354ba504fe5d2628ebdd24640b5414c614f2"
+    },
+    {
+      "path": "dist/posters/evidence-surface.svg",
+      "bytes": 521352,
+      "sha256": "53b89328d5c3c9a095318bd1dd05e69357c3593b95c959b18d6f7beebc37438d"
+    },
+    {
+      "path": "dist/posters/evidence-wear.svg",
+      "bytes": 397994,
+      "sha256": "1844c46d0fe8626016e876462fcc6f4b65e061a6aec213962beaf196daca68e1"
+    },
+    {
+      "path": "dist/posters/ink-trousers.svg",
+      "bytes": 306977,
+      "sha256": "616974f5083075b4e620e1ed54f096e12a36020762c45cfe75b47a7984fa26d5"
+    },
+    {
+      "path": "dist/posters/lilac-wrap.svg",
+      "bytes": 430013,
+      "sha256": "560b5711fc95bf7c3f017e836d2b2690182eab1b5e510d3864f6c63c839ed437"
+    },
+    {
+      "path": "dist/posters/moss-knit.svg",
+      "bytes": 407953,
+      "sha256": "20c533de3bca84c545e32f5e46cd353d26c9336c538131a88e936773a1ef5605"
+    },
+    {
+      "path": "dist/posters/my-blue-blouse.svg",
+      "bytes": 403621,
+      "sha256": "8c74ec1533a29fedec782726f515815bd427894558e5a93e56897a973cb9dbf9"
+    },
+    {
+      "path": "dist/posters/oat-vest.svg",
+      "bytes": 565755,
+      "sha256": "d61d2ee565102403d7481aa432e044d4fdcaa9ba7aff0f2606e7b25b881528da"
+    },
+    {
+      "path": "dist/posters/petal-tee.svg",
+      "bytes": 463961,
+      "sha256": "958bebabf5970b4588a6aff1c7a19478c20d4e5b2789f305ab6b9e8c9b67f26f"
+    },
+    {
+      "path": "dist/posters/placeholder-01.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "dist/posters/placeholder-02.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "dist/posters/placeholder-03.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "dist/posters/placeholder-04.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "dist/posters/placeholder-05.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "dist/posters/placeholder-06.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "dist/posters/placeholder-07.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "dist/posters/placeholder-08.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "dist/posters/placeholder-09.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "dist/posters/placeholder-10.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "dist/posters/placeholder-11.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "dist/posters/placeholder-12.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "dist/posters/placeholder-13.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "dist/posters/placeholder-14.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "dist/posters/placeholder-15.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "dist/posters/placeholder-16.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "dist/posters/placeholder-17.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "dist/posters/placeholder-18.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "dist/posters/placeholder-19.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "dist/posters/placeholder-20.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "dist/posters/placeholder-21.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "dist/posters/placeholder-22.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "dist/posters/placeholder-23.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "dist/posters/placeholder-24.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "dist/posters/placeholder-25.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "dist/posters/placeholder-26.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "dist/posters/placeholder-27.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "dist/posters/placeholder-28.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "dist/posters/placeholder-29.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "dist/posters/placeholder-30.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "dist/posters/placeholder-31.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "dist/posters/placeholder-32.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "dist/posters/placeholder-33.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "dist/posters/placeholder-34.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "dist/posters/placeholder-35.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "dist/posters/placeholder-36.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "dist/posters/placeholder-37.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "dist/posters/placeholder-38.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "dist/posters/rose-jacket.svg",
+      "bytes": 377199,
+      "sha256": "f1215bd1284279a854b44f096dc09e2371fad4d0247ce5c0c3de9f02d08863d4"
+    },
+    {
+      "path": "dist/posters/sage-skirt.svg",
+      "bytes": 684743,
+      "sha256": "f6faa3560b61cc83282a06ec473c4d9b5043fdccff463a889e8d66efe4b42110"
+    },
+    {
+      "path": "dist/posters/sunday-denim.svg",
+      "bytes": 390327,
+      "sha256": "66348c3aa45f07fc1cb098385192cc27540b35f693e6d30a5850221b6e23fa51"
+    },
+    {
+      "path": "dist/posters/tide-shirt.svg",
+      "bytes": 396887,
+      "sha256": "7bf490c4589efa9d7690e6cb58e0d5b3b1b69f40dc4f6017130ae56abc8030dc"
+    },
+    {
+      "path": "docs/ASSET_PROVENANCE.md",
+      "bytes": 2399,
+      "sha256": "6f00862658accc02994dd1a2c312c68940783ced77f999ca767f2fe4655010b5"
+    },
+    {
+      "path": "docs/CLOTH_PHYSICS.md",
+      "bytes": 6665,
+      "sha256": "0511e4410d8f79cadcc9b439510349ddaca8518d2338960a8dfb0bbdd64af8dd"
+    },
+    {
+      "path": "docs/DESIGN_AND_STATE_SPEC.md",
+      "bytes": 10167,
+      "sha256": "cb2cf0e6179d4a7dfa18f0eb3eedf3195e6a388a67b93a77e7d5eab0046ea4d3"
+    },
+    {
+      "path": "docs/INPUTS_AND_LIMITS.md",
+      "bytes": 2352,
+      "sha256": "98abe27fd0e5a86b6b3fa4de6c6dd739cb106cb2ef14a6fd6cc322f8f8aba2f0"
+    },
+    {
+      "path": "docs/PHOTO_ASSET_PROVENANCE.md",
+      "bytes": 8141,
+      "sha256": "cb76b3cc869aa2c69e82db8b2cb96902413d51aff824ce869eb2615f0daf3112"
+    },
+    {
+      "path": "docs/RENDERING.md",
+      "bytes": 2188,
+      "sha256": "630a8ebd8a28522a1381cf965288ec1bda5fddbb0148fdc8b7618629fefd3c6c"
+    },
+    {
+      "path": "docs/REVISION_V3_1.md",
+      "bytes": 4142,
+      "sha256": "57cf424e9fb8b109aa4ef719765af31adbb814c89f36c42acb9ca25672c090bc"
+    },
+    {
+      "path": "docs/SOURCES_AND_STANDARDS.md",
+      "bytes": 1576,
+      "sha256": "baef94b753b8d433d8e7f3d2566f14ad355588e686fa97bbef8208e625d9866c"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-14-familiar-animated.md",
+      "bytes": 3928,
+      "sha256": "0c09162b0603b24c2045830ddae410f5ef4d7fa389635475b6f7ec96446ed0ac"
+    },
+    {
+      "path": "index.html",
+      "bytes": 523,
+      "sha256": "5be5f8709332c97c8a590d26b1f9138f24b4ff7709a18ebdbd178ebd06347711"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 62055,
+      "sha256": "13700ec0d279fb82bced8ab589e737b564e1e81946bafbd1985bbfd66345e25a"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1272,
+      "sha256": "3184df5b9ca44659789a393865dc0c9dd03a3dce8539aaf10079e2bed827d7d7"
+    },
+    {
+      "path": "public/brand/brand-manifest.json",
+      "bytes": 2327,
+      "sha256": "ecab21502955594a17660bf12ad9b9dcacb5f0ac43972f311ac1c41963b78d80"
+    },
+    {
+      "path": "public/brand/familiar-mark-reverse.svg",
+      "bytes": 1113,
+      "sha256": "4ff0f65f36a66c893616f4e03fb1f4201e7f491a965b3d278aab26e27835bc0b"
+    },
+    {
+      "path": "public/brand/familiar-mark.svg",
+      "bytes": 1118,
+      "sha256": "7f9ad81c2961b8a4309d2cc683b13460398353167508c438c89ec41d6a174503"
+    },
+    {
+      "path": "public/brand/familiar-wordmark-reverse.svg",
+      "bytes": 2167,
+      "sha256": "7f26357d96b5ccb5c4f6cab39059b08c5f6371cc853250efa9a6843ab88f08e0"
+    },
+    {
+      "path": "public/brand/familiar-wordmark.svg",
+      "bytes": 2168,
+      "sha256": "f0ad37f2127c4a34dca6b57f7e3e8ba3503ef699c726867427b74b4732b826f0"
+    },
+    {
+      "path": "public/brand/favicon.svg",
+      "bytes": 1075,
+      "sha256": "9dc7e13de524aac8a53ab1c2506d182a15297611127448b6a99b8c3064c7be28"
+    },
+    {
+      "path": "public/brand/logo-dark.svg",
+      "bytes": 2167,
+      "sha256": "7f26357d96b5ccb5c4f6cab39059b08c5f6371cc853250efa9a6843ab88f08e0"
+    },
+    {
+      "path": "public/brand/logo-light.svg",
+      "bytes": 2168,
+      "sha256": "f0ad37f2127c4a34dca6b57f7e3e8ba3503ef699c726867427b74b4732b826f0"
+    },
+    {
+      "path": "public/brand/mark.svg",
+      "bytes": 1118,
+      "sha256": "7f9ad81c2961b8a4309d2cc683b13460398353167508c438c89ec41d6a174503"
+    },
+    {
+      "path": "public/covers/airloom-linen.webp",
+      "bytes": 131488,
+      "sha256": "457c0f6cd0b29fcad44bc1121976fd538bc6a824e5361d4bcb3475623e341bff"
+    },
+    {
+      "path": "public/covers/apricot-slip.webp",
+      "bytes": 35896,
+      "sha256": "8e931923bdf4d6f572af801ef2fad15a9bbd82fd6ecc51a005c779e3c0d6f307"
+    },
+    {
+      "path": "public/covers/cloud-poplin.webp",
+      "bytes": 42188,
+      "sha256": "d4e54449653517f1c91d92095aad771d95b4b2cb797c845c335a47e474d84268"
+    },
+    {
+      "path": "public/covers/ink-trousers.webp",
+      "bytes": 60476,
+      "sha256": "cbf801648a158ab9042da17f28731809993f5f017f1b83aab337ba3bb0afdfb7"
+    },
+    {
+      "path": "public/covers/lilac-wrap.webp",
+      "bytes": 120076,
+      "sha256": "662b13adde5e02117961cad4f4b5a9b0e0e662169abf1dcbc6188e22c7f5748d"
+    },
+    {
+      "path": "public/covers/manifest.json",
+      "bytes": 37082,
+      "sha256": "b5a2fd8018a68df82d6705c3b6408dee0546aa99e15fbcadb0f97c4e7c8c1fc6"
+    },
+    {
+      "path": "public/covers/moss-knit.webp",
+      "bytes": 150172,
+      "sha256": "1c0389f02c7c53bf6108d01fc190040b6c36be9ed6b3d1f8dbebb716a473121a"
+    },
+    {
+      "path": "public/covers/my-blue-blouse.webp",
+      "bytes": 59548,
+      "sha256": "680e00a337d51861bd3dd8daeb06328143ef4a8abbff3d53d95b72a7992288b4"
+    },
+    {
+      "path": "public/covers/oat-vest.webp",
+      "bytes": 128296,
+      "sha256": "3f7e53036482e0c232a89286468fd573b7a56050e1cdf162178001fff6d9ca9d"
+    },
+    {
+      "path": "public/covers/petal-tee.webp",
+      "bytes": 67482,
+      "sha256": "c15febd793bb76f588c65cf6959e251357e0dd351a206283de31ad915687cadb"
+    },
+    {
+      "path": "public/covers/rose-jacket.webp",
+      "bytes": 78014,
+      "sha256": "fcc6ef38f37bc82ce5951780b2dafba145d3d557145e5f2ef2b033a824b39203"
+    },
+    {
+      "path": "public/covers/sage-skirt.webp",
+      "bytes": 67636,
+      "sha256": "855b1a6d9f6c9fd486e121bfb4747ed3bb7e83af045f0d4e39a3d17fe5359762"
+    },
+    {
+      "path": "public/covers/sunday-denim.webp",
+      "bytes": 122520,
+      "sha256": "71515d7735b1b2876dae1f96449c7e2a4349abef21e3a4b0f9c859f4f3d98096"
+    },
+    {
+      "path": "public/covers/tide-shirt.webp",
+      "bytes": 92732,
+      "sha256": "156b9e4c87ce5083dc05289888dd4dcf35cba721f73450d973749f6189c9d3da"
+    },
+    {
+      "path": "public/evidence/airloom-linen-drape.svg",
+      "bytes": 2970,
+      "sha256": "aab288cadf81233bfb8cd730406ae0465ea194b8933b568118800eef127fc7ec"
+    },
+    {
+      "path": "public/evidence/airloom-linen-movement-frame1.svg",
+      "bytes": 2917,
+      "sha256": "cf86dba19c14a79b569ccc6faee7e01cdd5f9fb685e2c82f1a3ec95bd2aa4e06"
+    },
+    {
+      "path": "public/evidence/airloom-linen-movement-frame2.svg",
+      "bytes": 2916,
+      "sha256": "1774e227c8adde8eedc0a32b9e6a15929c1238bd08b697895c06735c153d0317"
+    },
+    {
+      "path": "public/evidence/airloom-linen-movement-frame3.svg",
+      "bytes": 2916,
+      "sha256": "046171c190c99f021919101402d0de0f3ef2ac8077170d2892b4b3ebf6a17f4f"
+    },
+    {
+      "path": "public/evidence/airloom-linen-movement.svg",
+      "bytes": 5876,
+      "sha256": "56b77c92a1f60aa389596ff209fab55849953e5ebf8aa59838b1ce7aabc3db92"
+    },
+    {
+      "path": "public/evidence/airloom-linen-stretch.svg",
+      "bytes": 2972,
+      "sha256": "2ad69615c5d3c1cfe7c12d1a1b13e654c8d183e8ea45630f20e308833739240e"
+    },
+    {
+      "path": "public/evidence/airloom-linen-surface.svg",
+      "bytes": 2112,
+      "sha256": "2f941ba9bef4a7d99b60ba959d6ee6d5ba19a4b438b80dcd889045e4510ed4ee"
+    },
+    {
+      "path": "public/evidence/apricot-slip-drape.svg",
+      "bytes": 2223,
+      "sha256": "eb4eb61a5de1e6f8b01e325b5c59176523c03cd023671fe90a164995a2f45e3d"
+    },
+    {
+      "path": "public/evidence/apricot-slip-movement.svg",
+      "bytes": 3657,
+      "sha256": "15412ac133494e771a510c353ebc132f287328230c729996137e3539e2c900ee"
+    },
+    {
+      "path": "public/evidence/apricot-slip-stretch.svg",
+      "bytes": 2225,
+      "sha256": "c072a5cef839e8a7820910958bba6a423cdf5e42747d7b88448158c49a70be9a"
+    },
+    {
+      "path": "public/evidence/apricot-slip-surface.svg",
+      "bytes": 2049,
+      "sha256": "32785609bd02c9f5e3815d6683db41c42ba13386c043d2dc7b7e83f2c096070d"
+    },
+    {
+      "path": "public/evidence/cloud-poplin-drape.svg",
+      "bytes": 2901,
+      "sha256": "a7f4ece22dee318d8b2b5dad47c3882f70d03c9fd451cf02654a913cd4cdb3a5"
+    },
+    {
+      "path": "public/evidence/cloud-poplin-label.svg",
+      "bytes": 1275,
+      "sha256": "92c08f318d6e9a503b15000e8e8556f9d1b2e37df867ac8957e7576c5fef40a3"
+    },
+    {
+      "path": "public/evidence/cloud-poplin-movement-frame1.svg",
+      "bytes": 2848,
+      "sha256": "4e814a3d79debc6fee9cd1b7e4a60d7a2b4a6be6de228e4db40049aba7525f6e"
+    },
+    {
+      "path": "public/evidence/cloud-poplin-movement-frame2.svg",
+      "bytes": 2847,
+      "sha256": "37194917e0752deffa2ac612b9752088d6058802a69694e9d666d68422d48120"
+    },
+    {
+      "path": "public/evidence/cloud-poplin-movement-frame3.svg",
+      "bytes": 2847,
+      "sha256": "075249b236451a832290f1f76b05553c00b3e0fbeb6e490cd36d6cea0a75c702"
+    },
+    {
+      "path": "public/evidence/cloud-poplin-movement.svg",
+      "bytes": 5677,
+      "sha256": "a8380534fd41a807cb839e46a572799115b57a8c4769347e146d6483e8397073"
+    },
+    {
+      "path": "public/evidence/cloud-poplin-stretch.svg",
+      "bytes": 2903,
+      "sha256": "1a02e7e709a76c039b66e178360e15646dd20071f45035ba05ceab3a5940cbac"
+    },
+    {
+      "path": "public/evidence/cloud-poplin-surface.svg",
+      "bytes": 2371,
+      "sha256": "943218c10ad366e9bcdeb86197d547c3113e2ab3853e674e811acf2bcec421ac"
+    },
+    {
+      "path": "public/evidence/ink-trousers-drape.svg",
+      "bytes": 2190,
+      "sha256": "67de86dc8b339f7c46fe0d5dc1b26106469b4dcf7b57c962325cf13ceac90bca"
+    },
+    {
+      "path": "public/evidence/ink-trousers-movement.svg",
+      "bytes": 3558,
+      "sha256": "5176d140a562e5f90a5bee4c71fb11737323b14cb519d140bae772189711c343"
+    },
+    {
+      "path": "public/evidence/ink-trousers-stretch.svg",
+      "bytes": 2192,
+      "sha256": "9d114783713f0681d33ba46c6aceafec1324cdabd5a0a9a0b6a53932a03d9669"
+    },
+    {
+      "path": "public/evidence/ink-trousers-surface.svg",
+      "bytes": 2040,
+      "sha256": "7fb234dc6866804fade81f2a90975da33b17f0cd783baec6a42d45aee6666524"
+    },
+    {
+      "path": "public/evidence/lilac-wrap-drape.svg",
+      "bytes": 2419,
+      "sha256": "e05153258cd6b2a001fdd41d140f12c96d83c024cf9d403f2e6f7da7804b3824"
+    },
+    {
+      "path": "public/evidence/lilac-wrap-movement.svg",
+      "bytes": 4249,
+      "sha256": "5afd9c1c150146c6925fa7c2533e965aaa2c9ad7b423b780c10987a71f0b3b54"
+    },
+    {
+      "path": "public/evidence/lilac-wrap-stretch.svg",
+      "bytes": 2421,
+      "sha256": "f8cd1f9d45fa0d1f0cb6c6064b79dfd538705e63bebc3c80c316228516d12c13"
+    },
+    {
+      "path": "public/evidence/lilac-wrap-surface.svg",
+      "bytes": 2051,
+      "sha256": "89efdf48d220440e9617a0fbf98a2b8ebab07776f887b88a0d81491d4f8adf83"
+    },
+    {
+      "path": "public/evidence/manifest.json",
+      "bytes": 20451,
+      "sha256": "bc899acac4d460583d122b89727a0ac7411b25714031062ca5430605499e4c98"
+    },
+    {
+      "path": "public/evidence/moss-knit-drape.svg",
+      "bytes": 2470,
+      "sha256": "0fcd13c4b6c83fc8f59110c953837b15429208364ec6043868cf66ba1c95c25f"
+    },
+    {
+      "path": "public/evidence/moss-knit-movement-frame1.svg",
+      "bytes": 2417,
+      "sha256": "44e97fd9ea019b84cf60e35aaf5a9b8b89a962a04556a80ba32fda33e0f7100d"
+    },
+    {
+      "path": "public/evidence/moss-knit-movement-frame2.svg",
+      "bytes": 2416,
+      "sha256": "855df542ee03ccf7d6bf5cabff60b6e19b98b1ddd25d4868e2d743c99bbb9930"
+    },
+    {
+      "path": "public/evidence/moss-knit-movement-frame3.svg",
+      "bytes": 2416,
+      "sha256": "8809b274713818c5fe589e13de049ef8cf7a6bd81aa522a9f67998d0cdef269a"
+    },
+    {
+      "path": "public/evidence/moss-knit-movement.svg",
+      "bytes": 4386,
+      "sha256": "4d276c99fd4d537ec5199cce06c8329f85618b8fce21c1b8b23f6d857114b365"
+    },
+    {
+      "path": "public/evidence/moss-knit-stretch.svg",
+      "bytes": 2472,
+      "sha256": "b2b77d117de01b55b51ada6ed98d8ee49da5436895a4208b991cf11177fff6ca"
+    },
+    {
+      "path": "public/evidence/moss-knit-surface.svg",
+      "bytes": 7568,
+      "sha256": "5eb3ceeb9eeb01a85cac628b183915945b9ca5f59938d01402763e4216fd443a"
+    },
+    {
+      "path": "public/evidence/my-blue-blouse-drape.svg",
+      "bytes": 2393,
+      "sha256": "16babc3c7472de8ab73f22c42c36569354fb1810cb4023acf6f44a395629b8ff"
+    },
+    {
+      "path": "public/evidence/my-blue-blouse-movement-frame1.svg",
+      "bytes": 2340,
+      "sha256": "a4937edd3918b7a08bfd49725d9fed28df160cfd33c80b987652f4f82e703bf8"
+    },
+    {
+      "path": "public/evidence/my-blue-blouse-movement-frame2.svg",
+      "bytes": 2339,
+      "sha256": "04e90c6bca25a301f6dbaa85b2b028bf20ee64520fa4be51d6c4865213f27b86"
+    },
+    {
+      "path": "public/evidence/my-blue-blouse-movement-frame3.svg",
+      "bytes": 2339,
+      "sha256": "a3e81c6112c30e0e01808e06d44c42162d5a6b233ea8e6dba5e3aebd3afedeba"
+    },
+    {
+      "path": "public/evidence/my-blue-blouse-movement.svg",
+      "bytes": 4163,
+      "sha256": "32689b8bd4093e74bb50745973f37f278cbd8464e9f70d5dad70c4ca57f022a3"
+    },
+    {
+      "path": "public/evidence/my-blue-blouse-stretch.svg",
+      "bytes": 2395,
+      "sha256": "6de21014b1ee34f989a6efbe679b03ee2cd06239fa5a17788e35c146495e3901"
+    },
+    {
+      "path": "public/evidence/my-blue-blouse-surface.svg",
+      "bytes": 2058,
+      "sha256": "f0162fedeb0600c01a123b736f867c034d3a2a32a769d1cf8cd49cb1b81de7a5"
+    },
+    {
+      "path": "public/evidence/oat-vest-drape.svg",
+      "bytes": 2237,
+      "sha256": "b73a633f25598211b57f7642b553cf028d4a3b01b0a0b1127614b60a57b87b6a"
+    },
+    {
+      "path": "public/evidence/oat-vest-movement.svg",
+      "bytes": 3707,
+      "sha256": "70b83e7b97af827e6803b2890119c5199f6a8f723a4adf2276ae9987b005de34"
+    },
+    {
+      "path": "public/evidence/oat-vest-stretch.svg",
+      "bytes": 2239,
+      "sha256": "8e2765d7cec4810f6d6c45ac81d27837c6eec35d199810f3c1e23f15a7258ed9"
+    },
+    {
+      "path": "public/evidence/oat-vest-surface.svg",
+      "bytes": 7351,
+      "sha256": "5e501a1b4e5c4cf61dde29ff43c7825145616fe769df6771f6eeb55341d7ad0d"
+    },
+    {
+      "path": "public/evidence/petal-tee-drape.svg",
+      "bytes": 2360,
+      "sha256": "83166b6c7eb3662f2f94117fe2cc7a085f9704d485ef9bb005fbd2912cd8205a"
+    },
+    {
+      "path": "public/evidence/petal-tee-movement.svg",
+      "bytes": 4074,
+      "sha256": "a1582ede1ffa8b9850a93892d4ec20356f62dec614379b3d6ff7f212685117f2"
+    },
+    {
+      "path": "public/evidence/petal-tee-stretch.svg",
+      "bytes": 2362,
+      "sha256": "8ad10f506fa97cba298e7d9f7a757d81db0d2da961b1df9a6d39ecf92d81a980"
+    },
+    {
+      "path": "public/evidence/petal-tee-surface.svg",
+      "bytes": 2031,
+      "sha256": "166f427ceddd0442de61adc358a16e697e9e8c97976b741acfc85cd7fbc57f0f"
+    },
+    {
+      "path": "public/evidence/rose-jacket-drape.svg",
+      "bytes": 2958,
+      "sha256": "89c9d695b29c43202d5cc91d5b9510ab89b6853a6053473db569268ab0040c23"
+    },
+    {
+      "path": "public/evidence/rose-jacket-movement.svg",
+      "bytes": 5864,
+      "sha256": "b604746da489c6693f9044128ec11e0ba9a560c1c2bd84ba9e80b33280aa4c92"
+    },
+    {
+      "path": "public/evidence/rose-jacket-stretch.svg",
+      "bytes": 2960,
+      "sha256": "9233dcacf8ff7408a908ece1f9bd00390bdfb0ae55c2e2dc3868eff8e58c6a98"
+    },
+    {
+      "path": "public/evidence/rose-jacket-surface.svg",
+      "bytes": 2262,
+      "sha256": "4e146a2da752c6bd990165ebcd6508dccfca1ea4b141a838bf7716990c560629"
+    },
+    {
+      "path": "public/evidence/sage-skirt-drape.svg",
+      "bytes": 2129,
+      "sha256": "ad39f98d71d16863c47fed3a5e2aac38f044e55e1bf03f0df456ca9e34d7e996"
+    },
+    {
+      "path": "public/evidence/sage-skirt-movement.svg",
+      "bytes": 3379,
+      "sha256": "a9c6c4638595e654f06e9b891ced872ff49db927da66788f5b77c446fd3fe161"
+    },
+    {
+      "path": "public/evidence/sage-skirt-stretch.svg",
+      "bytes": 2131,
+      "sha256": "6a24b0efb1081594cddd82212278db60392b7d7edc06b4155488e36f3d325702"
+    },
+    {
+      "path": "public/evidence/sage-skirt-surface.svg",
+      "bytes": 2304,
+      "sha256": "d72ad34991ba330b560b19ade8767347a37f0b64e374b3e83c0ad38fea6c1446"
+    },
+    {
+      "path": "public/evidence/sunday-denim-drape.svg",
+      "bytes": 2190,
+      "sha256": "c7e0c90de0bac82644b8bf7b7697b33176510b9d04df1f13e79abc11af536072"
+    },
+    {
+      "path": "public/evidence/sunday-denim-movement.svg",
+      "bytes": 3558,
+      "sha256": "5f190e57fbb5b811f0d87aa21d1606235fe76700b1e0b5014ec99fed2e90bc58"
+    },
+    {
+      "path": "public/evidence/sunday-denim-stretch.svg",
+      "bytes": 2192,
+      "sha256": "6d94ac1868743e17af813a111c2ae1e3eddcc1d1b068ecd7db45dbd1febfac79"
+    },
+    {
+      "path": "public/evidence/sunday-denim-surface.svg",
+      "bytes": 5489,
+      "sha256": "309c28132eb642b2d92d80ef3aa00b37b6ca9cb92591fc74cf5edb7a67dcf466"
+    },
+    {
+      "path": "public/evidence/tide-shirt-drape.svg",
+      "bytes": 2821,
+      "sha256": "47a1d4760fd806c714e2be8991562ca1c1d87dbf8026db207bf820c9a3cb1bcb"
+    },
+    {
+      "path": "public/evidence/tide-shirt-movement.svg",
+      "bytes": 5455,
+      "sha256": "d39766569664369c7d25b097e4126958f78c54f9172e2c9c2646b320ac6b14e4"
+    },
+    {
+      "path": "public/evidence/tide-shirt-stretch.svg",
+      "bytes": 2823,
+      "sha256": "70001736e7ddc1e16b2575ded63f536a78aae27d1fc47414ded3c76d00151cda"
+    },
+    {
+      "path": "public/evidence/tide-shirt-surface.svg",
+      "bytes": 3565,
+      "sha256": "2e34fb0cd644e45d29cece280dcf0add50f35bd6cd18c1afc5ed379c75d9e699"
+    },
+    {
+      "path": "public/fonts/OFL.txt",
+      "bytes": 4534,
+      "sha256": "e07fd1167c2aaaa6fb965dd66e1e73b13c9c95b76b2d648b6e938780f30b37af"
+    },
+    {
+      "path": "public/fonts/newsreader-400.ttf",
+      "bytes": 109472,
+      "sha256": "b8f5e0a8bdd6a12c722ca5635d9da87e77ccbb2d0172112e34e00c4e55f2cd5a"
+    },
+    {
+      "path": "public/fonts/newsreader-500.ttf",
+      "bytes": 111588,
+      "sha256": "68c4493c7c6c9aaff48defeeb6408e7ce705efc4c33363de4d9d6f5e07775064"
+    },
+    {
+      "path": "public/fonts/newsreader-600.ttf",
+      "bytes": 111628,
+      "sha256": "04188d5295f4e1100ce91a96b864f15b7af5be976e9fb9cc279af737be804272"
+    },
+    {
+      "path": "public/fonts/newsreader-OFL.txt",
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+    },
+    {
+      "path": "public/fonts/plus-jakarta-sans-latin.woff2",
+      "bytes": 27348,
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
+    },
+    {
+      "path": "public/models/cloud-animated.glb",
+      "bytes": 402392,
+      "sha256": "ca200e679e169faa670647af88ea48bd82752c4c7563d42fa050c610d15079ec"
+    },
+    {
+      "path": "public/models/manifest.json",
+      "bytes": 772,
+      "sha256": "b6706e1f9ba5b728deb722f32b0f710c529c845ee49444c55c20cd5ed7b193c5"
+    },
+    {
+      "path": "public/photos/airloom-linen-detail.webp",
+      "bytes": 14784,
+      "sha256": "908d4a2128a19a7d52cfbd28e7fd7f7eccab437931a04bd7b6a7f500f1368da1"
+    },
+    {
+      "path": "public/photos/airloom-linen-front.webp",
+      "bytes": 29288,
+      "sha256": "be121b203a33bc06f1cb4102e253d642543c75565a8b1c0e83e438a2faa18cfa"
+    },
+    {
+      "path": "public/photos/apricot-slip-back.webp",
+      "bytes": 373844,
+      "sha256": "ca9aabf54de6974b9c03cb81347d2e92ff0ee5f18903eac89442e272ca218d9a"
+    },
+    {
+      "path": "public/photos/apricot-slip-detail.webp",
+      "bytes": 122068,
+      "sha256": "6f9c5a21ae89d15d999f57b54bee47e4f1d5e981c4be6aa946f6f72fb73b4d00"
+    },
+    {
+      "path": "public/photos/apricot-slip-front.webp",
+      "bytes": 348472,
+      "sha256": "767351b546b4a1cd5911e1fc8d6034909012396eae70b884a5857a850452678e"
+    },
+    {
+      "path": "public/photos/cloud-poplin-detail-2.webp",
+      "bytes": 34096,
+      "sha256": "e38ceb187d9228ab2f8a223a0d81a8d2d2e4ee834d79fc9928e1fd82ddc202bc"
+    },
+    {
+      "path": "public/photos/cloud-poplin-detail.webp",
+      "bytes": 31938,
+      "sha256": "9fd46f74019e573faa4faeca0e851cfc6afb93ec9f80137ce09f9acc7c111508"
+    },
+    {
+      "path": "public/photos/cloud-poplin-front.webp",
+      "bytes": 10666,
+      "sha256": "fbb767eb7ed8a08f5f957eb58a4f1d3230949ab039091aebb3424d6cb8d024f2"
+    },
+    {
+      "path": "public/photos/cloud-poplin-label.webp",
+      "bytes": 23734,
+      "sha256": "2c31a661d95900c93f680ca06370771f99dea75d6f48f766c4f4759e324317de"
+    },
+    {
+      "path": "public/photos/ink-trousers-detail.webp",
+      "bytes": 2420,
+      "sha256": "8a90c93c3e4a5a408aff24cb4dd6c2009b50abe25543ec0aa92d717217516d4a"
+    },
+    {
+      "path": "public/photos/ink-trousers-front.webp",
+      "bytes": 4492,
+      "sha256": "1e43f1547b15daf4f7ddd37a02d7be5aade7fdec0416c0e21d9e08e4f5178468"
+    },
+    {
+      "path": "public/photos/lilac-wrap-detail.webp",
+      "bytes": 37154,
+      "sha256": "4d759ce620b0c8990da8d295da79e31893540fa6931f856aa5638eaaf1eaa151"
+    },
+    {
+      "path": "public/photos/lilac-wrap-front.webp",
+      "bytes": 71456,
+      "sha256": "378e7ebc2f545be5553d130db3ad7eedfc59505dd63964fa94931f30babda98c"
+    },
+    {
+      "path": "public/photos/manifest.json",
+      "bytes": 29226,
+      "sha256": "d516c0d960557d0c983d09e52cb84cb1f78628dde188b99f959f104a0a4dd51a"
+    },
+    {
+      "path": "public/photos/moss-knit-back.webp",
+      "bytes": 113388,
+      "sha256": "c5673c6f47280573a445f63e5f6b9e002beeaf354cd352fcf6f9662f79ac33dd"
+    },
+    {
+      "path": "public/photos/moss-knit-detail.webp",
+      "bytes": 48812,
+      "sha256": "8dce77aa226b88228b3050894cf1819b4199888345ba019ab7d70151015b73b0"
+    },
+    {
+      "path": "public/photos/moss-knit-front.webp",
+      "bytes": 106848,
+      "sha256": "7bcf771c415b5faa06c8fc58efa217cc6fb467317385302c076d82f953b1ab08"
+    },
+    {
+      "path": "public/photos/my-blue-blouse-detail-2.webp",
+      "bytes": 16144,
+      "sha256": "ba658d2971ab6b7c3ea85d88f3a565e3c843f209716decee2df04f0acab43265"
+    },
+    {
+      "path": "public/photos/my-blue-blouse-detail.webp",
+      "bytes": 10520,
+      "sha256": "96b9c4f5eae04d74c0d6dc7126e1853e1bc67d893a80ae13154973e891a80de6"
+    },
+    {
+      "path": "public/photos/my-blue-blouse-front.webp",
+      "bytes": 33790,
+      "sha256": "3cb9cff476c6a92b7d34591605cef9ff0015fcdd0a120de8b56dd30ba7d2aa89"
+    },
+    {
+      "path": "public/photos/oat-vest-detail.webp",
+      "bytes": 195482,
+      "sha256": "1509735cf45ff90bbaeed4170b7d38575986f8e99dcdde9845d1269c22f17387"
+    },
+    {
+      "path": "public/photos/oat-vest-front.webp",
+      "bytes": 91964,
+      "sha256": "3506d43234a33682fbfa0cf5f0a5e4e19a6d468f0dd5cf686d8ef6bcc2c4b048"
+    },
+    {
+      "path": "public/photos/petal-tee-back.webp",
+      "bytes": 77248,
+      "sha256": "ef9a26572ea45ed4d03263722a3305552c6bd1c86bacfb0be3571cd4bba34d3c"
+    },
+    {
+      "path": "public/photos/petal-tee-detail.webp",
+      "bytes": 698730,
+      "sha256": "34b087fe4114c7f01538c8c59c98ce97b4811543debaaa445a6858e8d5a7c0bb"
+    },
+    {
+      "path": "public/photos/petal-tee-front.webp",
+      "bytes": 57712,
+      "sha256": "45b155497f93eed570ad9973bd295cf69b3b96ad91336d00119987371852a086"
+    },
+    {
+      "path": "public/photos/rose-jacket-back.webp",
+      "bytes": 40716,
+      "sha256": "1666a946b6ea59574e71e4383fbdfa29c48a040878dacc3dbcd04a81aa78b13a"
+    },
+    {
+      "path": "public/photos/rose-jacket-detail.webp",
+      "bytes": 596822,
+      "sha256": "0f6f7a7a51324aec32844cee91411172e69c2a7ddbdb1a3d339cb789853cd095"
+    },
+    {
+      "path": "public/photos/rose-jacket-front.webp",
+      "bytes": 55590,
+      "sha256": "0847d38b877e137eda3874b848b0116eab7ecb65660f6efbaaa36c14c605417c"
+    },
+    {
+      "path": "public/photos/sage-skirt-back.webp",
+      "bytes": 25462,
+      "sha256": "c9ac40bdb72097858174a3981e588b7279dd8d90e5aee01bffd48c345b5688da"
+    },
+    {
+      "path": "public/photos/sage-skirt-detail.webp",
+      "bytes": 69724,
+      "sha256": "7756410b058d8d37df70f337c9cdfd18ac965f0d958dc794a167368eb8886c62"
+    },
+    {
+      "path": "public/photos/sage-skirt-front.webp",
+      "bytes": 55242,
+      "sha256": "277c4a9cef440ba28ec0f4ef616e730676c5faa92eb5d78c2a3f1fa3e83d344b"
+    },
+    {
+      "path": "public/photos/sunday-denim-detail-2.webp",
+      "bytes": 529292,
+      "sha256": "b24651147de540b1daefa942c46a7018cbb4de23b9609eaa3fddc99b3627f4f2"
+    },
+    {
+      "path": "public/photos/sunday-denim-detail.webp",
+      "bytes": 495232,
+      "sha256": "0ec6cd41af1a649e7cfd60c9f55870af46e583fbd54671ed9dcbad153205ae39"
+    },
+    {
+      "path": "public/photos/sunday-denim-front.webp",
+      "bytes": 138172,
+      "sha256": "13a7bf773e28743950972e940d27afcaeaf1cc47bec51fc8449cc954a5b657ca"
+    },
+    {
+      "path": "public/photos/tide-shirt-back.webp",
+      "bytes": 76950,
+      "sha256": "7c7b99d184ef20d6196388ec90591f31dcb2bfc3562efd83a7497545b9dc690c"
+    },
+    {
+      "path": "public/photos/tide-shirt-detail.webp",
+      "bytes": 244648,
+      "sha256": "3fb832cc91bd1aca18573128f0640cc700dabb9cd8f7f4fe8fb20ffbfa4e30ef"
+    },
+    {
+      "path": "public/photos/tide-shirt-front.webp",
+      "bytes": 59918,
+      "sha256": "62ddd7947e8acf8eaf45a5787e1da2e55ad6b9cef7bcec8901d7c959b056549b"
+    },
+    {
+      "path": "public/posters/airloom-linen.svg",
+      "bytes": 416075,
+      "sha256": "c6a4897a340ff88c2c9a65ecaa5b2a3395dad98a14a3c16334684c8636e619c8"
+    },
+    {
+      "path": "public/posters/apricot-slip.svg",
+      "bytes": 351997,
+      "sha256": "18db64608f17c87a68103f556082918c7fe92f080d8b13ea86170c78093906bd"
+    },
+    {
+      "path": "public/posters/cloud-poplin.svg",
+      "bytes": 361315,
+      "sha256": "77fc3fccbaed2b4505c3b7f3c501965e758d3603f39ece32c036dff3f9baabd2"
+    },
+    {
+      "path": "public/posters/coming-soon-01.svg",
+      "bytes": 372613,
+      "sha256": "1c6fa5b125db529ef30534537b159478556ecd75d560c9497a995104e33624a2"
+    },
+    {
+      "path": "public/posters/coming-soon-02.svg",
+      "bytes": 419521,
+      "sha256": "029cc686922928889b5f863b75f9cdd6f87aa389cec6c5b3c20c8d48f0021739"
+    },
+    {
+      "path": "public/posters/coming-soon-03.svg",
+      "bytes": 416039,
+      "sha256": "3ba2266abef755f06659b3683aa9ea9af5aeddccc0304f4d266878eee9385576"
+    },
+    {
+      "path": "public/posters/coming-soon-04.svg",
+      "bytes": 460367,
+      "sha256": "b978acf0ef00d872a0ea4a3053f8f7f5b9c3e18f96fb8c2ee8cc75a2adf3ed05"
+    },
+    {
+      "path": "public/posters/coming-soon-05.svg",
+      "bytes": 378789,
+      "sha256": "85d0b141c1f1ea3df7ef081cec6d4cebaf84521ee385a778930cba5c1f72d166"
+    },
+    {
+      "path": "public/posters/coming-soon-06.svg",
+      "bytes": 356631,
+      "sha256": "b60690dfe3238265d7ab2043fc945b0ff87ee862d098afaff4ccec014c18493a"
+    },
+    {
+      "path": "public/posters/coming-soon-07.svg",
+      "bytes": 349445,
+      "sha256": "6f26c9d56d336c81a7e60ce4945dd05df2503091fe8a6d2ff7ad19efb2fc5faf"
+    },
+    {
+      "path": "public/posters/coming-soon-08.svg",
+      "bytes": 395375,
+      "sha256": "5bddd3a92508249b3828938aa9544a055ab9db8c875dbe86fbdfb2f7ae2959fa"
+    },
+    {
+      "path": "public/posters/coming-soon-09.svg",
+      "bytes": 557075,
+      "sha256": "3d9e6d0f8fac2c67ad3a81bec5ca3e1467395c1404e48010308a5b88b5f657e5"
+    },
+    {
+      "path": "public/posters/coming-soon-10.svg",
+      "bytes": 428519,
+      "sha256": "61d3ffb201351dc4cbfd622ef8bd0327729b7961029995ac96f07d454b9b094d"
+    },
+    {
+      "path": "public/posters/coming-soon-11.svg",
+      "bytes": 383375,
+      "sha256": "a2d989689c227f51977f2b87bbc8e4ca77568bf8c5a0247bee3e50d95cbe7aad"
+    },
+    {
+      "path": "public/posters/coming-soon-12.svg",
+      "bytes": 690619,
+      "sha256": "8d3241160c4dbad01fa72443c3e7f34a6fa70ed3c5b3cbdf1a0366feafe4cccb"
+    },
+    {
+      "path": "public/posters/evidence-front.svg",
+      "bytes": 361460,
+      "sha256": "3766d1d6c5d551faeb116b62e0395b241eaf4c8d859381cdf35023b336833a50"
+    },
+    {
+      "path": "public/posters/evidence-label.svg",
+      "bytes": 364996,
+      "sha256": "d09a331d15a092cfc348b39c42ab44d32049fe7bb3b3cd0c5523271597522247"
+    },
+    {
+      "path": "public/posters/evidence-movement.svg",
+      "bytes": 353050,
+      "sha256": "0bd8925c46530a943a10a7f18d62354ba504fe5d2628ebdd24640b5414c614f2"
+    },
+    {
+      "path": "public/posters/evidence-surface.svg",
+      "bytes": 521352,
+      "sha256": "53b89328d5c3c9a095318bd1dd05e69357c3593b95c959b18d6f7beebc37438d"
+    },
+    {
+      "path": "public/posters/evidence-wear.svg",
+      "bytes": 397994,
+      "sha256": "1844c46d0fe8626016e876462fcc6f4b65e061a6aec213962beaf196daca68e1"
+    },
+    {
+      "path": "public/posters/ink-trousers.svg",
+      "bytes": 306977,
+      "sha256": "616974f5083075b4e620e1ed54f096e12a36020762c45cfe75b47a7984fa26d5"
+    },
+    {
+      "path": "public/posters/lilac-wrap.svg",
+      "bytes": 430013,
+      "sha256": "560b5711fc95bf7c3f017e836d2b2690182eab1b5e510d3864f6c63c839ed437"
+    },
+    {
+      "path": "public/posters/moss-knit.svg",
+      "bytes": 407953,
+      "sha256": "20c533de3bca84c545e32f5e46cd353d26c9336c538131a88e936773a1ef5605"
+    },
+    {
+      "path": "public/posters/my-blue-blouse.svg",
+      "bytes": 403621,
+      "sha256": "8c74ec1533a29fedec782726f515815bd427894558e5a93e56897a973cb9dbf9"
+    },
+    {
+      "path": "public/posters/oat-vest.svg",
+      "bytes": 565755,
+      "sha256": "d61d2ee565102403d7481aa432e044d4fdcaa9ba7aff0f2606e7b25b881528da"
+    },
+    {
+      "path": "public/posters/petal-tee.svg",
+      "bytes": 463961,
+      "sha256": "958bebabf5970b4588a6aff1c7a19478c20d4e5b2789f305ab6b9e8c9b67f26f"
+    },
+    {
+      "path": "public/posters/placeholder-01.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "public/posters/placeholder-02.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "public/posters/placeholder-03.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "public/posters/placeholder-04.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "public/posters/placeholder-05.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "public/posters/placeholder-06.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "public/posters/placeholder-07.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "public/posters/placeholder-08.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "public/posters/placeholder-09.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "public/posters/placeholder-10.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "public/posters/placeholder-11.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "public/posters/placeholder-12.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "public/posters/placeholder-13.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "public/posters/placeholder-14.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "public/posters/placeholder-15.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "public/posters/placeholder-16.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "public/posters/placeholder-17.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "public/posters/placeholder-18.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "public/posters/placeholder-19.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "public/posters/placeholder-20.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "public/posters/placeholder-21.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "public/posters/placeholder-22.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "public/posters/placeholder-23.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "public/posters/placeholder-24.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "public/posters/placeholder-25.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "public/posters/placeholder-26.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "public/posters/placeholder-27.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "public/posters/placeholder-28.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "public/posters/placeholder-29.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "public/posters/placeholder-30.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "public/posters/placeholder-31.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "public/posters/placeholder-32.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "public/posters/placeholder-33.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "public/posters/placeholder-34.svg",
+      "bytes": 464,
+      "sha256": "27bf19b09e1760dd3bb5f762fc1c56008e4aa87ed37777f08add3c58b626bba7"
+    },
+    {
+      "path": "public/posters/placeholder-35.svg",
+      "bytes": 464,
+      "sha256": "579566c9f33a1053c3c7d63171f336f76df482e4f33ccb8d0a4e29abc573e8e4"
+    },
+    {
+      "path": "public/posters/placeholder-36.svg",
+      "bytes": 464,
+      "sha256": "face29d8168c22d6de50cda3a318fee0706a5930089517eb198572c15bad6889"
+    },
+    {
+      "path": "public/posters/placeholder-37.svg",
+      "bytes": 464,
+      "sha256": "158dcadb3b54efe9acbc40c3f07c1ab246395e7355b0e00d15e808b52dba7f93"
+    },
+    {
+      "path": "public/posters/placeholder-38.svg",
+      "bytes": 464,
+      "sha256": "ddfe80bbc9df5d602444e016b710607f99576845d8edc297fac73d3062499ea1"
+    },
+    {
+      "path": "public/posters/rose-jacket.svg",
+      "bytes": 377199,
+      "sha256": "f1215bd1284279a854b44f096dc09e2371fad4d0247ce5c0c3de9f02d08863d4"
+    },
+    {
+      "path": "public/posters/sage-skirt.svg",
+      "bytes": 684743,
+      "sha256": "f6faa3560b61cc83282a06ec473c4d9b5043fdccff463a889e8d66efe4b42110"
+    },
+    {
+      "path": "public/posters/sunday-denim.svg",
+      "bytes": 390327,
+      "sha256": "66348c3aa45f07fc1cb098385192cc27540b35f693e6d30a5850221b6e23fa51"
+    },
+    {
+      "path": "public/posters/tide-shirt.svg",
+      "bytes": 396887,
+      "sha256": "7bf490c4589efa9d7690e6cb58e0d5b3b1b69f40dc4f6017130ae56abc8030dc"
+    },
+    {
+      "path": "qa/evidence/browser-results.json",
+      "bytes": 5773,
+      "sha256": "a5ef0b1581d7cd54c5b517ca734d59427c8db71a92da8ae4df6fc7b66b1553f8"
+    },
+    {
+      "path": "qa/evidence/match-disclosure-results.json",
+      "bytes": 1559,
+      "sha256": "8b49b694a0882e91a6cb3da3fba21847c7c6b435a1d81d71e5348909bb846658"
+    },
+    {
+      "path": "qa/evidence/navigation-browser-results.json",
+      "bytes": 428,
+      "sha256": "1481d1646ba8f36318181853a7ff4409918f2f836a71f275766baf39613b1bad"
+    },
+    {
+      "path": "qa/evidence/shopping-results.json",
+      "bytes": 1111,
+      "sha256": "e978357a054519e25da091e5d507dda971a7ec0481144e39962dfbe843eb012c"
+    },
+    {
+      "path": "qa/evidence/studio-browser-results.json",
+      "bytes": 1646,
+      "sha256": "52e4fb91ae2a1a6c4b475b5920f32e4b56be60bce1c89afcbf22ebd3243629d6"
+    },
+    {
+      "path": "qa/evidence/unit-results.json",
+      "bytes": 72391,
+      "sha256": "7cffddaf60ece753e83b4a7532f6e486e7cb2ed6cf4a00ce8dd84ee822086c1c"
+    },
+    {
+      "path": "reference-pack/OUTPUT_MANIFEST.json",
+      "bytes": 634,
+      "sha256": "9789c339ca888f227be3f56c2d021aafbd64a4e9ed808b643b0668c34c3f2636"
+    },
+    {
+      "path": "reference-pack/PACKAGE_MANIFEST.json",
+      "bytes": 9732,
+      "sha256": "23f4cf742186caea8e6d72239c3a2776a8c3eb965da1d965292117e1f2792862"
+    },
+    {
+      "path": "reference-pack/README.md",
+      "bytes": 817,
+      "sha256": "6dc0dca2a1b5c7a6d0e6a9a4554bfe5aec630cf5ac13e06c2cb33ab7886eb16f"
+    },
+    {
+      "path": "reference-pack/README_START_HERE.md",
+      "bytes": 1692,
+      "sha256": "36b53c49ad8146ff22c6577ba5b35b8a8bd413f1dc84c3aed40727bfe41d6b4e"
+    },
+    {
+      "path": "reference-pack/current-design/DESIGN_GUIDELINE.md",
+      "bytes": 11771,
+      "sha256": "72981efc95f7a62e90f977a4e4a2a471bc5a470ff0277219829c73bae11c5c74"
+    },
+    {
+      "path": "reference-pack/current-design/README.md",
+      "bytes": 600,
+      "sha256": "f0b0070df0ee348d4b83bbabc96618553e26b7684ff79255e8e9a4ddbc2d81b2"
+    },
+    {
+      "path": "reference-pack/current-design/Stitch_Desktop_Reference.zip",
+      "bytes": 3891650,
+      "sha256": "5360d10143e192867584416aab33f438cdc02152ca27fc29b69ba8aa60d20ba6"
+    },
+    {
+      "path": "reference-pack/current-design/Stitch_Mobile_Reference.zip",
+      "bytes": 7163202,
+      "sha256": "81e6a11b311e576d81ff495d91b9efc973f987a0a6054a12abd67d844fae3879"
+    },
+    {
+      "path": "reference-pack/legacy-qa/browser-tests-v1.mjs",
+      "bytes": 27075,
+      "sha256": "59d8b55e46bb1c60b8c3e0f18c5ef39526ed3d939a677a1aa21b91d17894d938"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/asset_briefs/THREE_D_ASSET_GENERATION_BRIEF.md",
+      "bytes": 1558,
+      "sha256": "55d3212a0aa06c03840095a2461b71b2963b635343685b9ae1f5a3baf6507eed"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/handoff/ARTIFACT_WRITING_RULES.md",
+      "bytes": 1742,
+      "sha256": "2ba12d059c55671b7815d78d717d4d5e1fbc0675d12ce27ce42fd913a47ebb53"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/handoff/DESIGN_SYSTEM_AND_LOGO_SPEC.md",
+      "bytes": 1502,
+      "sha256": "6c6d2aeb39e766c7fb7d88517ab95fb2d1ac740b3d3f729281d6c8b21186d9ab"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/handoff/GENERATION_MASTER_PROMPT.md",
+      "bytes": 10073,
+      "sha256": "ef9417559f216d9c0a1b83034e561a634c6d2e67e8e32494eed8a9febec99dde"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/handoff/PRODUCT_AND_STATE_SPEC.md",
+      "bytes": 1417,
+      "sha256": "afed7fc5de26ea92e5ea5a4177ba14146ad6a8c81c4f9f0acb0ffb05510a3e3b"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/prompts/00_START_HERE.md",
+      "bytes": 653,
+      "sha256": "a8c8a738821f87de6f1c6fe108037576a3e8bc6aa8000417ed1702eb45ddfb5a"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/prompts/01_BUILD_SEQUENCE.md",
+      "bytes": 813,
+      "sha256": "12b95630419897cedd87892f066a34b10613f680bb1e06077f2721652bee0f52"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/prompts/02_ASSET_AND_LOGO_PROMPT.md",
+      "bytes": 475,
+      "sha256": "ed9a3f2efd4f6389a88143e733eaa3f24f9d3def0e5bd65bd2078c25facbdf80"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/prompts/03_FINAL_REVIEW_PROMPT.md",
+      "bytes": 489,
+      "sha256": "aff03b9661361ce1cfed292d4ac91e854e1c0399711cbda7cdf8186ab8a0735a"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/reference-pack/OUTPUT_MANIFEST.json",
+      "bytes": 634,
+      "sha256": "9789c339ca888f227be3f56c2d021aafbd64a4e9ed808b643b0668c34c3f2636"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/reference-pack/PACKAGE_MANIFEST.json",
+      "bytes": 9732,
+      "sha256": "23f4cf742186caea8e6d72239c3a2776a8c3eb965da1d965292117e1f2792862"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/reference-pack/README_START_HERE.md",
+      "bytes": 1692,
+      "sha256": "36b53c49ad8146ff22c6577ba5b35b8a8bd413f1dc84c3aed40727bfe41d6b4e"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/reference-pack/legacy-qa/browser-tests-v1.mjs",
+      "bytes": 27075,
+      "sha256": "59d8b55e46bb1c60b8c3e0f18c5ef39526ed3d939a677a1aa21b91d17894d938"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/reference-pack/qa/COMPLETION_REPORT_TEMPLATE.md",
+      "bytes": 491,
+      "sha256": "121c77097c80225bf2339bae500684f74ba3b83e0521a44321b7a412192115ee"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/reference-pack/qa/SELF_REVIEW_AND_VERIFICATION_PROTOCOL.md",
+      "bytes": 1240,
+      "sha256": "945530a28d9dd150a94eff0f197f707234cb9304e35cb26f4de7a6f53263d0d2"
+    },
+    {
+      "path": "reference-pack/legacy-v1-briefs/reference-pack/qa/VERIFICATION_MATRIX.md",
+      "bytes": 781,
+      "sha256": "a0fa9e134e4db88ad4a5a3768ed1f7bb5f90f03d631d6aedb30026dfb8903f82"
+    },
+    {
+      "path": "reference-pack/legacy-v1-docs/README.md",
+      "bytes": 3444,
+      "sha256": "8d26e2ff81145003224631f52cf234510dbb883f476c0c5226b373f51bdd15d8"
+    },
+    {
+      "path": "reference-pack/legacy-v1-docs/context/UPDATED_MASTER_AI_CONTEXT.md",
+      "bytes": 219550,
+      "sha256": "7b0431ecec5c23acb78d67bbb0194d6c27dc63190d4d5751893149f64a3ce28d"
+    },
+    {
+      "path": "reference-pack/legacy-v1-docs/docs/ASSET_PROVENANCE.md",
+      "bytes": 7675,
+      "sha256": "09e462eb9a0bc21991bd74e10aa6a9b17c9c49e2fdd22bd1d24310cb5e3761b2"
+    },
+    {
+      "path": "reference-pack/legacy-v1-docs/docs/DESIGN_AND_STATE_SPEC.md",
+      "bytes": 9166,
+      "sha256": "82a4d6dad57069faf097cba8adc127965ab585b9fb51cc7c7cc18a8b04dd7ab9"
+    },
+    {
+      "path": "reference-pack/legacy-v1-docs/docs/INPUTS_AND_LIMITS.md",
+      "bytes": 1800,
+      "sha256": "aa8ba8001aed55e9c067a9866e2c5a2a197bbafb6f79fbc65104ca070d863e92"
+    },
+    {
+      "path": "reference-pack/legacy-v1-docs/docs/SOURCES_AND_STANDARDS.md",
+      "bytes": 1828,
+      "sha256": "c131480b0dc6fa355244ca4eddd94deaf2b1d5d3e056678684f2c86bd141e20a"
+    },
+    {
+      "path": "reference-pack/legacy-v1-docs/scripts/verify-fixtures.mjs",
+      "bytes": 1901,
+      "sha256": "09116ad6d91ad5fe98013cc97413fda7ec81398398c17d6bc56c0ec1c2a4d08d"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/README.md",
+      "bytes": 400,
+      "sha256": "1f8680a22188582681ab558fda28c8b6f45890e6fba58bb73d15c83574d823be"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/public/asset-manifest.json",
+      "bytes": 44425,
+      "sha256": "2c8eecbaec1d6719bc34611656e58f6fbf041639a775c880fe912c307b4a9c98"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/public/models/airloom-linen.glb",
+      "bytes": 476792,
+      "sha256": "f4a93cb258fef03198b52e411d07aa0a2ce1283fef4778c0f43fcbcd7d9bd29d"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/public/models/cloud-poplin.glb",
+      "bytes": 433556,
+      "sha256": "18326a5428c52fe952b604ab8b399160fb6d4f047161abf6965c3537e17f10dd"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/public/models/moss-knit.glb",
+      "bytes": 478676,
+      "sha256": "f8ad33da93c0c6a213ff2e1a3330f2d155bfa695a1701e8def4d419be0bde479"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/public/models/my-blue-blouse.glb",
+      "bytes": 291172,
+      "sha256": "dcfe2e5bf3d8170f1362615880d9e67ad98742d56401352c7e66b5e6a68689b5"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/qa/studio-integration-run.mjs",
+      "bytes": 4816,
+      "sha256": "30d722d7712bc4816fc4a761c69f8f921392e87fb655d2ec0fd5d4d361f2d4f5"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/qa/studio-preview-run.mjs",
+      "bytes": 1805,
+      "sha256": "419b1e5c6566aa146cc510b117aca6113f8b74e113f4c8eeba12f87cb00ff655"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/qa/studio-preview.html",
+      "bytes": 886,
+      "sha256": "f1a9ca7fdb25e8d5d4742d04beef707d0069b69ebdbf41ea4c420632f1d6e6bf"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/scripts/author-assets.mjs",
+      "bytes": 56775,
+      "sha256": "dfc0638d9668b22ce2202f133d72774114b62245a4035f9f3f75392745b156ae"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/scripts/author-evidence.py",
+      "bytes": 13467,
+      "sha256": "5492c08dbdbfca3371597b9eb7cae145e0d364a79a9eecc9c0fb21b642a13b48"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/scripts/browser-tests.mjs",
+      "bytes": 27075,
+      "sha256": "59d8b55e46bb1c60b8c3e0f18c5ef39526ed3d939a677a1aa21b91d17894d938"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/scripts/rapid-reload-test.mjs",
+      "bytes": 1270,
+      "sha256": "d3e63497d6ee91307cf23d7e9f25710c01a73abfd3990483ab58c435603c1ad3"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/scripts/verify-assets.mjs",
+      "bytes": 7844,
+      "sha256": "58d521672d8956966b24b7e4e9bb59588862498c19a710c6df2bfbcb7ce110e3"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/src/SellerCommerce.tsx",
+      "bytes": 73168,
+      "sha256": "12d0a53fd01eabe01e529f0e378824fcc872c832fb912e932a9f644f51707061"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/src/components/GarmentViewer.tsx",
+      "bytes": 27244,
+      "sha256": "f2abfad7af8b473c22cc6ea38d69ef1118fac62e7621ef5493b9559cd8d32b08"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/src/components/SourceCapture.tsx",
+      "bytes": 6108,
+      "sha256": "c12b99a112256a57559caf9d3c60eaf18263d57472930a13b63c0d1213c53fbc"
+    },
+    {
+      "path": "reference-pack/legacy-v1-implementation/src/components/viewer.css",
+      "bytes": 5198,
+      "sha256": "15abf4fb84e451073fe43e332de3d2e197927d133f1ce928b8e2670673b0db1d"
+    },
+    {
+      "path": "reference-pack/legacy-v2-docs/ASSET_PROVENANCE.md",
+      "bytes": 2452,
+      "sha256": "313e997c7616974ea390bd7dced51148af8f249b29d00f80b4c2cf8e45915a97"
+    },
+    {
+      "path": "reference-pack/legacy-v2-docs/DESIGN_AND_STATE_SPEC.md",
+      "bytes": 8441,
+      "sha256": "f3c4042ed7babc793b60882789f2467830477ec2ea53052388dcda8e62779c1d"
+    },
+    {
+      "path": "reference-pack/legacy-v2-docs/INPUTS_AND_LIMITS.md",
+      "bytes": 3096,
+      "sha256": "25840598eb93ded50e937b12eba30219eec7c4587e1477fb558a43b494543898"
+    },
+    {
+      "path": "reference-pack/legacy-v2-docs/README.md",
+      "bytes": 4495,
+      "sha256": "63c0c2f46834a1332e19dfcef7bdbb2665287e842467c997d3aad54c2246df09"
+    },
+    {
+      "path": "reference-pack/legacy-v2-docs/REVISION_V2_PLAN.md",
+      "bytes": 5971,
+      "sha256": "911dfb315da54b0411b381ab980ecd659b5b710024a2e94f0ed7725651f4165c"
+    },
+    {
+      "path": "reference-pack/legacy-v2-docs/SOURCES_AND_STANDARDS.md",
+      "bytes": 2170,
+      "sha256": "add8ead51edca7d1687cd0393844bc8e80821be7833d2a5e1abfce4ed341bb41"
+    },
+    {
+      "path": "reference-pack/legacy-v2-docs/UPDATED_MASTER_AI_CONTEXT.md",
+      "bytes": 6082,
+      "sha256": "0c8cfbc6578e392a4f8394596a3f928c03808c1c6733632083597d637b8da80f"
+    },
+    {
+      "path": "reference-pack/legacy-v2-implementation/browser-tests-v2.mjs",
+      "bytes": 16523,
+      "sha256": "61a47cd235289f17895dc03d6d077c6f790ee5a0ca371eb52504f0c0bef9db55"
+    },
+    {
+      "path": "reference-pack/legacy-v3-qa/garment-interactions.json",
+      "bytes": 15552,
+      "sha256": "343daa4851855eb33994866519d3bad895a26923b792c44f07345e24e10098bd"
+    },
+    {
+      "path": "reference-pack/legacy-v3-qa/render-pixel-fidelity.json",
+      "bytes": 458,
+      "sha256": "301d348eacd1681ddb0dfc55b4a9b6ad10dbe010a2c198f395e2e5fd736374c4"
+    },
+    {
+      "path": "reference-pack/legacy-v3-qa/render-profile-after.json",
+      "bytes": 2602,
+      "sha256": "f9b1367ba6afdbbc47756275e306d404b1839914dd1f2dd22832be944b3bc574"
+    },
+    {
+      "path": "reference-pack/legacy-v3-qa/render-profile-before.json",
+      "bytes": 2121,
+      "sha256": "c6fef3c2a674208ebd0fce333dc4e2540c07bbbf37102a8d4e57901217648ae6"
+    },
+    {
+      "path": "reference-pack/qa/COMPLETION_REPORT_TEMPLATE.md",
+      "bytes": 491,
+      "sha256": "121c77097c80225bf2339bae500684f74ba3b83e0521a44321b7a412192115ee"
+    },
+    {
+      "path": "reference-pack/qa/SELF_REVIEW_AND_VERIFICATION_PROTOCOL.md",
+      "bytes": 1240,
+      "sha256": "945530a28d9dd150a94eff0f197f707234cb9304e35cb26f4de7a6f53263d0d2"
+    },
+    {
+      "path": "reference-pack/qa/VERIFICATION_MATRIX.md",
+      "bytes": 781,
+      "sha256": "a0fa9e134e4db88ad4a5a3768ed1f7bb5f90f03d631d6aedb30026dfb8903f82"
+    },
+    {
+      "path": "references/REFERENCE_INDEX.md",
+      "bytes": 1318,
+      "sha256": "4f6d75181cc0ff72f60d499daf0dbb3cf30dde2baf635a2d553f4e9eccb674ba"
+    },
+    {
+      "path": "references/SKILL_REFERENCE_MAP.md",
+      "bytes": 638,
+      "sha256": "012dd8ffe04b513914468462aff55bd9a844ab4a18828b65602d6e910f682d83"
+    },
+    {
+      "path": "scripts/author-animated-garment.mjs",
+      "bytes": 25641,
+      "sha256": "7d51b46320344cd8c6bfb28eae42e927dd388f66871d5d15f6aa09161f47d469"
+    },
+    {
+      "path": "scripts/browser-tests-v3.mjs",
+      "bytes": 21541,
+      "sha256": "56aab268a05c625f9dee2d0ac7fc8b162551467c4455fe4865edf8d09e139b71"
+    },
+    {
+      "path": "scripts/match-disclosure-tests.mjs",
+      "bytes": 8383,
+      "sha256": "e190e10bf0355d4646339e93ca9355604abb67e34338bc3f1f8250ae664f70ad"
+    },
+    {
+      "path": "scripts/navigation-browser-tests.mjs",
+      "bytes": 3797,
+      "sha256": "13ae13936f88a87517387e430fdc819945e0d4fa4aa5ada66239980a43425321"
+    },
+    {
+      "path": "scripts/package-release.py",
+      "bytes": 5967,
+      "sha256": "22959caeee68ac4af36f0556a605e8e02009488a843d46d23c776dadfdf841cc"
+    },
+    {
+      "path": "scripts/shopping-browser-tests-v3.mjs",
+      "bytes": 9907,
+      "sha256": "f14d18d1d456c151c5925bfc4506c918535d567bc97a038d905c2fc2451cc2ac"
+    },
+    {
+      "path": "scripts/studio-browser-tests.mjs",
+      "bytes": 11581,
+      "sha256": "a4f4d2850a1e6ba3a8117fcc899cbb272751029d0c26a58f9a5b5751cc26e01b"
+    },
+    {
+      "path": "scripts/verify-animated-model.mjs",
+      "bytes": 2720,
+      "sha256": "a05337ecc95e150406935b1f7ea5c355b417acaa36f0404cfbc87b37af1ad5df"
+    },
+    {
+      "path": "scripts/verify-cover-assets.mjs",
+      "bytes": 4188,
+      "sha256": "0f030e67762b4537825c6a9d13c02e44b95f2f5b650887c2cd4c2c22b1be7327"
+    },
+    {
+      "path": "scripts/verify-fixtures.mjs",
+      "bytes": 8334,
+      "sha256": "ff9a3f43db1fcb9d65a660a7861cdfca3fe38d90308f162ec5e33d176ec548ed"
+    },
+    {
+      "path": "scripts/verify-photo-assets.mjs",
+      "bytes": 3194,
+      "sha256": "e1e1a003de9c16157b82af67645896252e28811aea7cdae955ac607783e27710"
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 12396,
+      "sha256": "1dba21a2686b18c5d05509ceb5ee0a1de9134dd50296ff200796a0ac573eddf4"
+    },
+    {
+      "path": "src/CommercePages.tsx",
+      "bytes": 35264,
+      "sha256": "9d8c78d0fcd462c496f2c9d5f2d2c050692ef72245144e23e70b437094b0e210"
+    },
+    {
+      "path": "src/FeelPages.tsx",
+      "bytes": 41067,
+      "sha256": "89420ddce791e37e966ca72cc647b1d837f05ab7a19d7727f03d6851e82b978f"
+    },
+    {
+      "path": "src/MarketplacePages.tsx",
+      "bytes": 13881,
+      "sha256": "c03942257df60729aebd62ee8091c55f42c38e02d9eed91514048ceea767f622"
+    },
+    {
+      "path": "src/ProductPages.tsx",
+      "bytes": 14651,
+      "sha256": "3ea408d339ea1294b4d97d63e6cf7e093064ef764d6964ab0b26fe96b05eab22"
+    },
+    {
+      "path": "src/SellerPage.tsx",
+      "bytes": 2136,
+      "sha256": "88fc6c121136749ea75640e59a57763b9e36b8c159cdf479597d7bb6b824be06"
+    },
+    {
+      "path": "src/StudioPages.tsx",
+      "bytes": 32049,
+      "sha256": "ba5b87de60452c81f4b8e21877bbf9efc4fc52239fd273d3d78c545b9fcdad0f"
+    },
+    {
+      "path": "src/buyer.ts",
+      "bytes": 2118,
+      "sha256": "b9712439708bbc9cd7e36e3f37b6d0289562214de91715ef5bcce577ec22552b"
+    },
+    {
+      "path": "src/cloth/choreography.ts",
+      "bytes": 2631,
+      "sha256": "9c1296287a7ff49a11da73fd479141e53d26d689055cc746eec8e0492a0af6bc"
+    },
+    {
+      "path": "src/cloth/physics.ts",
+      "bytes": 18822,
+      "sha256": "9fe1f06669ef37879c76b5b7228bf15c62f7ccec979a7f390fb6b1b82114d2a0"
+    },
+    {
+      "path": "src/cloth/presentation.ts",
+      "bytes": 323,
+      "sha256": "7c734b5cb6e75180f0ffed77aeca086ce64e4e1b5cfb3777f44a72064062881e"
+    },
+    {
+      "path": "src/commerce.css",
+      "bytes": 24541,
+      "sha256": "0d9c2f890151a4c07e353600755541577ba6369724ee7db5a2939de252b77684"
+    },
+    {
+      "path": "src/components/AnimatedGarment.tsx",
+      "bytes": 26564,
+      "sha256": "1c051b8f4aad96d9b6f8a367eca3ecce4e6d5f4c00879bb72d5ba1f496ab4de2"
+    },
+    {
+      "path": "src/components/GarmentShowcase.tsx",
+      "bytes": 3419,
+      "sha256": "e462956753e62b08d5a9b697075af194159ee01ce63b04b7e516a67c5ada67db"
+    },
+    {
+      "path": "src/components/GuidedRecording.tsx",
+      "bytes": 13811,
+      "sha256": "a7aa25bf3bc7e6bafc7a9b06f1cdff3115c17f1960b11f5fe7c66b31b728396c"
+    },
+    {
+      "path": "src/components/InventoryControls.tsx",
+      "bytes": 2363,
+      "sha256": "608b8bfaee49dd82c657b117d046437860c931584ed10481be8566f08bc0d645"
+    },
+    {
+      "path": "src/components/PhotoGallery.tsx",
+      "bytes": 4784,
+      "sha256": "d50a76852b4fba002c6139049fc021d14efba640a298ea5c11b90f02c3b6155e"
+    },
+    {
+      "path": "src/components/RetainedFlows.tsx",
+      "bytes": 57732,
+      "sha256": "ec5fde4ad63b535ef8ec875b241ebe3f348278615a736bc3fac401f5d4380a6f"
+    },
+    {
+      "path": "src/components/garment.css",
+      "bytes": 5652,
+      "sha256": "f819e3cad0605f93fef99c6eff5d82ad9bd1dd1fa0564aef37145cbe4ff54613"
+    },
+    {
+      "path": "src/domain.ts",
+      "bytes": 84224,
+      "sha256": "bda8d724dc807eaa630163db6823298dd544280239a5c65ffd8f6c2dd90f764d"
+    },
+    {
+      "path": "src/feel.css",
+      "bytes": 52101,
+      "sha256": "fdebb7d1aad6d900c221e19fb5600fae09f02784751ea5b3561acb0487bc2231"
+    },
+    {
+      "path": "src/feel.ts",
+      "bytes": 17953,
+      "sha256": "1f9d5613d2c2d90b0f6e8cd1f7001c076a4690e4e808101a15c7b75aeda47cae"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 975,
+      "sha256": "9c4bce7550d16a51c080755f62ea550c99160b2de0366b12983543b438950ef3"
+    },
+    {
+      "path": "src/marketplace.css",
+      "bytes": 53342,
+      "sha256": "893ff3b1ef66e1aeaa29aa3f857744e610145955393f2a44a22351aed3dbb41e"
+    },
+    {
+      "path": "src/media.ts",
+      "bytes": 12071,
+      "sha256": "537d84d55e42a9f30c4e39f73b156d11f34d9c1c04ce895b3665b96f16fb29e9"
+    },
+    {
+      "path": "src/recording.ts",
+      "bytes": 2245,
+      "sha256": "1585b78f2a3b8868a78156f015fc0bcfb05f6a36ca957ed99ae023d7ac3e3ef0"
+    },
+    {
+      "path": "src/router.tsx",
+      "bytes": 1066,
+      "sha256": "9c4358dc884bbc29a54303966dde397ce9bb0840ea7d4537646d519ab43bc40c"
+    },
+    {
+      "path": "src/sellers.ts",
+      "bytes": 867,
+      "sha256": "17dac67505dc2fc4616259f1e39283e00824ff2fbe52224f3f71152c9ae82c84"
+    },
+    {
+      "path": "src/store.tsx",
+      "bytes": 3193,
+      "sha256": "a8f731e2c2f0971bb4f4110d7ccc158bf2184f0e562f87d187b54e0a3c38cf84"
+    },
+    {
+      "path": "src/studio.css",
+      "bytes": 41492,
+      "sha256": "aed8cecda4835925a8be65f12cd1bd10a1f21ef162fe088fea2bf4a01edf3071"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 54778,
+      "sha256": "af072c331aef8f07cbc4f69410cdf0cb23797de0349235258ebef84e805ea191"
+    },
+    {
+      "path": "tests/animated-template.test.ts",
+      "bytes": 815,
+      "sha256": "729cedf353be239da955053ff4426395e0bdbd2db6914022f7e56d4e49dda14b"
+    },
+    {
+      "path": "tests/buyer-contract.test.ts",
+      "bytes": 1480,
+      "sha256": "81fa5b8725b937197b2ba15d6f6309dd263cab030bd9e99051772152a55ee394"
+    },
+    {
+      "path": "tests/choreography.test.ts",
+      "bytes": 2742,
+      "sha256": "4864cc41b8caec6b3535718b07b30b69ab87f48e0c27e7945678580aef19f41e"
+    },
+    {
+      "path": "tests/cloth-physics.test.ts",
+      "bytes": 6437,
+      "sha256": "d87ba58c78ae8c0f2b71331d00435f14de40f2d5c12586da0422a6066fc97973"
+    },
+    {
+      "path": "tests/commerce-v2.test.ts",
+      "bytes": 1935,
+      "sha256": "088a296941bd9263cd1cee3e848c1a09c76ffe90ddec3113284dfb8ea4154797"
+    },
+    {
+      "path": "tests/domain-v2.test.ts",
+      "bytes": 17600,
+      "sha256": "3f5b376448ddb3dac38e51c71bbdb6344cc8245d69debabfcb34fc72d25f8537"
+    },
+    {
+      "path": "tests/domain-v3.test.ts",
+      "bytes": 8694,
+      "sha256": "0fca6d3154001e2e6ebb61175e3b2d4534241be0620fff50abe6a451d839aec1"
+    },
+    {
+      "path": "tests/domain.test.ts",
+      "bytes": 43251,
+      "sha256": "5fe0f879a68448763fe1f7d489a77cce71e94f4ff1cf99d6d47ec95211a9e227"
+    },
+    {
+      "path": "tests/feel.test.ts",
+      "bytes": 6599,
+      "sha256": "0d6f89aed5639223287a42fd17c89242200b82ee846c75114d5db2b974808cba"
+    },
+    {
+      "path": "tests/recording.test.ts",
+      "bytes": 5207,
+      "sha256": "2241f7e3f7e4c77185c725582f794bbdb6be9012c2c565f7ba74979f584e92c0"
+    },
+    {
+      "path": "tests/relative-feel.test.ts",
+      "bytes": 5575,
+      "sha256": "dceab47065b58eba1480aebe4a05c0ab6ac3106b41ab0b5a383bbb31b0a852cc"
+    },
+    {
+      "path": "tests/retained-flows.test.ts",
+      "bytes": 38407,
+      "sha256": "febd54f4baff10a9f9e5044c3affc7ee66cb28e3989ea7453c38b78a2c31d9b2"
+    },
+    {
+      "path": "tests/seller-shopping-v3.test.ts",
+      "bytes": 6147,
+      "sha256": "07294f4c3643cf7ab034e3b36d7b0fea1427354a5cba8171d066f7d2bbb01d39"
+    },
+    {
+      "path": "tests/shopping-v2.test.ts",
+      "bytes": 1600,
+      "sha256": "a46b6e5474aef4acfac6bf68a51297b036e971e4b220f375effe9dee1ef3a202"
+    },
+    {
+      "path": "tests/store.test.ts",
+      "bytes": 3468,
+      "sha256": "52211f8302cdb49374edb19850617480553a091eb355314d1aa3af6f570c112a"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 363,
+      "sha256": "c44c282707e990819f4ecdc15b7fb6469762c5cbbd1c83c03624e2a24845b52f"
+    },
+    {
+      "path": "vercel.json",
+      "bytes": 523,
+      "sha256": "5067dac08f16a67b661607145afcb969f2fd3550fd1dae833550b58e9ea1bb11"
+    }
+  ]
+}

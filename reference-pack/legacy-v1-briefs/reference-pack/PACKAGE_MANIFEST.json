@@ -1,0 +1,276 @@
+{
+  "name": "Familiar Final Generator MegaPrompt Pack",
+  "companion_required": "Familiar_Vision_Demonstrator.zip",
+  "files": [
+    {
+      "path": "OUTPUT_MANIFEST.json",
+      "bytes": 634,
+      "sha256": "9789c339ca888f227be3f56c2d021aafbd64a4e9ed808b643b0668c34c3f2636"
+    },
+    {
+      "path": "README_START_HERE.md",
+      "bytes": 1692,
+      "sha256": "36b53c49ad8146ff22c6577ba5b35b8a8bd413f1dc84c3aed40727bfe41d6b4e"
+    },
+    {
+      "path": "asset_briefs/THREE_D_ASSET_GENERATION_BRIEF.md",
+      "bytes": 1558,
+      "sha256": "55d3212a0aa06c03840095a2461b71b2963b635343685b9ae1f5a3baf6507eed"
+    },
+    {
+      "path": "context/ORIGINAL_MASTER_AI_CONTEXT.md",
+      "bytes": 213477,
+      "sha256": "e257cc6cac836270d4d74dc5b5eb7ba7054e82d662e2b2ec875c0db08868f679"
+    },
+    {
+      "path": "context/UPDATED_MASTER_AI_CONTEXT.md",
+      "bytes": 219550,
+      "sha256": "7b0431ecec5c23acb78d67bbb0194d6c27dc63190d4d5751893149f64a3ce28d"
+    },
+    {
+      "path": "handoff/ARTIFACT_WRITING_RULES.md",
+      "bytes": 1742,
+      "sha256": "2ba12d059c55671b7815d78d717d4d5e1fbc0675d12ce27ce42fd913a47ebb53"
+    },
+    {
+      "path": "handoff/DESIGN_SYSTEM_AND_LOGO_SPEC.md",
+      "bytes": 1502,
+      "sha256": "6c6d2aeb39e766c7fb7d88517ab95fb2d1ac740b3d3f729281d6c8b21186d9ab"
+    },
+    {
+      "path": "handoff/GENERATION_MASTER_PROMPT.md",
+      "bytes": 10073,
+      "sha256": "ef9417559f216d9c0a1b83034e561a634c6d2e67e8e32494eed8a9febec99dde"
+    },
+    {
+      "path": "handoff/PRODUCT_AND_STATE_SPEC.md",
+      "bytes": 1417,
+      "sha256": "afed7fc5de26ea92e5ea5a4177ba14146ad6a8c81c4f9f0acb0ffb05510a3e3b"
+    },
+    {
+      "path": "prompts/00_START_HERE.md",
+      "bytes": 653,
+      "sha256": "a8c8a738821f87de6f1c6fe108037576a3e8bc6aa8000417ed1702eb45ddfb5a"
+    },
+    {
+      "path": "prompts/01_BUILD_SEQUENCE.md",
+      "bytes": 813,
+      "sha256": "12b95630419897cedd87892f066a34b10613f680bb1e06077f2721652bee0f52"
+    },
+    {
+      "path": "prompts/02_ASSET_AND_LOGO_PROMPT.md",
+      "bytes": 475,
+      "sha256": "ed9a3f2efd4f6389a88143e733eaa3f24f9d3def0e5bd65bd2078c25facbdf80"
+    },
+    {
+      "path": "prompts/03_FINAL_REVIEW_PROMPT.md",
+      "bytes": 489,
+      "sha256": "aff03b9661361ce1cfed292d4ac91e854e1c0399711cbda7cdf8186ab8a0735a"
+    },
+    {
+      "path": "qa/COMPLETION_REPORT_TEMPLATE.md",
+      "bytes": 491,
+      "sha256": "121c77097c80225bf2339bae500684f74ba3b83e0521a44321b7a412192115ee"
+    },
+    {
+      "path": "qa/SELF_REVIEW_AND_VERIFICATION_PROTOCOL.md",
+      "bytes": 1240,
+      "sha256": "945530a28d9dd150a94eff0f197f707234cb9304e35cb26f4de7a6f53263d0d2"
+    },
+    {
+      "path": "qa/VERIFICATION_MATRIX.md",
+      "bytes": 781,
+      "sha256": "a0fa9e134e4db88ad4a5a3768ed1f7bb5f90f03d631d6aedb30026dfb8903f82"
+    },
+    {
+      "path": "references/REFERENCE_INDEX.md",
+      "bytes": 1318,
+      "sha256": "4f6d75181cc0ff72f60d499daf0dbb3cf30dde2baf635a2d553f4e9eccb674ba"
+    },
+    {
+      "path": "references/SKILL_REFERENCE_MAP.md",
+      "bytes": 638,
+      "sha256": "012dd8ffe04b513914468462aff55bd9a844ab4a18828b65602d6e910f682d83"
+    },
+    {
+      "path": "references/normalized/CLEAR iOS 47.png",
+      "bytes": 778534,
+      "sha256": "8aa4f843b045f9b82a46be335fbb4f46516c4c5cde697f199f49c673b8ac38cf"
+    },
+    {
+      "path": "references/normalized/CLEAR iOS 48.png",
+      "bytes": 120459,
+      "sha256": "5fde8bc5085b03b99155fbe93bb2f4d58ff63f96b607eee0ffe1dda742b0a032"
+    },
+    {
+      "path": "references/normalized/CLEAR iOS 49.png",
+      "bytes": 395696,
+      "sha256": "8fe0a36fc983edbbe9ec756ac6ba0c8ee7c6f9677753df3362f014133d6ed18a"
+    },
+    {
+      "path": "references/normalized/CLEAR_camera_permission.png",
+      "bytes": 120459,
+      "sha256": "5fde8bc5085b03b99155fbe93bb2f4d58ff63f96b607eee0ffe1dda742b0a032"
+    },
+    {
+      "path": "references/normalized/CLEAR_capture_complete.png",
+      "bytes": 395696,
+      "sha256": "8fe0a36fc983edbbe9ec756ac6ba0c8ee7c6f9677753df3362f014133d6ed18a"
+    },
+    {
+      "path": "references/normalized/CLEAR_capture_instruction.png",
+      "bytes": 778534,
+      "sha256": "8aa4f843b045f9b82a46be335fbb4f46516c4c5cde697f199f49c673b8ac38cf"
+    },
+    {
+      "path": "references/normalized/Starling iOS 351.png",
+      "bytes": 501238,
+      "sha256": "8c30895e45e5454ee6f8becefdc5c12d452993c887fafaa873b1063df6b4f0bd"
+    },
+    {
+      "path": "references/normalized/Starling iOS 352.png",
+      "bytes": 64278,
+      "sha256": "16a8f2404ae3e5fbec1b3623792b7d6b9a3dd85be39904007a2a39407b1af7ae"
+    },
+    {
+      "path": "references/normalized/Starling iOS 353.png",
+      "bytes": 381283,
+      "sha256": "826bd748456f70da57cf33ef4b71489bafa0c9b7337ccd381c31cdb87a93aa99"
+    },
+    {
+      "path": "references/normalized/Starling iOS 354.png",
+      "bytes": 127039,
+      "sha256": "ae86ec60e6f7f92c2ba000724246a5d7b1e001a860522a82699fab811389e3ff"
+    },
+    {
+      "path": "references/normalized/Starling iOS 355.png",
+      "bytes": 473683,
+      "sha256": "e3e6ad3289cd0bd6b4345e20f8e75a862036fc3e9f10387dbbc5f9b7ad21ecf4"
+    },
+    {
+      "path": "references/normalized/Starling iOS 356.png",
+      "bytes": 223027,
+      "sha256": "a7b30da9e8493c5a8af02237c7bd19416f5e3dea94707833743522b7bd659e1b"
+    },
+    {
+      "path": "references/normalized/Starling iOS 357.png",
+      "bytes": 217199,
+      "sha256": "e79f9ff39bd7a9e55ab72d21d8fa6685c37a8c38bd60086dbc544451773f4fbb"
+    },
+    {
+      "path": "references/normalized/Starling iOS 358.png",
+      "bytes": 225306,
+      "sha256": "2409ba83698b7302dd586e5549f906e49790fd3eb042a4f70e5b95f18fe47412"
+    },
+    {
+      "path": "references/normalized/Starling iOS 47.png",
+      "bytes": 522843,
+      "sha256": "366bfd5a0d1e753b8336e121ea7f32ea467beaa9af5ac3120a7228dbcb127578"
+    },
+    {
+      "path": "references/normalized/Starling_capture_camera.png",
+      "bytes": 64278,
+      "sha256": "16a8f2404ae3e5fbec1b3623792b7d6b9a3dd85be39904007a2a39407b1af7ae"
+    },
+    {
+      "path": "references/normalized/Starling_capture_camera_alt.png",
+      "bytes": 223027,
+      "sha256": "a7b30da9e8493c5a8af02237c7bd19416f5e3dea94707833743522b7bd659e1b"
+    },
+    {
+      "path": "references/normalized/Starling_capture_confirmation.png",
+      "bytes": 225306,
+      "sha256": "2409ba83698b7302dd586e5549f906e49790fd3eb042a4f70e5b95f18fe47412"
+    },
+    {
+      "path": "references/normalized/Starling_capture_intro.png",
+      "bytes": 501238,
+      "sha256": "8c30895e45e5454ee6f8becefdc5c12d452993c887fafaa873b1063df6b4f0bd"
+    },
+    {
+      "path": "references/normalized/Starling_capture_intro_alt.png",
+      "bytes": 473683,
+      "sha256": "e3e6ad3289cd0bd6b4345e20f8e75a862036fc3e9f10387dbbc5f9b7ad21ecf4"
+    },
+    {
+      "path": "references/normalized/Starling_capture_review.png",
+      "bytes": 217199,
+      "sha256": "e79f9ff39bd7a9e55ab72d21d8fa6685c37a8c38bd60086dbc544451773f4fbb"
+    },
+    {
+      "path": "references/normalized/Starling_capture_scan.png",
+      "bytes": 381283,
+      "sha256": "826bd748456f70da57cf33ef4b71489bafa0c9b7337ccd381c31cdb87a93aa99"
+    },
+    {
+      "path": "references/normalized/Starling_capture_success.png",
+      "bytes": 127039,
+      "sha256": "ae86ec60e6f7f92c2ba000724246a5d7b1e001a860522a82699fab811389e3ff"
+    },
+    {
+      "path": "references/normalized/Starling_capture_tips.png",
+      "bytes": 522843,
+      "sha256": "366bfd5a0d1e753b8336e121ea7f32ea467beaa9af5ac3120a7228dbcb127578"
+    },
+    {
+      "path": "references/normalized/Tinder iOS 62.png",
+      "bytes": 242789,
+      "sha256": "c8e0289c6e272ee7a106709665389c80a9ccf839a9a7c752489d815ad5adba50"
+    },
+    {
+      "path": "references/normalized/Tinder_capture_loading.png",
+      "bytes": 242789,
+      "sha256": "c8e0289c6e272ee7a106709665389c80a9ccf839a9a7c752489d815ad5adba50"
+    },
+    {
+      "path": "references/normalized/Zopa Bank iOS 54.png",
+      "bytes": 352089,
+      "sha256": "d989bbe2e4bda317fc642b47c3e7a5cd406a801853a5ddeecc334efed4c59d5a"
+    },
+    {
+      "path": "references/normalized/Zopa Bank iOS 55.png",
+      "bytes": 216400,
+      "sha256": "52f9721795214622cf206751788c3ccdd7258fa81e3f1aa6b2794af01069e239"
+    },
+    {
+      "path": "references/normalized/Zopa_liveness_camera.png",
+      "bytes": 216400,
+      "sha256": "52f9721795214622cf206751788c3ccdd7258fa81e3f1aa6b2794af01069e239"
+    },
+    {
+      "path": "references/normalized/Zopa_liveness_intro.png",
+      "bytes": 352089,
+      "sha256": "d989bbe2e4bda317fc642b47c3e7a5cd406a801853a5ddeecc334efed4c59d5a"
+    },
+    {
+      "path": "references/originals/Etsy_iOS_Marketplace_Flows.zip",
+      "bytes": 169171481,
+      "sha256": "ac4b08d4562b165c86abe0392c26922e5c08dd1e28fbd6df7224e0e984ca03e7"
+    },
+    {
+      "path": "references/originals/Familiar_TGIC_2026_Complete_Pack.zip",
+      "bytes": 1017349,
+      "sha256": "c5e0969c8e5144b70c173420b3f84d6fdb36465563755f239e1b837d77b9103c"
+    },
+    {
+      "path": "references/originals/LihatDulu_V5.1_source.zip",
+      "bytes": 15960858,
+      "sha256": "1ae1eabcf850765871bb01fb67edefd81db0d792614ed95ff1fca1f7ccc9a7bb"
+    },
+    {
+      "path": "references/originals/LihatDulu_Vercel_QA.zip",
+      "bytes": 7366372,
+      "sha256": "50166f59287c0a39efa5b1340aa3b38eb4d740f9c1351ae2bdd63ecbd90f5bf8"
+    },
+    {
+      "path": "references/originals/Uber_iOS_Verification_Flow.zip",
+      "bytes": 8063322,
+      "sha256": "0b19d62fcf3d4fd0ab5b7176148ecc5955a0bb58ed81c39ca56716417e8ae8a5"
+    },
+    {
+      "path": "references/originals/happn_iOS_Certification_Flow.zip",
+      "bytes": 6925676,
+      "sha256": "f03e14a1af44cbf32997b462799371eca6faa29afcb4857aa6a317935dd73660"
+    }
+  ]
+}

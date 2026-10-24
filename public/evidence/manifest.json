@@ -1,0 +1,590 @@
+{
+  "schemaVersion": 1,
+  "media": [
+    {
+      "path": "/evidence/cloud-poplin-drape.svg",
+      "listing": "cloud-poplin",
+      "property": "Drape",
+      "bytes": 2901,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/cloud-poplin-movement.svg",
+      "listing": "cloud-poplin",
+      "property": "Movement",
+      "bytes": 5677,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/cloud-poplin-movement-frame1.svg",
+      "listing": "cloud-poplin",
+      "property": "Movement",
+      "frame": 1,
+      "bytes": 2848,
+      "origin": "Original illustrative movement sequence frame",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/cloud-poplin-movement-frame2.svg",
+      "listing": "cloud-poplin",
+      "property": "Movement",
+      "frame": 2,
+      "bytes": 2847,
+      "origin": "Original illustrative movement sequence frame",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/cloud-poplin-movement-frame3.svg",
+      "listing": "cloud-poplin",
+      "property": "Movement",
+      "frame": 3,
+      "bytes": 2847,
+      "origin": "Original illustrative movement sequence frame",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/cloud-poplin-stretch.svg",
+      "listing": "cloud-poplin",
+      "property": "Stretch",
+      "bytes": 2903,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/cloud-poplin-surface.svg",
+      "listing": "cloud-poplin",
+      "property": "Surface",
+      "bytes": 2371,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/moss-knit-drape.svg",
+      "listing": "moss-knit",
+      "property": "Drape",
+      "bytes": 2470,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/moss-knit-movement.svg",
+      "listing": "moss-knit",
+      "property": "Movement",
+      "bytes": 4386,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/moss-knit-movement-frame1.svg",
+      "listing": "moss-knit",
+      "property": "Movement",
+      "frame": 1,
+      "bytes": 2417,
+      "origin": "Original illustrative movement sequence frame",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/moss-knit-movement-frame2.svg",
+      "listing": "moss-knit",
+      "property": "Movement",
+      "frame": 2,
+      "bytes": 2416,
+      "origin": "Original illustrative movement sequence frame",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/moss-knit-movement-frame3.svg",
+      "listing": "moss-knit",
+      "property": "Movement",
+      "frame": 3,
+      "bytes": 2416,
+      "origin": "Original illustrative movement sequence frame",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/moss-knit-stretch.svg",
+      "listing": "moss-knit",
+      "property": "Stretch",
+      "bytes": 2472,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/moss-knit-surface.svg",
+      "listing": "moss-knit",
+      "property": "Surface",
+      "bytes": 7568,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/airloom-linen-drape.svg",
+      "listing": "airloom-linen",
+      "property": "Drape",
+      "bytes": 2970,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/airloom-linen-movement.svg",
+      "listing": "airloom-linen",
+      "property": "Movement",
+      "bytes": 5876,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/airloom-linen-movement-frame1.svg",
+      "listing": "airloom-linen",
+      "property": "Movement",
+      "frame": 1,
+      "bytes": 2917,
+      "origin": "Original illustrative movement sequence frame",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/airloom-linen-movement-frame2.svg",
+      "listing": "airloom-linen",
+      "property": "Movement",
+      "frame": 2,
+      "bytes": 2916,
+      "origin": "Original illustrative movement sequence frame",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/airloom-linen-movement-frame3.svg",
+      "listing": "airloom-linen",
+      "property": "Movement",
+      "frame": 3,
+      "bytes": 2916,
+      "origin": "Original illustrative movement sequence frame",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/airloom-linen-stretch.svg",
+      "listing": "airloom-linen",
+      "property": "Stretch",
+      "bytes": 2972,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/airloom-linen-surface.svg",
+      "listing": "airloom-linen",
+      "property": "Surface",
+      "bytes": 2112,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/petal-tee-drape.svg",
+      "listing": "petal-tee",
+      "property": "Drape",
+      "bytes": 2360,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/petal-tee-movement.svg",
+      "listing": "petal-tee",
+      "property": "Movement",
+      "bytes": 4074,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/petal-tee-stretch.svg",
+      "listing": "petal-tee",
+      "property": "Stretch",
+      "bytes": 2362,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/petal-tee-surface.svg",
+      "listing": "petal-tee",
+      "property": "Surface",
+      "bytes": 2031,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/sunday-denim-drape.svg",
+      "listing": "sunday-denim",
+      "property": "Drape",
+      "bytes": 2190,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/sunday-denim-movement.svg",
+      "listing": "sunday-denim",
+      "property": "Movement",
+      "bytes": 3558,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/sunday-denim-stretch.svg",
+      "listing": "sunday-denim",
+      "property": "Stretch",
+      "bytes": 2192,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/sunday-denim-surface.svg",
+      "listing": "sunday-denim",
+      "property": "Surface",
+      "bytes": 5489,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/ink-trousers-drape.svg",
+      "listing": "ink-trousers",
+      "property": "Drape",
+      "bytes": 2190,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/ink-trousers-movement.svg",
+      "listing": "ink-trousers",
+      "property": "Movement",
+      "bytes": 3558,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/ink-trousers-stretch.svg",
+      "listing": "ink-trousers",
+      "property": "Stretch",
+      "bytes": 2192,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/ink-trousers-surface.svg",
+      "listing": "ink-trousers",
+      "property": "Surface",
+      "bytes": 2040,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/apricot-slip-drape.svg",
+      "listing": "apricot-slip",
+      "property": "Drape",
+      "bytes": 2223,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/apricot-slip-movement.svg",
+      "listing": "apricot-slip",
+      "property": "Movement",
+      "bytes": 3657,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/apricot-slip-stretch.svg",
+      "listing": "apricot-slip",
+      "property": "Stretch",
+      "bytes": 2225,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/apricot-slip-surface.svg",
+      "listing": "apricot-slip",
+      "property": "Surface",
+      "bytes": 2049,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/tide-shirt-drape.svg",
+      "listing": "tide-shirt",
+      "property": "Drape",
+      "bytes": 2821,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/tide-shirt-movement.svg",
+      "listing": "tide-shirt",
+      "property": "Movement",
+      "bytes": 5455,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/tide-shirt-stretch.svg",
+      "listing": "tide-shirt",
+      "property": "Stretch",
+      "bytes": 2823,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/tide-shirt-surface.svg",
+      "listing": "tide-shirt",
+      "property": "Surface",
+      "bytes": 3565,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/oat-vest-drape.svg",
+      "listing": "oat-vest",
+      "property": "Drape",
+      "bytes": 2237,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/oat-vest-movement.svg",
+      "listing": "oat-vest",
+      "property": "Movement",
+      "bytes": 3707,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/oat-vest-stretch.svg",
+      "listing": "oat-vest",
+      "property": "Stretch",
+      "bytes": 2239,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/oat-vest-surface.svg",
+      "listing": "oat-vest",
+      "property": "Surface",
+      "bytes": 7351,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/lilac-wrap-drape.svg",
+      "listing": "lilac-wrap",
+      "property": "Drape",
+      "bytes": 2419,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/lilac-wrap-movement.svg",
+      "listing": "lilac-wrap",
+      "property": "Movement",
+      "bytes": 4249,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/lilac-wrap-stretch.svg",
+      "listing": "lilac-wrap",
+      "property": "Stretch",
+      "bytes": 2421,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/lilac-wrap-surface.svg",
+      "listing": "lilac-wrap",
+      "property": "Surface",
+      "bytes": 2051,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/rose-jacket-drape.svg",
+      "listing": "rose-jacket",
+      "property": "Drape",
+      "bytes": 2958,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/rose-jacket-movement.svg",
+      "listing": "rose-jacket",
+      "property": "Movement",
+      "bytes": 5864,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/rose-jacket-stretch.svg",
+      "listing": "rose-jacket",
+      "property": "Stretch",
+      "bytes": 2960,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/rose-jacket-surface.svg",
+      "listing": "rose-jacket",
+      "property": "Surface",
+      "bytes": 2262,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/sage-skirt-drape.svg",
+      "listing": "sage-skirt",
+      "property": "Drape",
+      "bytes": 2129,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/sage-skirt-movement.svg",
+      "listing": "sage-skirt",
+      "property": "Movement",
+      "bytes": 3379,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/sage-skirt-stretch.svg",
+      "listing": "sage-skirt",
+      "property": "Stretch",
+      "bytes": 2131,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/sage-skirt-surface.svg",
+      "listing": "sage-skirt",
+      "property": "Surface",
+      "bytes": 2304,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/my-blue-blouse-drape.svg",
+      "listing": "my-blue-blouse",
+      "property": "Drape",
+      "bytes": 2393,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/my-blue-blouse-movement.svg",
+      "listing": "my-blue-blouse",
+      "property": "Movement",
+      "bytes": 4163,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/my-blue-blouse-movement-frame1.svg",
+      "listing": "my-blue-blouse",
+      "property": "Movement",
+      "frame": 1,
+      "bytes": 2340,
+      "origin": "Original illustrative movement sequence frame",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/my-blue-blouse-movement-frame2.svg",
+      "listing": "my-blue-blouse",
+      "property": "Movement",
+      "frame": 2,
+      "bytes": 2339,
+      "origin": "Original illustrative movement sequence frame",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/my-blue-blouse-movement-frame3.svg",
+      "listing": "my-blue-blouse",
+      "property": "Movement",
+      "frame": 3,
+      "bytes": 2339,
+      "origin": "Original illustrative movement sequence frame",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/my-blue-blouse-stretch.svg",
+      "listing": "my-blue-blouse",
+      "property": "Stretch",
+      "bytes": 2395,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/my-blue-blouse-surface.svg",
+      "listing": "my-blue-blouse",
+      "property": "Surface",
+      "bytes": 2058,
+      "origin": "Original hand-authored illustrative capture fixture",
+      "notEstablished": "Real garment condition or mechanics",
+      "license": "Project-authored asset"
+    },
+    {
+      "path": "/evidence/cloud-poplin-label.svg",
+      "listing": "cloud-poplin",
+      "property": "Label",
+      "bytes": 1275,
+      "origin": "Original illustrative printed-label fixture",
+      "notEstablished": "Independent composition or authenticity",
+      "license": "Project-authored asset"
+    }
+  ]
+}

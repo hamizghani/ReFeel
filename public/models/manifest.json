@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "assets": [
+    {
+      "id": "cloud-animated",
+      "path": "/models/cloud-animated.glb",
+      "bytes": 402392,
+      "sha256": "ca200e679e169faa670647af88ea48bd82752c4c7563d42fa050c610d15079ec",
+      "source": "Original Familiar procedural Cloud Poplin garment, supplied V1 archive; sleeves reshaped with full-width sewn roots",
+      "variants": [
+        "cloud",
+        "reference"
+      ],
+      "activeMeshCount": 40,
+      "removedInventedWearAndCompositionLabel": true,
+      "scope": "Single illustrative base shape reused for ivory listing and blue reference. Fixed-step XPBD cloth cage runs in the viewer. This asset does not establish real fabric properties.",
+      "reproduce": "node scripts/author-animated-garment.mjs"
+    }
+  ]
+}

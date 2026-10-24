@@ -1,0 +1,62 @@
+{
+  "mode": "production",
+  "results": [
+    {
+      "name": "Match disclosures, sources and buying · 320",
+      "width": 320,
+      "status": "passed",
+      "closedSections": 5,
+      "differences": 4,
+      "sourceAttributions": 8,
+      "conditionIssueVisible": true,
+      "originalPhotos": true,
+      "photoPairSideBySide": true,
+      "save": true,
+      "buy": true,
+      "overflow": false
+    },
+    {
+      "name": "Match disclosures, sources and buying · 390",
+      "width": 390,
+      "status": "passed",
+      "closedSections": 5,
+      "differences": 4,
+      "sourceAttributions": 8,
+      "conditionIssueVisible": true,
+      "originalPhotos": true,
+      "photoPairSideBySide": true,
+      "save": true,
+      "buy": true,
+      "overflow": false
+    },
+    {
+      "name": "Match disclosures, sources and buying · 1440",
+      "width": 1440,
+      "status": "passed",
+      "closedSections": 5,
+      "differences": 4,
+      "sourceAttributions": 8,
+      "conditionIssueVisible": true,
+      "originalPhotos": true,
+      "photoPairSideBySide": true,
+      "save": true,
+      "buy": true,
+      "overflow": false
+    },
+    {
+      "name": "Unknown softness and keyboard condition access · 390",
+      "width": 390,
+      "status": "passed",
+      "unknownSoftness": true,
+      "missingAttribution": true,
+      "keyboardDisclosure": true,
+      "conditionViewsReachable": true,
+      "originalPhotos": true,
+      "photoPairSideBySide": true,
+      "overflow": false
+    }
+  ],
+  "pageErrors": [],
+  "passed": 4,
+  "failed": 0
+}

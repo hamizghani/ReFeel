@@ -1,0 +1,24 @@
+{
+  "package": "Familiar Final Generator MegaPrompt Pack",
+  "companion_input": "Familiar_Vision_Demonstrator.zip",
+  "required_outputs": [
+    "Familiar_Final_Vercel_Deployable.zip",
+    "Familiar_Final_Source_Assets.zip"
+  ],
+  "required_3d_assets": [
+    "cloud-poplin.glb",
+    "moss-knit.glb",
+    "airloom-linen.glb",
+    "my-blue-blouse.glb"
+  ],
+  "required_logo_assets": [
+    "familiar-wordmark.svg",
+    "familiar-mark.svg",
+    "familiar-wordmark-reverse.svg",
+    "familiar-mark-reverse.svg",
+    "brand-manifest.json"
+  ],
+  "review_round_limit": 4,
+  "minimum_private_review_score": 8.5,
+  "application_root": "root"
+}

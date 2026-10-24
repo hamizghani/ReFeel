@@ -1,0 +1,26 @@
+{
+  "cloud": {
+    "image_shape": [
+      401,
+      358,
+      3
+    ],
+    "mean_absolute_channel_error": 0.0,
+    "max_channel_error": 0,
+    "changed_pixels": 0,
+    "pixel_count": 143558,
+    "pixels_over_2_levels": 0
+  },
+  "reference": {
+    "image_shape": [
+      401,
+      358,
+      3
+    ],
+    "mean_absolute_channel_error": 0.0,
+    "max_channel_error": 0,
+    "changed_pixels": 0,
+    "pixel_count": 143558,
+    "pixels_over_2_levels": 0
+  }
+}

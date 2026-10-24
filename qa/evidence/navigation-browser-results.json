@@ -1,0 +1,18 @@
+{
+  "mode": "production",
+  "results": [
+    {
+      "name": "Recording Next preserves the current viewport and keyboard action",
+      "status": "passed"
+    },
+    {
+      "name": "Back restores catalogue filters and the previous scroll position",
+      "status": "passed"
+    },
+    {
+      "name": "Short phone keeps the recording primary action above the safe area",
+      "status": "passed"
+    }
+  ],
+  "pageErrors": []
+}

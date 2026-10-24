@@ -1,0 +1,46 @@
+{
+  "mode": "production",
+  "results": [
+    {
+      "name": "Catalogue and product View bag use the saved bag",
+      "width": 320,
+      "status": "passed"
+    },
+    {
+      "name": "Real seller inventory supports add and hides a reserved piece",
+      "width": 320,
+      "status": "passed"
+    },
+    {
+      "name": "Catalogue and product View bag use the saved bag",
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "name": "Real seller inventory supports add and hides a reserved piece",
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "name": "Catalogue and product View bag use the saved bag",
+      "width": 768,
+      "status": "passed"
+    },
+    {
+      "name": "Real seller inventory supports add and hides a reserved piece",
+      "width": 768,
+      "status": "passed"
+    },
+    {
+      "name": "Catalogue and product View bag use the saved bag",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "name": "Real seller inventory supports add and hides a reserved piece",
+      "width": 1440,
+      "status": "passed"
+    }
+  ],
+  "pageErrors": []
+}

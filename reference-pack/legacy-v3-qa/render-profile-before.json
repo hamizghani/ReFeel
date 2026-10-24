@@ -1,0 +1,78 @@
+{
+  "environment": "Headless Chromium, Swiftshader, 390x844, DPR1, oneview, three4secondguidedclothruns",
+  "runs": [
+    {
+      "frames": 83,
+      "median": 50,
+      "p95": 100,
+      "max": 116.70000000000073,
+      "data": {
+        "variant": "cloud",
+        "step": "3",
+        "playing": "true",
+        "garmentReady": "true",
+        "physicsSteps": "697",
+        "meshCount": "40",
+        "maxDisplacement": "0.136016",
+        "physicsStrain": "0.1465",
+        "physicsEnergy": "1.208183",
+        "garmentYaw": "-0.0800",
+        "cameraDistance": "1.85043",
+        "cameraAzimuth": "0.00000",
+        "cameraPolar": "1.54918",
+        "cameraTargetY": "-0.00500",
+        "renderCalls": "41",
+        "renderTriangles": "14186"
+      }
+    },
+    {
+      "frames": 92,
+      "median": 49.900000000001455,
+      "p95": 66.70000000000073,
+      "max": 83.39999999999964,
+      "data": {
+        "variant": "cloud",
+        "step": "3",
+        "playing": "true",
+        "garmentReady": "true",
+        "physicsSteps": "1269",
+        "meshCount": "40",
+        "maxDisplacement": "0.123464",
+        "physicsStrain": "0.1413",
+        "physicsEnergy": "0.933773",
+        "garmentYaw": "-0.0800",
+        "cameraDistance": "1.85043",
+        "cameraAzimuth": "0.00000",
+        "cameraPolar": "1.54918",
+        "cameraTargetY": "-0.00500",
+        "renderCalls": "41",
+        "renderTriangles": "14186"
+      }
+    },
+    {
+      "frames": 85,
+      "median": 50,
+      "p95": 66.69999999999709,
+      "max": 133.29999999999927,
+      "data": {
+        "variant": "cloud",
+        "step": "3",
+        "playing": "true",
+        "garmentReady": "true",
+        "physicsSteps": "1785",
+        "meshCount": "40",
+        "maxDisplacement": "0.124877",
+        "physicsStrain": "0.1424",
+        "physicsEnergy": "0.199907",
+        "garmentYaw": "-0.0800",
+        "cameraDistance": "1.85043",
+        "cameraAzimuth": "0.00000",
+        "cameraPolar": "1.54918",
+        "cameraTargetY": "-0.00500",
+        "renderCalls": "41",
+        "renderTriangles": "14186"
+      }
+    }
+  ],
+  "errors": []
+}

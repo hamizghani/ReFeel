@@ -1,0 +1,40 @@
+{
+  "name": "refeel-marketplace",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "test:browser": "node scripts/browser-tests-v3.mjs",
+    "verify:assets": "node scripts/verify-photo-assets.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "verify:fixtures": "node scripts/verify-fixtures.mjs",
+    "verify:models": "node scripts/verify-animated-model.mjs",
+    "test:navigation": "node scripts/navigation-browser-tests.mjs",
+    "test:shopping": "node scripts/shopping-browser-tests-v3.mjs",
+    "package:release": "python3 scripts/package-release.py",
+    "test:match": "node scripts/match-disclosure-tests.mjs",
+    "verify:covers": "node scripts/verify-cover-assets.mjs"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "2.1.10",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@types/three": "0.180.0",
+    "playwright": "1.56.1",
+    "typescript": "5.9.3",
+    "vite": "7.1.12",
+    "vitest": "3.2.4"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
