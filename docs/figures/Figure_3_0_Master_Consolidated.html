@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #ffffff;
+      color: #0f172a;
+      display: inline-block;
+      padding: 32px;
+    }
+    .figure-container {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 28px 32px 24px 32px;
+      box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06);
+    }
+    .header {
+      margin-bottom: 24px;
+      border-bottom: 1px solid #f1f5f9;
+      padding-bottom: 16px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #047857;
+      background: #ecfdf5;
+      border: 1px solid #a7f3d0;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .caption {
+      margin-top: 20px;
+      padding-top: 14px;
+      border-top: 1px solid #f1f5f9;
+      font-size: 13px;
+      line-height: 1.6;
+      color: #475569;
+    }
+    .caption strong {
+      color: #0f172a;
+    }
+  </style>
+</head>
+<body>
+  <div class="figure-container">
+    <div class="header">
+      <span class="badge">ReFeel Technical Architecture</span>
+      <h1>Figure 3.0: ReFeel End-to-End System, Capture Pipeline and Comparison Lifecycle</h1>
+    </div>
+    <div class="canvas">
+      <svg width="1020" height="420" viewBox="0 0 1020 420" xmlns="http://www.w3.org/2000/svg" style="font-family: inherit;">
+  
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+  </marker>
+  <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+  </marker>
+  <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#dc2626"/>
+  </marker>
+</defs>
+  <!-- Stage 1 -->
+  <rect x="15" y="15" width="230" height="385" rx="12" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="25" y="25" width="210" height="28" rx="6" fill="#f8fafc"/>
+  <text x="35" y="44" font-size="11.5" font-weight="700" fill="#0f172a">1. GUIDED CAPTURE (Web)</text>
+  <text x="35" y="66" font-size="9.5" fill="#64748b">No app install required</text>
+
+  <rect x="25" y="80" width="210" height="75" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="35" y="103" font-size="11" font-weight="600" fill="#0f172a">Merchant & Buyer Flows</text>
+  <text x="35" y="121" font-size="9.5" fill="#475569">• Merchant gets public listing</text>
+  <text x="35" y="138" font-size="9.5" fill="#475569">• Buyer saves private reference</text>
+
+  <rect x="25" y="165" width="210" height="110" rx="6" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="35" y="188" font-size="11" font-weight="600" fill="#991b1b">Real-Time Client QA</text>
+  <text x="35" y="208" font-size="9.5" fill="#7f1d1d">• Blur, light, framing checks</text>
+  <text x="35" y="226" font-size="9.5" fill="#7f1d1d">• Immediate repeat prompts</text>
+  <text x="35" y="244" font-size="9.5" fill="#7f1d1d">• Pre-upload verification</text>
+  <text x="35" y="262" font-size="8.5" font-style="italic" fill="#b91c1c">Zero defective media to cloud</text>
+
+  <rect x="25" y="285" width="210" height="95" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="35" y="308" font-size="10.5" font-weight="600" fill="#0f172a">7 Standardized Steps</text>
+  <text x="35" y="326" font-size="9" fill="#475569">Care label, surface, motion,</text>
+  <text x="35" y="342" font-size="9" fill="#475569">stretch/release, sheen, show-through,</text>
+  <text x="35" y="358" font-size="9" fill="#475569">and visible condition close-ups</text>
+
+  <!-- Stage 2 -->
+  <rect x="265" y="15" width="230" height="385" rx="12" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="275" y="25" width="210" height="28" rx="6" fill="#f0fdf4"/>
+  <text x="285" y="44" font-size="11.5" font-weight="700" fill="#166534">2. CLOUD GPU (Modal)</text>
+  <text x="285" y="66" font-size="9.5" fill="#15803d">~5 GPU sec budget + R2 storage</text>
+
+  <rect x="275" y="80" width="210" height="60" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="285" y="103" font-size="10.5" font-weight="600" fill="#0f172a">Cloudflare R2 Storage</text>
+  <text x="285" y="121" font-size="9.5" fill="#475569">Original unretouched media &</text>
+  <text x="285" y="133" font-size="9.5" fill="#475569">bounding box crop pointers</text>
+
+  <rect x="275" y="150" width="210" height="230" rx="6" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="285" y="173" font-size="11" font-weight="700" fill="#166534">Feature Extraction Pipeline</text>
+  <text x="285" y="195" font-size="9.5" fill="#15803d">• Foreground segmentation</text>
+  <text x="285" y="213" font-size="9.5" fill="#15803d">• Optical tracking & motion</text>
+  <text x="285" y="231" font-size="9.5" fill="#15803d">• Drape descriptor extraction</text>
+  <text x="285" y="249" font-size="9.5" fill="#15803d">• Observed stretch & recovery</text>
+  <text x="285" y="267" font-size="9.5" fill="#15803d">• Sheen response & show-through</text>
+  <text x="285" y="285" font-size="9.5" fill="#15803d">• Label OCR (merchant verified)</text>
+  <text x="285" y="303" font-size="9.5" fill="#15803d">• Visible wear detection/crop</text>
+  <text x="285" y="335" font-size="9" font-style="italic" fill="#166534">Each descriptor tagged with</text>
+  <text x="285" y="350" font-size="9" font-style="italic" fill="#166534">reliability r, conditions & version</text>
+
+  <!-- Stage 3 -->
+  <rect x="515" y="15" width="235" height="385" rx="12" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="525" y="25" width="215" height="28" rx="6" fill="#f8fafc"/>
+  <text x="535" y="44" font-size="11.5" font-weight="700" fill="#0f172a">3. DATABASE & BOUNDS</text>
+  <text x="535" y="66" font-size="9.5" fill="#64748b">Supabase PostgreSQL</text>
+
+  <rect x="525" y="80" width="215" height="75" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="535" y="103" font-size="10.5" font-weight="600" fill="#0f172a">Structured Vaults</text>
+  <text x="535" y="122" font-size="9" fill="#475569">• Merchant Public Listing Profile</text>
+  <text x="535" y="139" font-size="9" fill="#475569">• Buyer Private Reference Vault</text>
+
+  <rect x="525" y="165" width="215" height="215" rx="6" fill="#faf5ff" stroke="#d8b4fe"/>
+  <text x="535" y="188" font-size="11" font-weight="700" fill="#6b21a8">Four Information Tiers</text>
+  <text x="535" y="212" font-size="9.5" font-weight="600" fill="#3b0764">1. Direct Observations (R2)</text>
+  <text x="535" y="228" font-size="8.8" fill="#581c87">Unretouched clips & wear photos</text>
+  <text x="535" y="250" font-size="9.5" font-weight="600" fill="#3b0764">2. Declarations</text>
+  <text x="535" y="266" font-size="8.8" fill="#581c87">Confirmed care label & seller claims</text>
+  <text x="535" y="288" font-size="9.5" font-weight="600" fill="#3b0764">3. Model Estimates</text>
+  <text x="535" y="304" font-size="8.8" fill="#581c87">Qualitative descriptors tagged with r</text>
+  <text x="535" y="326" font-size="9.5" font-weight="600" fill="#991b1b">4. Explicit Unknowns</text>
+  <text x="535" y="342" font-size="8.8" fill="#7f1d1d">Softness, warmth, elasticity (never guessed)</text>
+
+  <!-- Stage 4 -->
+  <rect x="770" y="15" width="235" height="385" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <rect x="780" y="25" width="215" height="28" rx="6" fill="#eff6ff"/>
+  <text x="790" y="44" font-size="11.5" font-weight="700" fill="#1e3a8a">4. COMPARISON & VIEW</text>
+  <text x="790" y="66" font-size="9.5" fill="#64748b">Property-by-property inspection</text>
+
+  <rect x="780" y="80" width="215" height="135" rx="6" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="790" y="103" font-size="10.5" font-weight="700" fill="#166534">Pessimistic Weighting</text>
+  <text x="790" y="125" font-size="9" fill="#15803d">• Shared descriptors only (A ∩ B)</text>
+  <text x="790" y="142" font-size="9" fill="#15803d">• Weight = Priority × min(rA, rB)</text>
+  <text x="790" y="160" font-size="9" fill="#15803d">• Missing = "Unavailable" (No filling)</text>
+  <text x="790" y="178" font-size="9" fill="#15803d">• Recapture if evidence inadequate</text>
+  <text x="790" y="196" font-size="8.5" font-style="italic" fill="#166534">Compatible category required</text>
+
+  <rect x="780" y="225" width="215" height="155" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="790" y="248" font-size="10.5" font-weight="700" fill="#1e3a8a">Buyer Inspection UI</text>
+  <text x="790" y="270" font-size="9" fill="#1e40af">• Differences clearly phrased</text>
+  <text x="790" y="287" font-size="9" fill="#1e40af">• Tap statement to open original clip</text>
+  <text x="790" y="304" font-size="9" fill="#1e40af">• Unretouched evidence drill-down</text>
+  <text x="790" y="321" font-size="9" fill="#1e40af">• Pinned historical versions</text>
+  <text x="790" y="348" font-size="8.5" font-style="italic" fill="#2563eb">Planned 2029: B2B API & Widget</text>
+
+  <!-- Connectors -->
+  <path d="M 245 200 L 265 200" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 495 200 L 515 200" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 750 200 L 770 200" fill="none" stroke="#2563eb" stroke-width="1.8" marker-end="url(#arrow-blue)"/>
+</svg>
+    </div>
+    <div class="caption">
+      <strong>Figure 3.0:</strong> Consolidated end-to-end technical overview illustrating guided capture, serverless analysis, structured profiles, and the buyer comparison experience.
+    </div>
+  </div>
+</body>
+</html>

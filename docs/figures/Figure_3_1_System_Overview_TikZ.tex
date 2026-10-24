@@ -1,0 +1,237 @@
+% ==========================================================================
+% ReFeel System Overview (Section 3: Product and Technology)
+% LaTeX + TikZ Implementation with Sampled Mauve/Plum/Blush Color Palette
+% ==========================================================================
+% Required in preamble:
+% \usepackage{tikz}
+% \usepackage{xcolor}
+% \usetikzlibrary{arrows.meta, positioning, calc, shapes.geometric, fit, backgrounds}
+% ==========================================================================
+
+\definecolor{refeelDark}{HTML}{684A5E}   % Deep Plum / Mauve (RGB: 104, 74, 94)
+\definecolor{refeelMid}{HTML}{866B7C}    % Muted Mauve (RGB: 134, 107, 124)
+\definecolor{refeelLight}{HTML}{CEB8C4}  % Soft Lilac-Blush (RGB: 206, 184, 196)
+\definecolor{refeelTint}{HTML}{EAE0E6}   % Medium-Light Blush Accent
+\definecolor{refeelPale}{HTML}{F4EFF2}   % Pale Card Fill
+\definecolor{refeelBg}{HTML}{FAF7F9}     % Stage Container Fill
+\definecolor{refeelInk}{HTML}{2D252A}    % Primary Dark Text
+\definecolor{refeelSub}{HTML}{5A4853}    % Secondary Muted Text
+
+\begin{figure*}[t!]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+    x=1pt, y=-1pt, % Top-left origin matching publication vector layout
+    font=\sffamily,
+    >= {Latex[length=6pt, width=5pt]},
+    stageBox/.style={
+        draw=refeelLight, line width=1.4pt, fill=refeelBg, rounded corners=8pt
+    },
+    cardWhite/.style={
+        draw=refeelMid, line width=1pt, fill=white, rounded corners=5pt
+    },
+    cardDark/.style={
+        draw=refeelDark, line width=1.2pt, fill=white, rounded corners=5pt
+    },
+    cardPale/.style={
+        draw=refeelLight, line width=1pt, fill=refeelPale, rounded corners=5pt
+    },
+    cardTint/.style={
+        draw=refeelMid, line width=1.1pt, fill=refeelTint, rounded corners=5pt
+    },
+    flowArrow/.style={
+        ->, draw=refeelDark, line width=1.8pt
+    },
+    pointerArrow/.style={
+        ->, draw=refeelMid, line width=1.3pt, dashed
+    }
+]
+
+% ==========================================================================
+% STAGE 1: 1. GUIDED CAPTURE (WEB)
+% ==========================================================================
+\draw[stageBox] (15, 28) rectangle (250, 523);
+\fill[refeelDark, rounded corners=8pt] (15, 28) rectangle (250, 66);
+\fill[refeelDark] (15, 50) rectangle (250, 66);
+\node[text=white, font=\sffamily\bfseries\small] at (132.5, 47) {1. GUIDED CAPTURE (WEB)};
+
+% Merchant Listing Capture
+\draw[cardWhite] (29, 82) rectangle (236, 146);
+\fill[refeelDark, rounded corners=2pt] (29, 82) rectangle (35, 146);
+\node[anchor=west, text=refeelInk, font=\sffamily\bfseries\footnotesize] at (42, 98) {Merchant Listing Capture};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (42, 116) {Captures garment once to};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (42, 130) {receive a published profile};
+
+% Buyer Reference Capture
+\draw[cardWhite] (29, 158) rectangle (236, 222);
+\fill[refeelMid, rounded corners=2pt] (29, 158) rectangle (35, 222);
+\node[anchor=west, text=refeelInk, font=\sffamily\bfseries\footnotesize] at (42, 174) {Buyer Reference Capture};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (42, 192) {Captures familiar garment};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (42, 206) {once \& saves it privately};
+
+% Shared 7-Step Sequence
+\draw[cardPale] (29, 236) rectangle (236, 394);
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\footnotesize] at (38, 253) {Shared 7-Step Sequence};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (38, 273) {1. Care-label photograph};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (38, 289) {2. Surface structure close-up};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (38, 305) {3. Hanging \& movement clip};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (38, 321) {4. Gentle stretch \& release clip};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (38, 337) {5. Angle change (sheen) clip};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (38, 353) {6. Show-through opacity view};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (38, 369) {7. Visible condition close-ups};
+
+% Real-Time Mobile QA
+\draw[cardTint] (29, 408) rectangle (236, 506);
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\footnotesize] at (38, 425) {Real-Time Mobile QA};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (38, 444) {$\bullet$ Focus, lighting \& framing};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (38, 460) {$\bullet$ Sequence completeness};
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\scriptsize] at (38, 479) {$\circlearrowright$ Prompts immediate repeat};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (38, 493) {while person is still recording};
+
+
+% ==========================================================================
+% STAGE 2: 2. CLOUD ANALYSIS & MEDIA
+% ==========================================================================
+\draw[stageBox] (280, 28) rectangle (525, 523);
+\fill[refeelMid, rounded corners=8pt] (280, 28) rectangle (525, 66);
+\fill[refeelMid] (280, 50) rectangle (525, 66);
+\node[text=white, font=\sffamily\bfseries\small] at (402.5, 47) {2. CLOUD ANALYSIS \& MEDIA};
+
+% Object Storage (Cloudflare R2)
+\draw[cardWhite] (294, 82) rectangle (511, 164);
+\fill[refeelLight, rounded corners=4pt] (294.5, 82.5) rectangle (510.5, 106);
+\node[text=refeelInk, font=\sffamily\bfseries\scriptsize] at (402.5, 94) {Object Storage (Cloudflare R2)};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (304, 121) {$\bullet$ Unretouched source photos \& clips};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (304, 137) {$\bullet$ Close-up crops of visible wear};
+\node[anchor=west, text=refeelSub, font=\sffamily\itshape\scriptsize] at (304, 153) {Original captures never retouched};
+
+% Serverless GPU (Modal)
+\draw[cardDark] (294, 180) rectangle (511, 405);
+\fill[refeelDark, rounded corners=4pt] (294.5, 180.5) rectangle (510.5, 206);
+\node[text=white, font=\sffamily\bfseries\scriptsize] at (402.5, 193) {Serverless GPU (Modal $\cdot$ $\sim$5s Budget)};
+
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\scriptsize] at (304, 221) {Garment Isolation \& Tracking};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (304, 237) {Isolates garment \& tracks motion};
+\draw[refeelLight, line width=0.6pt] (304, 248) -- (500, 248);
+
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\scriptsize] at (304, 263) {Extracted Descriptors};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (304, 280) {$\bullet$ Drape \& dynamic movement};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (304, 296) {$\bullet$ Observed extension \& recovery};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (304, 312) {$\bullet$ Sheen \& show-through opacity};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (304, 328) {$\bullet$ Visible surface structure};
+\draw[refeelLight, line width=0.6pt] (304, 339) -- (500, 339);
+
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\scriptsize] at (304, 354) {OCR \& Wear Flagging};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (304, 370) {$\bullet$ Care-label OCR + merchant verify};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (304, 386) {$\bullet$ Wear flagged \& linked to close-up};
+
+% Per-Descriptor Provenance
+\draw[cardPale] (294, 419) rectangle (511, 506);
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\scriptsize] at (304, 436) {Per-Descriptor Provenance};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (304, 453) {$\bullet$ Reliability value \& capture conditions};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (304, 469) {$\bullet$ Pointer to source clip or image};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (304, 485) {$\bullet$ Protocol \& model version pinned};
+
+
+% ==========================================================================
+% STAGE 3: 3. PROFILES & BOUNDARIES
+% ==========================================================================
+\draw[stageBox] (555, 28) rectangle (790, 523);
+\fill[refeelDark, rounded corners=8pt] (555, 28) rectangle (790, 66);
+\fill[refeelDark] (555, 50) rectangle (790, 66);
+\node[text=white, font=\sffamily\bfseries\small] at (672.5, 47) {3. PROFILES \& BOUNDARIES};
+
+% Managed Database (Supabase)
+\draw[cardWhite] (569, 82) rectangle (776, 172);
+\fill[refeelLight, rounded corners=4pt] (569.5, 82.5) rectangle (775.5, 106);
+\node[text=refeelInk, font=\sffamily\bfseries\scriptsize] at (672.5, 94) {Managed Database (Supabase)};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (579, 121) {$\bullet$ Published merchant listing profiles};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (579, 137) {$\bullet$ Private buyer reference profiles};
+\node[anchor=west, text=refeelSub, font=\sffamily\itshape\scriptsize] at (579, 154) {Retains creation model version};
+
+% 4 Separated Info Categories
+\draw[cardDark] (569, 186) rectangle (776, 411);
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\footnotesize] at (579, 203) {4 Separated Info Categories};
+
+\draw[cardPale] (579, 217) rectangle (766, 257);
+\node[anchor=west, text=refeelInk, font=\sffamily\bfseries\scriptsize] at (586, 230) {1. Direct Observations};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (586, 245) {Unretouched captures \& wear crops};
+
+\draw[cardPale] (579, 263) rectangle (766, 303);
+\node[anchor=west, text=refeelInk, font=\sffamily\bfseries\scriptsize] at (586, 276) {2. Seller / Label Declarations};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (586, 291) {Confirmed care-label \& garment specs};
+
+\draw[cardPale] (579, 309) rectangle (766, 349);
+\node[anchor=west, text=refeelInk, font=\sffamily\bfseries\scriptsize] at (586, 322) {3. Model Estimates};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (586, 337) {Drape, sheen, visible pull stretch};
+
+\draw[cardTint] (579, 355) rectangle (766, 401);
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\scriptsize] at (586, 368) {4. Explicit Unknowns};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (586, 382) {Skin softness, warmth, breathability,};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (586, 393) {measured mechanical elasticity};
+
+% Comparison Guardrails
+\draw[cardPale] (569, 423) rectangle (776, 506);
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\scriptsize] at (579, 440) {Comparison Guardrails};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (579, 457) {$\bullet$ Comparable garment categories};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (579, 473) {$\bullet$ Missing data stays ``Unavailable''};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (579, 489) {$\bullet$ Low shared evidence $\rightarrow$ Recapture};
+
+
+% ==========================================================================
+% STAGE 4: 4. COMPARISON & VIEW
+% ==========================================================================
+\draw[stageBox] (820, 28) rectangle (1045, 523);
+\fill[refeelMid, rounded corners=8pt] (820, 28) rectangle (1045, 66);
+\fill[refeelMid] (820, 50) rectangle (1045, 66);
+\node[text=white, font=\sffamily\bfseries\small] at (932.5, 47) {4. COMPARISON \& VIEW};
+
+% Pairwise Comparison Engine
+\draw[cardDark] (834, 82) rectangle (1031, 200);
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\footnotesize] at (844, 100) {Pairwise Comparison Engine};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (844, 120) {$\bullet$ Shared descriptors only};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (844, 137) {$\bullet$ Weighted by buyer priorities};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (844, 154) {$\bullet$ Governed by weaker reliability:};
+\draw[cardPale] (846, 166) rectangle (1019, 190);
+\node[text=refeelDark, font=\sffamily\bfseries\scriptsize] at (932.5, 178) {$w_i = \mathrm{Pref}_i \times \min(r_{A,i},\, r_{B,i})$};
+
+% Property-by-Property View
+\draw[cardWhite] (834, 214) rectangle (1031, 389);
+\node[anchor=west, text=refeelInk, font=\sffamily\bfseries\footnotesize] at (844, 232) {Property-by-Property View};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (844, 251) {Written explanation generated};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (844, 265) {only from stored descriptors:};
+
+\draw[stageBox, rounded corners=4pt] (846, 280) rectangle (1019, 342);
+\node[anchor=west, text=refeelInk, font=\sffamily\itshape\scriptsize] at (852, 295) {``Similar drape''};
+\node[anchor=west, text=refeelInk, font=\sffamily\itshape\scriptsize] at (852, 312) {``Less observed stretch''};
+\node[anchor=west, text=refeelInk, font=\sffamily\itshape\scriptsize] at (852, 329) {``Shinier surface in recorded light''};
+
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\scriptsize] at (844, 357) {$\hookrightarrow$ Clickable Media Verification};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (844, 373) {Opens source clip or crop per claim};
+
+% Channels & Consent Loop
+\draw[cardTint] (834, 403) rectangle (1031, 506);
+\node[anchor=west, text=refeelDark, font=\sffamily\bfseries\scriptsize] at (844, 420) {Channels \& Consent Loop};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (844, 439) {$\bullet$ Merchant Marketplace Web};
+\node[anchor=west, text=refeelInk, font=\sffamily\scriptsize] at (844, 456) {$\bullet$ 2029: External B2B API \& Widget};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (844, 474) {$\bullet$ Post-delivery feedback refines};
+\node[anchor=west, text=refeelSub, font=\sffamily\scriptsize] at (844, 488) {preferences (with buyer consent)};
+
+
+% ==========================================================================
+% STAGE CONNECTORS & R2 MEDIA POINTERS
+% ==========================================================================
+\draw[flowArrow] (250, 275) -- (280, 275);
+\draw[flowArrow] (525, 275) -- (555, 275);
+\draw[flowArrow] (790, 275) -- (820, 275);
+
+% Direct Source Clip & Crop Pointers (Cloudflare R2 -> Buyer View)
+\draw[pointerArrow] (511, 123) -- (540, 123) -- (540, 12) -- (1060, 12) -- (1060, 357) -- (1031, 357);
+\node[fill=white, inner sep=2pt, text=refeelDark, font=\sffamily\bfseries\scriptsize] at (785, 12) {Direct Source Clip \& Crop Pointers (Cloudflare R2)};
+
+\end{tikzpicture}%
+}
+\caption{ReFeel service overview, guided capture and analysis pipeline, evidence boundaries, and cloud architecture.}
+\label{fig:refeel-system-overview}
+\end{figure*}
+

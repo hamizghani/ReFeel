@@ -1,11 +1,11 @@
-.commerce { --commerce-canvas: #f8faf8; --commerce-surface: #fff; --commerce-ink: #141d18; --commerce-muted: #526359; --commerce-purple: #184e38; --commerce-line: #dde7e1; --commerce-tint: #e5efe8; color: var(--commerce-ink); font-family: "Plus Jakarta Sans", sans-serif; max-width: 1240px; }
+.commerce { --commerce-canvas: #f7f3f0; --commerce-surface: #fff; --commerce-ink: #302b35; --commerce-muted: #6e5d68; --commerce-purple: #684b5e; --commerce-line: #e5dce1; --commerce-tint: #eae0e6; color: var(--commerce-ink); font-family: "Noto Sans", sans-serif; max-width: 1240px; }
 .commerce * { min-width: 0; }
 .commerce p { margin: 0; line-height: 1.65; }
 .commerce h1, .commerce h2, .commerce h3 { margin: 0; overflow-wrap: anywhere; }
-.commerce h1 { font-family: Newsreader, Georgia, serif; font-size: clamp(34px, 5vw, 54px); line-height: 1.06; font-weight: 400; letter-spacing: -.025em; }
-.commerce h1 em { color: var(--commerce-purple); font-weight: 400; }
-.commerce h2 { font-family: Newsreader, Georgia, serif; font-size: 26px; font-weight: 400; line-height: 1.25; }
-.commerce h3 { font-size: 17px; line-height: 1.45; font-weight: 600; }
+.commerce h1 { font-family: "Rubik", sans-serif; font-size: clamp(34px, 5vw, 54px); line-height: 1.06; font-weight: 600; letter-spacing: -.025em; }
+.commerce h1 em { color: var(--commerce-purple); font-weight: 500; font-style: italic; }
+.commerce h2 { font-family: "Rubik", sans-serif; font-size: 26px; font-weight: 600; line-height: 1.25; }
+.commerce h3 { font-family: "Rubik", sans-serif; font-size: 17px; line-height: 1.45; font-weight: 600; }
 .commerce-kicker { color: var(--commerce-muted); font-size: 11px; font-weight: 650; letter-spacing: .095em; text-transform: uppercase; }
 .commerce-muted { color: var(--commerce-muted); }
 .commerce-small { font-size: 12px; line-height: 1.6; }

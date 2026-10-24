@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Rubik:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #FFFFFF;
+      color: #302B35;
+      display: inline-block;
+      padding: 36px 44px 42px;
+    }
+    .showcase-canvas {
+      width: 1240px;
+      background: #FFFFFF;
+    }
+
+    /* Top Brand Lockup */
+    .top-brand {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+    .top-brand svg {
+      width: 48px;
+      height: 48px;
+    }
+    .top-brand-name {
+      font-family: "Rubik", sans-serif;
+      font-size: 46px;
+      font-weight: 700;
+      color: #302B35;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+
+    /* Banner Bar */
+    .banner-bar {
+      width: 100%;
+      background: linear-gradient(90deg, #684B5E 0%, #866B7C 52%, #684B5E 100%);
+      color: #FFFFFF;
+      text-align: center;
+      padding: 15px 24px;
+      border-radius: 6px;
+      font-family: "Rubik", sans-serif;
+      font-size: 23px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 34px;
+      box-shadow: 0 4px 14px rgba(104, 75, 94, 0.16);
+    }
+
+    /* 4 Phones Grid */
+    .phones-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 28px;
+      padding: 0 10px;
+    }
+
+    /* iPhone Mockup Frame */
+    .phone-frame {
+      width: 274px;
+      height: 556px;
+      margin: 0 auto;
+      background: #1E1B20;
+      border-radius: 42px;
+      padding: 10px;
+      box-shadow:
+        0 0 0 2px #7A6F76,
+        0 0 0 4px #2D2830,
+        0 16px 32px rgba(48, 43, 53, 0.18);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    .phone-screen {
+      flex: 1;
+      background: #F7F3F0;
+      border-radius: 33px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    /* Status Bar & Dynamic Island */
+    .status-bar {
+      height: 32px;
+      padding: 8px 18px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 10px;
+      font-weight: 700;
+      color: #302B35;
+      position: relative;
+      flex-shrink: 0;
+      background: #F7F3F0;
+      z-index: 2;
+    }
+    .dynamic-island {
+      width: 72px;
+      height: 18px;
+      background: #141116;
+      border-radius: 20px;
+      position: absolute;
+      left: 50%;
+      top: 7px;
+      transform: translateX(-50%);
+    }
+    .status-icons {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* App Screen Content Area */
+    .screen-body {
+      flex: 1;
+      padding: 10px 13px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      overflow: hidden;
+    }
+    .mini-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #E5DCE1;
+    }
+    .mini-brand {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-family: "Rubik", sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      color: #302B35;
+    }
+    .mini-badge {
+      font-size: 8.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 3px 7px;
+      border-radius: 99px;
+      background: #EAE0E6;
+      color: #684B5E;
+    }
+    .screen-title {
+      font-family: "Rubik", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #302B35;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }
+    .screen-sub {
+      font-size: 9.5px;
+      color: #6E5D68;
+      line-height: 1.35;
+    }
+
+    /* UI Cards inside Phones */
+    .ui-card {
+      background: #FFFFFF;
+      border: 1px solid #E5DCE1;
+      border-radius: 11px;
+      padding: 9px 10px;
+    }
+    .ui-btn-primary {
+      margin-top: auto;
+      background: #684B5E;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 9px 12px;
+      border-radius: 99px;
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      box-shadow: 0 2px 8px rgba(104, 75, 94, 0.25);
+    }
+    .ui-btn-secondary {
+      background: #FFFFFF;
+      color: #684B5E;
+      border: 1px solid #CEB8C4;
+      text-align: center;
+      padding: 7px 10px;
+      border-radius: 99px;
+      font-size: 9.5px;
+      font-weight: 600;
+    }
+
+    /* Home Indicator */
+    .home-indicator {
+      width: 86px;
+      height: 4px;
+      background: #302B35;
+      opacity: 0.25;
+      border-radius: 99px;
+      margin: 4px auto 6px;
+      flex-shrink: 0;
+    }
+
+    /* Timeline Connector Row */
+    .timeline-row {
+      position: relative;
+      margin: 28px 0 20px;
+      height: 28px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 28px;
+      padding: 0 10px;
+      align-items: center;
+    }
+    .timeline-line {
+      position: absolute;
+      left: 24px;
+      right: 28px;
+      top: 50%;
+      height: 4px;
+      background: #866B7C;
+      transform: translateY(-50%);
+      z-index: 1;
+    }
+    .timeline-arrow-head {
+      position: absolute;
+      right: 18px;
+      top: 50%;
+      width: 14px;
+      height: 14px;
+      border-top: 4px solid #684B5E;
+      border-right: 4px solid #684B5E;
+      transform: translateY(-50%) rotate(45deg);
+      z-index: 2;
+    }
+    .timeline-dot-wrap {
+      display: flex;
+      justify-content: center;
+      z-index: 3;
+    }
+    .timeline-dot {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #684B5E;
+      border: 3px solid #CEB8C4;
+      box-shadow: 0 2px 6px rgba(104, 75, 94, 0.3);
+    }
+
+    /* Step Descriptions Grid */
+    .descriptions-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 28px;
+      padding: 0 10px;
+    }
+    .step-col h3 {
+      font-family: "Rubik", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #302B35;
+      text-align: center;
+      margin-bottom: 12px;
+      line-height: 1.25;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .step-col p {
+      font-size: 13.5px;
+      line-height: 1.62;
+      color: #302B35;
+      text-align: justify;
+      hyphens: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="showcase-canvas">
+    
+    <!-- Top Brand Title -->
+    <div class="top-brand">
+      <svg viewBox="0 0 100 100" fill="none">
+        <path d="M 18 36 C 24 24, 34 16, 42 14 C 43 14, 44 15, 44 17 C 43 28, 41 42, 45 56 C 48 66, 51 74, 50 82 C 49 86, 46 88, 42 88 C 30 87, 22 80, 17 68 C 14 60, 15 44, 18 36 Z" fill="#684B5E"/>
+        <path d="M 58 28 C 66 30, 74 38, 78 48 C 81 56, 80 68, 77 76 C 75 80, 72 82, 68 82 C 60 82, 57 74, 58 66 C 60 52, 58 38, 57 30 C 57 28, 57.5 28, 58 28 Z" fill="#CEB8C4"/>
+      </svg>
+      <span class="top-brand-name">ReFeel</span>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner-bar">Guided Capture & Perbandingan Pakaian Acuan</div>
+
+    <!-- 4 Mobile Screens -->
+    <div class="phones-grid">
+
+      <!-- ==================== PHONE 1: MERCHANT CAPTURE ==================== -->
+      <div class="phone-frame">
+        <div class="phone-screen">
+          <div class="status-bar">
+            <span>9:41</span>
+            <div class="dynamic-island"></div>
+            <div class="status-icons"><span>●●●</span><span>▲</span><span>■</span></div>
+          </div>
+          <div class="screen-body">
+            <div class="mini-header">
+              <div class="mini-brand">
+                <span style="color:#684B5E;">●</span> ReFeel Studio
+              </div>
+              <span class="mini-badge">Step 3 of 7</span>
+            </div>
+            <div>
+              <div class="screen-title">Guided Garment Capture</div>
+              <div class="screen-sub">Cloud Poplin Blouse · Merchant Listing</div>
+            </div>
+
+            <!-- Camera Viewfinder Card -->
+            <div class="ui-card" style="padding:7px; background:#FAF7F9; position:relative;">
+              <div style="position:relative; height:152px; border-radius:8px; overflow:hidden; background:#F2ECEF; display:flex; align-items:center; justify-content:center;">
+                <img src="file:///C:/development/ReFeel/public/photos/cloud-poplin-front.webp" style="height:142px; object-fit:contain;" />
+                <div style="position:absolute; top:6px; left:6px; background:rgba(48,43,53,0.82); color:#FFF; font-size:8px; font-weight:600; padding:3px 7px; border-radius:99px;">
+                  00:06 · Hanging &amp; Movement
+                </div>
+                <div style="position:absolute; bottom:6px; right:6px; width:38px; height:44px; border-radius:5px; overflow:hidden; border:1.5px solid #FFF; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
+                  <img src="file:///C:/development/ReFeel/public/photos/cloud-poplin-label.webp" style="width:100%; height:100%; object-fit:cover;" />
+                </div>
+              </div>
+              <!-- Progress pills -->
+              <div style="display:grid; grid-template-columns:repeat(7,1fr); gap:3px; margin-top:6px;">
+                <div style="height:4px; border-radius:2px; background:#684B5E;"></div>
+                <div style="height:4px; border-radius:2px; background:#684B5E;"></div>
+                <div style="height:4px; border-radius:2px; background:#684B5E;"></div>
+                <div style="height:4px; border-radius:2px; background:#866B7C;"></div>
+                <div style="height:4px; border-radius:2px; background:#CEB8C4;"></div>
+                <div style="height:4px; border-radius:2px; background:#CEB8C4;"></div>
+                <div style="height:4px; border-radius:2px; background:#CEB8C4;"></div>
+              </div>
+            </div>
+
+            <!-- Real-Time QA Checklist -->
+            <div class="ui-card" style="display:flex; flex-direction:column; gap:5px;">
+              <div style="font-size:9.5px; font-weight:700; color:#684B5E; text-transform:uppercase; letter-spacing:0.04em;">
+                On-Device Quality Checks
+              </div>
+              <div style="display:flex; justify-content:space-between; font-size:9.5px;">
+                <span>✓ Focus &amp; Lighting</span>
+                <strong style="color:#684B5E;">Passed</strong>
+              </div>
+              <div style="display:flex; justify-content:space-between; font-size:9.5px;">
+                <span>✓ Garment Framing</span>
+                <strong style="color:#684B5E;">Complete</strong>
+              </div>
+              <div style="display:flex; justify-content:space-between; font-size:9.5px;">
+                <span>✓ Care-Label OCR</span>
+                <strong style="color:#684B5E;">100% Cotton (Verified)</strong>
+              </div>
+            </div>
+
+            <!-- Extracted Descriptors Preview -->
+            <div style="display:flex; gap:4px; flex-wrap:wrap;">
+              <span style="font-size:8.5px; background:#EAE0E6; color:#302B35; padding:3px 7px; border-radius:99px; font-weight:600;">Drape: Crisp (r=0.91)</span>
+              <span style="font-size:8.5px; background:#EAE0E6; color:#302B35; padding:3px 7px; border-radius:99px; font-weight:600;">Stretch: Low</span>
+              <span style="font-size:8.5px; background:#EAE0E6; color:#302B35; padding:3px 7px; border-radius:99px; font-weight:600;">Matte Sheen</span>
+            </div>
+
+            <div class="ui-btn-primary">Publish Listing Profile</div>
+          </div>
+          <div class="home-indicator"></div>
+        </div>
+      </div>
+
+      <!-- ==================== PHONE 2: BUYER PRIVATE REFERENCE ==================== -->
+      <div class="phone-frame">
+        <div class="phone-screen">
+          <div class="status-bar">
+            <span>9:41</span>
+            <div class="dynamic-island"></div>
+            <div class="status-icons"><span>●●●</span><span>▲</span><span>■</span></div>
+          </div>
+          <div class="screen-body">
+            <div class="mini-header">
+              <div class="mini-brand">
+                <span style="color:#684B5E;">●</span> My Wardrobe
+              </div>
+              <span class="mini-badge">🔒 Private Vault</span>
+            </div>
+            <div>
+              <div class="screen-title">Your Familiar Garment</div>
+              <div class="screen-sub">Captured once · Saved privately on your device</div>
+            </div>
+
+            <!-- Familiar Garment Card -->
+            <div class="ui-card" style="display:flex; gap:10px; align-items:center; background:#FFFFFF;">
+              <div style="width:68px; height:84px; border-radius:8px; background:#F4EFF2; display:flex; align-items:center; justify-content:center; overflow:hidden; flex-shrink:0;">
+                <img src="file:///C:/development/ReFeel/public/photos/my-blue-blouse-front.webp" style="width:100%; height:100%; object-fit:contain;" />
+              </div>
+              <div style="display:flex; flex-direction:column; gap:3px;">
+                <span style="font-size:8.5px; font-weight:700; color:#684B5E; text-transform:uppercase;">Familiar Reference</span>
+                <strong style="font-size:12px; color:#302B35;">My Blue Blouse</strong>
+                <span style="font-size:9px; color:#6E5D68;">Size M · Washed Cotton Poplin</span>
+                <span style="font-size:8.5px; background:#F4EFF2; color:#684B5E; padding:2px 6px; border-radius:4px; font-weight:600; width:fit-content; margin-top:2px;">
+                  ✓ 7/7 Captures Complete
+                </span>
+              </div>
+            </div>
+
+            <!-- Stored Reference Descriptors -->
+            <div class="ui-card" style="display:flex; flex-direction:column; gap:6px;">
+              <div style="font-size:9.5px; font-weight:700; color:#684B5E; text-transform:uppercase; letter-spacing:0.04em;">
+                Saved Reference Descriptors
+              </div>
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:5px;">
+                <div style="background:#FAF7F9; border:1px solid #E5DCE1; padding:5px 7px; border-radius:6px;">
+                  <div style="font-size:8px; color:#6E5D68;">Drape &amp; Hang</div>
+                  <div style="font-size:9.5px; font-weight:700; color:#302B35;">Relaxed Poplin</div>
+                </div>
+                <div style="background:#FAF7F9; border:1px solid #E5DCE1; padding:5px 7px; border-radius:6px;">
+                  <div style="font-size:8px; color:#6E5D68;">Observed Pull</div>
+                  <div style="font-size:9.5px; font-weight:700; color:#302B35;">Gentle Give</div>
+                </div>
+                <div style="background:#FAF7F9; border:1px solid #E5DCE1; padding:5px 7px; border-radius:6px;">
+                  <div style="font-size:8px; color:#6E5D68;">Surface Sheen</div>
+                  <div style="font-size:9.5px; font-weight:700; color:#302B35;">Soft Matte</div>
+                </div>
+                <div style="background:#FAF7F9; border:1px solid #E5DCE1; padding:5px 7px; border-radius:6px;">
+                  <div style="font-size:8px; color:#6E5D68;">Show-Through</div>
+                  <div style="font-size:9.5px; font-weight:700; color:#302B35;">Opaque</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Buyer Priority Weights -->
+            <div class="ui-card" style="background:#F4EFF2; border-color:#CEB8C4; padding:7px 9px;">
+              <div style="font-size:8.5px; font-weight:700; color:#684B5E; margin-bottom:4px;">WHAT MATTERS TO YOU:</div>
+              <div style="display:flex; gap:4px; flex-wrap:wrap;">
+                <span style="font-size:8px; background:#684B5E; color:#FFF; padding:2px 7px; border-radius:99px; font-weight:600;">✓ Similar Drape</span>
+                <span style="font-size:8px; background:#684B5E; color:#FFF; padding:2px 7px; border-radius:99px; font-weight:600;">✓ Opaque</span>
+                <span style="font-size:8px; background:#FFF; color:#684B5E; border:1px solid #CEB8C4; padding:2px 7px; border-radius:99px;">Low Sheen</span>
+              </div>
+            </div>
+
+            <!-- Compatibility Note -->
+            <div style="background:#EAE0E6; border:1px solid #CEB8C4; border-radius:8px; padding:5px 8px; font-size:8px; color:#302B35; display:flex; justify-content:space-between; align-items:center;">
+              <span>Category: <strong>Woven Tops</strong></span>
+              <span style="color:#684B5E; font-weight:700;">Protocol v1.2 Ready</span>
+            </div>
+
+            <div class="ui-btn-primary">Use as Comparison Reference</div>
+          </div>
+          <div class="home-indicator"></div>
+        </div>
+      </div>
+
+      <!-- ==================== PHONE 3: MOBILE WEB MARKETPLACE ==================== -->
+      <div class="phone-frame">
+        <div class="phone-screen">
+          <div class="status-bar">
+            <span>9:41</span>
+            <div class="dynamic-island"></div>
+            <div class="status-icons"><span>●●●</span><span>▲</span><span>■</span></div>
+          </div>
+          <div class="screen-body">
+            <div class="mini-header">
+              <div class="mini-brand">
+                <span style="color:#684B5E;">●</span> ReFeel
+              </div>
+              <span class="mini-badge">Mobile Web</span>
+            </div>
+
+            <!-- Search & Feel Bar -->
+            <div style="display:flex; gap:5px; align-items:center;">
+              <div style="flex:1; background:#FFF; border:1px solid #D8CDD3; border-radius:99px; padding:5px 10px; font-size:9px; color:#6E5D68;">
+                🔍 Search shirts, blouses...
+              </div>
+              <div style="background:#EAE0E6; color:#684B5E; border:1px solid #CEB8C4; border-radius:99px; padding:5px 8px; font-size:8.5px; font-weight:700; white-space:nowrap;">
+                ✨ By Feel
+              </div>
+            </div>
+
+            <!-- Active Reference Banner -->
+            <div style="background:#EAE0E6; border:1px solid #CEB8C4; border-radius:8px; padding:5px 8px; display:flex; justify-content:space-between; align-items:center; font-size:8.5px;">
+              <span>Comparing with: <strong>My Blue Blouse</strong></span>
+              <span style="color:#684B5E; font-weight:700;">Active</span>
+            </div>
+
+            <!-- Category Pills -->
+            <div style="display:flex; gap:4px; overflow:hidden;">
+              <span style="background:#684B5E; color:#FFF; font-size:8.5px; font-weight:600; padding:3px 8px; border-radius:99px;">All Tops</span>
+              <span style="background:#FFF; color:#302B35; border:1px solid #E5DCE1; font-size:8.5px; padding:3px 8px; border-radius:99px;">Blouses</span>
+              <span style="background:#FFF; color:#302B35; border:1px solid #E5DCE1; font-size:8.5px; padding:3px 8px; border-radius:99px;">Linens</span>
+              <span style="background:#FFF; color:#302B35; border:1px solid #E5DCE1; font-size:8.5px; padding:3px 8px; border-radius:99px;">Knit</span>
+            </div>
+
+            <!-- 2x2 Product Grid -->
+            <div style="display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1fr); gap:7px; flex:1;">
+              <!-- Item 1 -->
+              <div style="background:#FFF; border:1.5px solid #684B5E; border-radius:9px; padding:5px; display:flex; flex-direction:column; min-width:0;">
+                <div style="height:82px; width:100%; background:#F4EFF2; border-radius:6px; display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden;">
+                  <img src="file:///C:/development/ReFeel/public/photos/cloud-poplin-front.webp" style="width:100%; height:100%; object-fit:contain; padding:3px;" />
+                  <span style="position:absolute; bottom:3px; left:3px; background:#684B5E; color:#FFF; font-size:6.8px; font-weight:700; padding:1.5px 5px; border-radius:99px;">Compare Feel</span>
+                </div>
+                <strong style="font-size:8.5px; margin-top:4px; color:#302B35; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Cloud Poplin Blouse</strong>
+                <span style="font-size:7.8px; color:#6E5D68;">Size M · Rp185.000</span>
+              </div>
+              <!-- Item 2 -->
+              <div style="background:#FFF; border:1px solid #E5DCE1; border-radius:9px; padding:5px; display:flex; flex-direction:column; min-width:0;">
+                <div style="height:82px; width:100%; background:#F4EFF2; border-radius:6px; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+                  <img src="file:///C:/development/ReFeel/public/photos/airloom-linen-front.webp" style="width:100%; height:100%; object-fit:cover;" />
+                </div>
+                <strong style="font-size:8.5px; margin-top:4px; color:#302B35; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Airloom Linen Shirt</strong>
+                <span style="font-size:7.8px; color:#6E5D68;">Size L · Rp210.000</span>
+              </div>
+              <!-- Item 3 -->
+              <div style="background:#FFF; border:1px solid #E5DCE1; border-radius:9px; padding:5px; display:flex; flex-direction:column; min-width:0;">
+                <div style="height:82px; width:100%; background:#F4EFF2; border-radius:6px; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+                  <img src="file:///C:/development/ReFeel/public/photos/moss-knit-front.webp" style="width:100%; height:100%; object-fit:cover;" />
+                </div>
+                <strong style="font-size:8.5px; margin-top:4px; color:#302B35; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Moss Knit Cardigan</strong>
+                <span style="font-size:7.8px; color:#6E5D68;">Size M · Rp225.000</span>
+              </div>
+              <!-- Item 4 -->
+              <div style="background:#FFF; border:1px solid #E5DCE1; border-radius:9px; padding:5px; display:flex; flex-direction:column; min-width:0;">
+                <div style="height:82px; width:100%; background:#F4EFF2; border-radius:6px; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+                  <img src="file:///C:/development/ReFeel/public/photos/petal-tee-front.webp" style="width:100%; height:100%; object-fit:contain; padding:3px;" />
+                </div>
+                <strong style="font-size:8.5px; margin-top:4px; color:#302B35; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Petal Cotton Tee</strong>
+                <span style="font-size:7.8px; color:#6E5D68;">Size S · Rp120.000</span>
+              </div>
+            </div>
+
+            <!-- Mobile Web Bottom Bar -->
+            <div style="background:#FFFFFF; border:1px solid #E5DCE1; border-radius:99px; padding:5px 10px; display:flex; justify-content:space-around; align-items:center; font-size:8px; font-weight:600; color:#6E5D68; margin-top:auto;">
+              <span style="color:#684B5E; font-weight:700;">● Catalog</span>
+              <span>Wardrobe</span>
+              <span style="background:#684B5E; color:#FFF; padding:2px 7px; border-radius:99px; font-size:7.5px;">+ Capture</span>
+              <span>Compare</span>
+            </div>
+          </div>
+          <div class="home-indicator"></div>
+        </div>
+      </div>
+
+      <!-- ==================== PHONE 4: PROPERTY-BY-PROPERTY COMPARISON ==================== -->
+      <div class="phone-frame">
+        <div class="phone-screen">
+          <div class="status-bar">
+            <span>9:41</span>
+            <div class="dynamic-island"></div>
+            <div class="status-icons"><span>●●●</span><span>▲</span><span>■</span></div>
+          </div>
+          <div class="screen-body">
+            <div class="mini-header">
+              <div class="mini-brand">
+                <span style="color:#684B5E;">●</span> ReFeel Compare
+              </div>
+              <span class="mini-badge">v1.2 Pinned</span>
+            </div>
+
+            <!-- Paired Garment Header -->
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:6px; background:#EAE0E6; padding:6px; border-radius:9px;">
+              <div style="background:#FFF; border-radius:6px; padding:5px; display:flex; align-items:center; gap:5px;">
+                <img src="file:///C:/development/ReFeel/public/photos/my-blue-blouse-front.webp" style="width:28px; height:34px; object-fit:contain; background:#F4EFF2; border-radius:4px;" />
+                <div>
+                  <div style="font-size:7px; color:#684B5E; font-weight:700;">YOUR REFERENCE</div>
+                  <div style="font-size:8.5px; font-weight:700; color:#302B35;">Blue Blouse</div>
+                </div>
+              </div>
+              <div style="background:#FFF; border-radius:6px; padding:5px; display:flex; align-items:center; gap:5px;">
+                <img src="file:///C:/development/ReFeel/public/photos/cloud-poplin-front.webp" style="width:28px; height:34px; object-fit:contain; background:#F4EFF2; border-radius:4px;" />
+                <div>
+                  <div style="font-size:7px; color:#866B7C; font-weight:700;">THE LISTING</div>
+                  <div style="font-size:8.5px; font-weight:700; color:#302B35;">Cloud Poplin</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Property-by-Property Evidence Cards -->
+            <div class="ui-card" style="padding:7px 9px; display:flex; flex-direction:column; gap:2px;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <strong style="font-size:9.5px; color:#684B5E;">Drape &amp; Movement</strong>
+                <span style="font-size:8px; color:#684B5E; text-decoration:underline; font-weight:600;">Open clip 01 ↗</span>
+              </div>
+              <div style="font-size:9px; color:#302B35;">Similar hang &amp; wave recovery in motion.</div>
+            </div>
+
+            <div class="ui-card" style="padding:7px 9px; display:flex; flex-direction:column; gap:2px;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <strong style="font-size:9.5px; color:#684B5E;">Observed Stretch</strong>
+                <span style="font-size:8px; color:#684B5E; text-decoration:underline; font-weight:600;">Open clip 02 ↗</span>
+              </div>
+              <div style="font-size:9px; color:#302B35;">Less observed extension under gentle pull.</div>
+            </div>
+
+            <div class="ui-card" style="padding:7px 9px; display:flex; flex-direction:column; gap:2px;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <strong style="font-size:9.5px; color:#684B5E;">Sheen &amp; Surface</strong>
+                <span style="font-size:8px; color:#684B5E; text-decoration:underline; font-weight:600;">View crop ↗</span>
+              </div>
+              <div style="font-size:9px; color:#302B35;">Slightly shinier surface in recorded light.</div>
+            </div>
+
+            <!-- Unknown / Evidence Limit Card -->
+            <div class="ui-card" style="padding:7px 9px; background:#F4EFF2; border-color:#CEB8C4; display:flex; flex-direction:column; gap:2px;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <strong style="font-size:9px; color:#5A4853;">Skin Softness &amp; Warmth</strong>
+                <span style="font-size:7.5px; background:#EAE0E6; color:#684B5E; padding:1.5px 5px; border-radius:4px; font-weight:700;">Unavailable</span>
+              </div>
+              <div style="font-size:8.5px; color:#6E5D68;">Not established from visual appearance.</div>
+            </div>
+
+            <!-- Evidence Audit Strip -->
+            <div style="background:#EAE0E6; border:1px solid #CEB8C4; border-radius:8px; padding:5px 8px; font-size:7.8px; color:#302B35; display:flex; justify-content:space-between; align-items:center;">
+              <span>Shared Descriptors: <strong>5 / 5 Verified</strong></span>
+              <span style="color:#684B5E; font-weight:700;">Unretouched</span>
+            </div>
+
+            <div class="ui-btn-primary">Inspect All Supporting Media</div>
+          </div>
+          <div class="home-indicator"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Horizontal Timeline Connector -->
+    <div class="timeline-row">
+      <div class="timeline-line"></div>
+      <div class="timeline-arrow-head"></div>
+      <div class="timeline-dot-wrap"><div class="timeline-dot"></div></div>
+      <div class="timeline-dot-wrap"><div class="timeline-dot"></div></div>
+      <div class="timeline-dot-wrap"><div class="timeline-dot"></div></div>
+      <div class="timeline-dot-wrap"><div class="timeline-dot"></div></div>
+    </div>
+
+    <!-- Step Descriptions -->
+    <div class="descriptions-grid">
+      <div class="step-col">
+        <h3>Rekam Terpandu Penjual</h3>
+        <p>Penjual merekam pakaian melalui 7 tahapan singkat di situs mobile (foto label, permukaan, klip gerak gantung, tarik-lepas, kilap, tembus pandang, dan kondisi). Halaman memeriksa fokus, cahaya, dan framing secara langsung sebelum menerbitkan profil.</p>
+      </div>
+      <div class="step-col">
+        <h3>Simpan Pakaian Acuan Pembeli</h3>
+        <p>Pembeli merekam satu pakaian favorit yang sudah dikenal cukup sekali dan menyimpannya secara privat. Karena menggunakan panduan rekam yang sama, kedua profil memiliki deskriptor yang kompatibel untuk dibandingkan.</p>
+      </div>
+      <div class="step-col">
+        <h3>Eksplorasi & Cari Berdasarkan Rasa</h3>
+        <p>Tanpa perlu menginstal aplikasi, pembeli menjelajahi katalog pakaian bekas atau menyaring berdasarkan sifat kain yang diinginkan (jatuhnya kain, kelenturan tampak, struktur permukaan) menggunakan pakaian acuan.</p>
+      </div>
+      <div class="step-col">
+        <h3>Perbandingan & Bukti Asli</h3>
+        <p>Pembeli melihat perbandingan sifat demi sifat (drape serupa, regangan lebih sedikit, permukaan lebih berkilau) beserta batas bukti yang jujur (kelembutan kulit belum dinilai) dan dapat membuka klip/foto asli di balik tiap pernyataan.</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

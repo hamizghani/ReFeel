@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #ffffff;
+      color: #0f172a;
+      display: inline-block;
+      padding: 32px;
+    }
+    .figure-container {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 28px 32px 24px 32px;
+      box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06);
+    }
+    .header {
+      margin-bottom: 24px;
+      border-bottom: 1px solid #f1f5f9;
+      padding-bottom: 16px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #047857;
+      background: #ecfdf5;
+      border: 1px solid #a7f3d0;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .caption {
+      margin-top: 20px;
+      padding-top: 14px;
+      border-top: 1px solid #f1f5f9;
+      font-size: 13px;
+      line-height: 1.6;
+      color: #475569;
+    }
+    .caption strong {
+      color: #0f172a;
+    }
+  </style>
+</head>
+<body>
+  <div class="figure-container">
+    <div class="header">
+      <span class="badge">ReFeel Technical Architecture</span>
+      <h1>Figure 3.2: Guided Capture Protocol and Dual-Tier Processing Pipeline</h1>
+    </div>
+    <div class="canvas">
+      <svg width="980" height="490" viewBox="0 0 980 490" xmlns="http://www.w3.org/2000/svg" style="font-family: inherit;">
+  
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+  </marker>
+  <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+  </marker>
+  <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#dc2626"/>
+  </marker>
+</defs>
+  <!-- Col 1: 7 Steps -->
+  <rect x="15" y="15" width="235" height="460" rx="12" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="25" y="25" width="215" height="28" rx="6" fill="#f8fafc"/>
+  <text x="35" y="44" font-size="12" font-weight="700" fill="#0f172a">7-STEP CAPTURE PROTOCOL</text>
+  <text x="35" y="70" font-size="10.5" fill="#64748b">Identical for merchant & buyer</text>
+
+  <g transform="translate(25, 80)">
+    <rect width="215" height="45" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="12" y="26" font-size="11.5" font-weight="600" fill="#0f172a">1. Care-Label Photo</text>
+    <text x="12" y="40" font-size="9.5" fill="#64748b">Composition & wash instructions</text>
+  </g>
+  <g transform="translate(25, 135)">
+    <rect width="215" height="45" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="12" y="26" font-size="11.5" font-weight="600" fill="#0f172a">2. Surface Close-Up</text>
+    <text x="12" y="40" font-size="9.5" fill="#64748b">Visible weave & surface structure</text>
+  </g>
+  <g transform="translate(25, 190)">
+    <rect width="215" height="45" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="12" y="26" font-size="11.5" font-weight="600" fill="#0f172a">3. Hanging & Movement Clip</text>
+    <text x="12" y="40" font-size="9.5" fill="#64748b">Dynamic drape & motion tracking</text>
+  </g>
+  <g transform="translate(25, 245)">
+    <rect width="215" height="45" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="12" y="26" font-size="11.5" font-weight="600" fill="#0f172a">4. Stretch & Release Clip</text>
+    <text x="12" y="40" font-size="9.5" fill="#64748b">Observed visual extension/recovery</text>
+  </g>
+  <g transform="translate(25, 300)">
+    <rect width="215" height="45" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="12" y="26" font-size="11.5" font-weight="600" fill="#0f172a">5. Sheen Angle Change Clip</text>
+    <text x="12" y="40" font-size="9.5" fill="#64748b">Specular reflection under light</text>
+  </g>
+  <g transform="translate(25, 355)">
+    <rect width="215" height="45" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="12" y="26" font-size="11.5" font-weight="600" fill="#0f172a">6. Show-Through View</text>
+    <text x="12" y="40" font-size="9.5" fill="#64748b">Fabric opacity & light transmittance</text>
+  </g>
+  <g transform="translate(25, 410)">
+    <rect width="215" height="45" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="12" y="26" font-size="11.5" font-weight="600" fill="#0f172a">7. Visible Condition Close-Ups</text>
+    <text x="12" y="40" font-size="9.5" fill="#64748b">Pilling, localized wear or flaws</text>
+  </g>
+
+  <!-- Col 2: Client QA -->
+  <rect x="290" y="90" width="210" height="300" rx="12" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="300" y="100" width="190" height="28" rx="6" fill="#fef2f2"/>
+  <text x="310" y="119" font-size="11.5" font-weight="700" fill="#991b1b">CLIENT-SIDE REAL-TIME QA</text>
+  <text x="310" y="145" font-size="10" fill="#64748b">Evaluates during live recording</text>
+
+  <rect x="305" y="160" width="180" height="125" rx="8" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="317" y="183" font-size="11" font-weight="600" fill="#991b1b">Quality Checks:</text>
+  <text x="317" y="205" font-size="10" fill="#7f1d1d">• Focus & edge sharpness</text>
+  <text x="317" y="225" font-size="10" fill="#7f1d1d">• Adequate illumination</text>
+  <text x="317" y="245" font-size="10" fill="#7f1d1d">• Complete framing bounds</text>
+  <text x="317" y="265" font-size="10" fill="#7f1d1d">• Completeness of action</text>
+
+  <rect x="305" y="300" width="180" height="70" rx="8" fill="#fee2e2" stroke="#f87171"/>
+  <text x="317" y="324" font-size="11" font-weight="700" fill="#b91c1c">Ask Immediate Repeat</text>
+  <text x="317" y="344" font-size="9.5" fill="#7f1d1d">Re-take clip before session</text>
+  <text x="317" y="358" font-size="9.5" fill="#7f1d1d">advances to cloud upload</text>
+
+  <!-- Col 3: Cloud Analysis -->
+  <rect x="540" y="25" width="220" height="440" rx="12" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="550" y="35" width="200" height="28" rx="6" fill="#f0fdf4"/>
+  <text x="560" y="54" font-size="11.5" font-weight="700" fill="#166534">CLOUD ANALYSIS (Modal GPU)</text>
+  <text x="560" y="80" font-size="10" fill="#15803d">Heavier inference pipeline (~5s)</text>
+
+  <rect x="555" y="95" width="190" height="65" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="567" y="118" font-size="11" font-weight="600" fill="#0f172a">Garment Isolation</text>
+  <text x="567" y="136" font-size="9.5" fill="#475569">Foreground segmentation &</text>
+  <text x="567" y="150" font-size="9.5" fill="#475569">dynamic motion tracking</text>
+
+  <rect x="555" y="170" width="190" height="65" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="567" y="193" font-size="11" font-weight="600" fill="#0f172a">Care-Label OCR</text>
+  <text x="567" y="211" font-size="9.5" fill="#475569">Optical character reading;</text>
+  <text x="567" y="225" font-size="9.5" fill="#475569">merchant confirms or corrects</text>
+
+  <rect x="555" y="245" width="190" height="120" rx="6" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="567" y="268" font-size="11" font-weight="600" fill="#166534">Descriptor Extraction</text>
+  <text x="567" y="288" font-size="9.5" fill="#15803d">• Drape coefficient</text>
+  <text x="567" y="306" font-size="9.5" fill="#15803d">• Observed stretch/recovery</text>
+  <text x="567" y="324" font-size="9.5" fill="#15803d">• Specular sheen response</text>
+  <text x="567" y="342" font-size="9.5" fill="#15803d">• Show-through opacity</text>
+  <text x="567" y="358" font-size="9.5" fill="#15803d">• Visible surface structure</text>
+
+  <rect x="555" y="375" width="190" height="65" rx="6" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="567" y="398" font-size="11" font-weight="600" fill="#991b1b">Visible Wear Tagging</text>
+  <text x="567" y="416" font-size="9.5" fill="#b91c1c">Defect localization; pinned</text>
+  <text x="567" y="430" font-size="9.5" fill="#b91c1c">to original close-up crop</text>
+
+  <!-- Col 4: Record Schema -->
+  <rect x="795" y="45" width="170" height="400" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <rect x="805" y="55" width="150" height="28" rx="6" fill="#eff6ff"/>
+  <text x="815" y="74" font-size="11.5" font-weight="700" fill="#1e3a8a">PROFILE SCHEMA</text>
+  <text x="815" y="100" font-size="10" fill="#64748b">Stored per descriptor</text>
+
+  <rect x="805" y="115" width="150" height="50" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="815" y="137" font-size="10.5" font-weight="600" fill="#0f172a">Descriptor Value</text>
+  <text x="815" y="153" font-size="9" fill="#64748b">Extracted property class</text>
+
+  <rect x="805" y="175" width="150" height="50" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="815" y="197" font-size="10.5" font-weight="600" fill="#1e3a8a">Reliability Score</text>
+  <text x="815" y="213" font-size="9" fill="#1e40af">r ∈ [0.0, 1.0]</text>
+
+  <rect x="805" y="235" width="150" height="50" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="815" y="257" font-size="10.5" font-weight="600" fill="#0f172a">Capture Conditions</text>
+  <text x="815" y="273" font-size="9" fill="#64748b">Lighting, angle, device</text>
+
+  <rect x="805" y="295" width="150" height="50" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="815" y="317" font-size="10.5" font-weight="600" fill="#0f172a">Source Pointer</text>
+  <text x="815" y="333" font-size="9" fill="#64748b">Direct link to R2 clip/crop</text>
+
+  <rect x="805" y="355" width="150" height="55" rx="6" fill="#faf5ff" stroke="#d8b4fe"/>
+  <text x="815" y="377" font-size="10.5" font-weight="600" fill="#6b21a8">Model Version Tag</text>
+  <text x="815" y="395" font-size="9" fill="#7e22ce">Immutable version pin</text>
+
+  <!-- Connectors -->
+  <path d="M 250 240 L 290 240" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 395 370 L 395 440 L 140 440 L 140 455" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arrow-red)"/>
+  <path d="M 500 240 L 540 240" fill="none" stroke="#059669" stroke-width="2" marker-end="url(#arrow-green)"/>
+  <path d="M 760 250 L 795 250" fill="none" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+</svg>
+    </div>
+    <div class="caption">
+      <strong>Figure 3.2:</strong> The 7-step guided capture sequence, client-side real-time QA loop, serverless feature extraction pipeline, and standardized descriptor provenance schema.
+    </div>
+  </div>
+</body>
+</html>

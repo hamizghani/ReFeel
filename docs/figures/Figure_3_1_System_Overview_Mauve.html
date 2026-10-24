@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: #ffffff;
+      color: #2D252A;
+      display: inline-block;
+      padding: 28px;
+    }
+    .figure-frame {
+      background: #ffffff;
+      padding: 16px 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="figure-frame">
+    <svg width="1075" height="545" viewBox="0 0 1075 545" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <marker id="arrow-dark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#684A5E"/>
+        </marker>
+        <marker id="arrow-mid" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#866B7C"/>
+        </marker>
+      </defs>
+
+      <!-- ================= STAGE 1: MOBILE WEB GUIDED CAPTURE ================= -->
+      <rect x="15" y="28" width="235" height="495" rx="10" fill="#FAF7F9" stroke="#CEB8C4" stroke-width="1.8"/>
+      <rect x="15" y="28" width="235" height="38" rx="10" fill="#684A5E"/>
+      <rect x="15" y="53" width="235" height="13" fill="#684A5E"/>
+      <text x="132.5" y="52" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">1. GUIDED CAPTURE (WEB)</text>
+
+      <!-- Dual Actor Capture -->
+      <rect x="29" y="82" width="207" height="64" rx="7" fill="#FFFFFF" stroke="#866B7C" stroke-width="1.4"/>
+      <rect x="29" y="82" width="6" height="64" rx="3" fill="#684A5E"/>
+      <text x="45" y="104" font-size="11.5" font-weight="700" fill="#2D252A">Merchant Listing Capture</text>
+      <text x="45" y="122" font-size="10" fill="#5A4853">Captures garment once to</text>
+      <text x="45" y="136" font-size="10" fill="#5A4853">receive a published profile</text>
+
+      <rect x="29" y="158" width="207" height="64" rx="7" fill="#FFFFFF" stroke="#866B7C" stroke-width="1.4"/>
+      <rect x="29" y="158" width="6" height="64" rx="3" fill="#866B7C"/>
+      <text x="45" y="180" font-size="11.5" font-weight="700" fill="#2D252A">Buyer Reference Capture</text>
+      <text x="45" y="198" font-size="10" fill="#5A4853">Captures familiar garment</text>
+      <text x="45" y="212" font-size="10" fill="#5A4853">once &amp; saves it privately</text>
+
+      <!-- 7-Step Sequence -->
+      <rect x="29" y="236" width="207" height="158" rx="7" fill="#F4EFF2" stroke="#CEB8C4" stroke-width="1.2"/>
+      <text x="41" y="257" font-size="11" font-weight="700" fill="#684A5E">Shared 7-Step Sequence</text>
+      <text x="41" y="276" font-size="9.8" fill="#2D252A">1. Care-label photograph</text>
+      <text x="41" y="292" font-size="9.8" fill="#2D252A">2. Surface structure close-up</text>
+      <text x="41" y="308" font-size="9.8" fill="#2D252A">3. Hanging &amp; movement clip</text>
+      <text x="41" y="324" font-size="9.8" fill="#2D252A">4. Gentle stretch &amp; release clip</text>
+      <text x="41" y="340" font-size="9.8" fill="#2D252A">5. Angle change (sheen) clip</text>
+      <text x="41" y="356" font-size="9.8" fill="#2D252A">6. Show-through opacity view</text>
+      <text x="41" y="372" font-size="9.8" fill="#2D252A">7. Visible condition close-ups</text>
+
+      <!-- On-Device Quality Check -->
+      <rect x="29" y="408" width="207" height="98" rx="7" fill="#EAE0E6" stroke="#866B7C" stroke-width="1.4"/>
+      <text x="41" y="429" font-size="11" font-weight="700" fill="#684A5E">Real-Time Mobile QA</text>
+      <text x="41" y="447" font-size="9.8" fill="#2D252A">• Focus, lighting &amp; framing</text>
+      <text x="41" y="463" font-size="9.8" fill="#2D252A">• Sequence completeness</text>
+      <text x="41" y="483" font-size="9.5" font-weight="600" fill="#684A5E">↻ Prompts immediate repeat</text>
+      <text x="41" y="497" font-size="9" fill="#5A4853">while person is still recording</text>
+
+
+      <!-- ================= STAGE 2: CLOUD ANALYSIS & STORAGE ================= -->
+      <rect x="280" y="28" width="245" height="495" rx="10" fill="#FAF7F9" stroke="#CEB8C4" stroke-width="1.8"/>
+      <rect x="280" y="28" width="245" height="38" rx="10" fill="#866B7C"/>
+      <rect x="280" y="53" width="245" height="13" fill="#866B7C"/>
+      <text x="402.5" y="52" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">2. CLOUD ANALYSIS &amp; MEDIA</text>
+
+      <!-- Cloudflare R2 -->
+      <rect x="294" y="82" width="217" height="82" rx="7" fill="#FFFFFF" stroke="#866B7C" stroke-width="1.4"/>
+      <rect x="294" y="82" width="217" height="24" rx="6" fill="#CEB8C4"/>
+      <text x="402.5" y="98" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2D252A">Object Storage (Cloudflare R2)</text>
+      <text x="306" y="124" font-size="10" fill="#2D252A">• Unretouched source photos &amp; clips</text>
+      <text x="306" y="141" font-size="10" fill="#2D252A">• Close-up crops of visible wear</text>
+      <text x="306" y="156" font-size="9.2" font-style="italic" fill="#6E5D68">Original captures never retouched</text>
+
+      <!-- Modal GPU -->
+      <rect x="294" y="180" width="217" height="225" rx="7" fill="#FFFFFF" stroke="#684A5E" stroke-width="1.5"/>
+      <rect x="294" y="180" width="217" height="26" rx="6" fill="#684A5E"/>
+      <text x="402.5" y="197" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">Serverless GPU (Modal · ~5s Budget)</text>
+      
+      <text x="306" y="224" font-size="10.5" font-weight="700" fill="#684A5E">Garment Isolation &amp; Tracking</text>
+      <text x="306" y="240" font-size="9.5" fill="#5A4853">Isolates garment &amp; tracks motion</text>
+
+      <line x1="306" y1="250" x2="498" y2="250" stroke="#E5DCE1" stroke-width="1"/>
+
+      <text x="306" y="266" font-size="10.5" font-weight="700" fill="#684A5E">Extracted Descriptors</text>
+      <text x="306" y="283" font-size="9.6" fill="#2D252A">• Drape &amp; dynamic movement</text>
+      <text x="306" y="299" font-size="9.6" fill="#2D252A">• Observed extension &amp; recovery</text>
+      <text x="306" y="315" font-size="9.6" fill="#2D252A">• Sheen &amp; show-through opacity</text>
+      <text x="306" y="331" font-size="9.6" fill="#2D252A">• Visible surface structure</text>
+
+      <line x1="306" y1="341" x2="498" y2="341" stroke="#E5DCE1" stroke-width="1"/>
+
+      <text x="306" y="357" font-size="10.5" font-weight="700" fill="#684A5E">OCR &amp; Wear Flagging</text>
+      <text x="306" y="373" font-size="9.5" fill="#2D252A">• Care-label OCR + merchant verify</text>
+      <text x="306" y="389" font-size="9.5" fill="#2D252A">• Wear flagged &amp; linked to close-up</text>
+
+      <!-- Descriptor Metadata -->
+      <rect x="294" y="419" width="217" height="87" rx="7" fill="#F4EFF2" stroke="#CEB8C4" stroke-width="1.3"/>
+      <text x="306" y="439" font-size="10.5" font-weight="700" fill="#684A5E">Per-Descriptor Provenance</text>
+      <text x="306" y="456" font-size="9.5" fill="#2D252A">• Reliability value &amp; capture conditions</text>
+      <text x="306" y="472" font-size="9.5" fill="#2D252A">• Pointer to source clip or image</text>
+      <text x="306" y="488" font-size="9.5" fill="#2D252A">• Protocol &amp; model version pinned</text>
+
+
+      <!-- ================= STAGE 3: DATA & EVIDENCE LIMITS ================= -->
+      <rect x="555" y="28" width="235" height="495" rx="10" fill="#FAF7F9" stroke="#CEB8C4" stroke-width="1.8"/>
+      <rect x="555" y="28" width="235" height="38" rx="10" fill="#684A5E"/>
+      <rect x="555" y="53" width="235" height="13" fill="#684A5E"/>
+      <text x="672.5" y="52" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">3. PROFILES &amp; BOUNDARIES</text>
+
+      <!-- Supabase -->
+      <rect x="569" y="82" width="207" height="90" rx="7" fill="#FFFFFF" stroke="#866B7C" stroke-width="1.4"/>
+      <rect x="569" y="82" width="207" height="24" rx="6" fill="#CEB8C4"/>
+      <text x="672.5" y="98" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2D252A">Managed Database (Supabase)</text>
+      <text x="581" y="123" font-size="9.8" fill="#2D252A">• Published merchant listing profiles</text>
+      <text x="581" y="140" font-size="9.8" fill="#2D252A">• Private buyer reference profiles</text>
+      <text x="581" y="157" font-size="9.2" font-style="italic" fill="#6E5D68">Retains creation model version</text>
+
+      <!-- Four Separated Information Tiers -->
+      <rect x="569" y="186" width="207" height="225" rx="7" fill="#FFFFFF" stroke="#684A5E" stroke-width="1.4"/>
+      <text x="581" y="207" font-size="10.8" font-weight="700" fill="#684A5E">4 Separated Info Categories</text>
+
+      <rect x="579" y="217" width="187" height="40" rx="5" fill="#F4EFF2" stroke="#CEB8C4"/>
+      <text x="588" y="233" font-size="9.8" font-weight="700" fill="#2D252A">1. Direct Observations</text>
+      <text x="588" y="248" font-size="9" fill="#5A4853">Unretouched captures &amp; wear crops</text>
+
+      <rect x="579" y="263" width="187" height="40" rx="5" fill="#F4EFF2" stroke="#CEB8C4"/>
+      <text x="588" y="279" font-size="9.8" font-weight="700" fill="#2D252A">2. Seller / Label Declarations</text>
+      <text x="588" y="294" font-size="9" fill="#5A4853">Confirmed care-label &amp; garment specs</text>
+
+      <rect x="579" y="309" width="187" height="40" rx="5" fill="#F4EFF2" stroke="#CEB8C4"/>
+      <text x="588" y="325" font-size="9.8" font-weight="700" fill="#2D252A">3. Model Estimates</text>
+      <text x="588" y="340" font-size="9" fill="#5A4853">Drape, sheen, visible pull stretch</text>
+
+      <rect x="579" y="355" width="187" height="46" rx="5" fill="#EAE0E6" stroke="#866B7C"/>
+      <text x="588" y="371" font-size="9.8" font-weight="700" fill="#684A5E">4. Explicit Unknowns</text>
+      <text x="588" y="385" font-size="8.8" fill="#2D252A">Skin softness, warmth, breathability,</text>
+      <text x="588" y="396" font-size="8.8" fill="#2D252A">measured mechanical elasticity</text>
+
+      <!-- Category Rule -->
+      <rect x="569" y="423" width="207" height="83" rx="7" fill="#F4EFF2" stroke="#CEB8C4" stroke-width="1.3"/>
+      <text x="581" y="443" font-size="10.5" font-weight="700" fill="#684A5E">Comparison Guardrails</text>
+      <text x="581" y="460" font-size="9.5" fill="#2D252A">• Comparable garment categories</text>
+      <text x="581" y="476" font-size="9.5" fill="#2D252A">• Missing data stays "Unavailable"</text>
+      <text x="581" y="492" font-size="9.5" fill="#2D252A">• Low shared evidence → Recapture</text>
+
+
+      <!-- ================= STAGE 4: COMPARISON & OUTPUT ================= -->
+      <rect x="820" y="28" width="225" height="495" rx="10" fill="#FAF7F9" stroke="#CEB8C4" stroke-width="1.8"/>
+      <rect x="820" y="28" width="225" height="38" rx="10" fill="#866B7C"/>
+      <rect x="820" y="53" width="225" height="13" fill="#866B7C"/>
+      <text x="932.5" y="52" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">4. COMPARISON &amp; VIEW</text>
+
+      <!-- Weighting Logic -->
+      <rect x="834" y="82" width="197" height="118" rx="7" fill="#FFFFFF" stroke="#684A5E" stroke-width="1.4"/>
+      <text x="846" y="104" font-size="10.8" font-weight="700" fill="#684A5E">Pairwise Comparison Engine</text>
+      <text x="846" y="123" font-size="9.6" fill="#2D252A">• Shared descriptors only</text>
+      <text x="846" y="140" font-size="9.6" fill="#2D252A">• Weighted by buyer priorities</text>
+      <text x="846" y="157" font-size="9.6" fill="#2D252A">• Governed by weaker reliability:</text>
+      <rect x="846" y="166" width="173" height="24" rx="4" fill="#F4EFF2" stroke="#CEB8C4"/>
+      <text x="932.5" y="182" text-anchor="middle" font-size="9.8" font-weight="700" fill="#684A5E">w_i = Pref_i × min(r_A,i , r_B,i)</text>
+
+      <!-- Grounded Buyer View -->
+      <rect x="834" y="214" width="197" height="175" rx="7" fill="#FFFFFF" stroke="#866B7C" stroke-width="1.4"/>
+      <text x="846" y="236" font-size="10.8" font-weight="700" fill="#2D252A">Property-by-Property View</text>
+      <text x="846" y="255" font-size="9.5" fill="#5A4853">Written explanation generated</text>
+      <text x="846" y="269" font-size="9.5" fill="#5A4853">only from stored descriptors:</text>
+      
+      <rect x="846" y="280" width="173" height="62" rx="5" fill="#FAF7F9" stroke="#CEB8C4"/>
+      <text x="854" y="297" font-size="9.4" font-style="italic" fill="#2D252A">"Similar drape"</text>
+      <text x="854" y="314" font-size="9.4" font-style="italic" fill="#2D252A">"Less observed stretch"</text>
+      <text x="854" y="331" font-size="9.4" font-style="italic" fill="#2D252A">"Shinier surface in recorded light"</text>
+
+      <text x="846" y="360" font-size="9.6" font-weight="700" fill="#684A5E">↳ Clickable Media Verification</text>
+      <text x="846" y="376" font-size="9.2" fill="#5A4853">Opens source clip or crop per claim</text>
+
+      <!-- Ecosystem & Feedback -->
+      <rect x="834" y="403" width="197" height="103" rx="7" fill="#EAE0E6" stroke="#866B7C" stroke-width="1.4"/>
+      <text x="846" y="424" font-size="10.5" font-weight="700" fill="#684A5E">Channels &amp; Consent Loop</text>
+      <text x="846" y="443" font-size="9.5" fill="#2D252A">• Merchant Marketplace Web</text>
+      <text x="846" y="460" font-size="9.5" fill="#2D252A">• 2029: External B2B API &amp; Widget</text>
+      <text x="846" y="478" font-size="9.2" fill="#5A4853">• Post-delivery feedback refines</text>
+      <text x="846" y="492" font-size="9.2" fill="#5A4853">  preferences (with buyer consent)</text>
+
+
+      <!-- ================= ARROWS BETWEEN STAGES ================= -->
+      <line x1="250" y1="275" x2="278" y2="275" stroke="#684A5E" stroke-width="2.2" marker-end="url(#arrow-dark)"/>
+      <line x1="525" y1="275" x2="553" y2="275" stroke="#684A5E" stroke-width="2.2" marker-end="url(#arrow-dark)"/>
+      <line x1="790" y1="275" x2="818" y2="275" stroke="#684A5E" stroke-width="2.2" marker-end="url(#arrow-dark)"/>
+
+      <!-- Direct Source Media Pointer Line (R2 -> Buyer View routed cleanly outside boxes) -->
+      <path d="M 511 123 L 540 123 L 540 12 L 1060 12 L 1060 356 L 1033 356" fill="none" stroke="#866B7C" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrow-mid)"/>
+      <rect x="670" y="3" width="230" height="17" rx="4" fill="#FFFFFF"/>
+      <text x="785" y="14.5" text-anchor="middle" font-size="9.8" font-weight="600" fill="#684A5E">Direct Source Clip &amp; Crop Pointers (Cloudflare R2)</text>
+    </svg>
+  </div>
+</body>
+</html>

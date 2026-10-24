@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="ReFeel Mark">
-  <rect width="64" height="64" rx="16" fill="#184e38"/>
-  <path d="M20 46V18h14c6.627 0 12 5.373 12 12 0 4.887-2.915 9.094-7.106 10.963L47 46H36.5l-6.5-6.5H28v6.5H20zm8-14.5h6c2.485 0 4.5-2.015 4.5-4.5s-2.015-4.5-4.5-4.5H28v9z" fill="#ffffff"/>
-  <circle cx="47" cy="19" r="4.5" fill="#52b788"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" role="img" aria-label="ReFeel Shared Contour">
+  <!-- ReFeel Shared Contour: Two independent profiles sharing one inner contour -->
+  <!-- Left profile: Familiar reference, broader and taller -->
+  <path d="M 18 36 C 24 24, 34 16, 42 14 C 43 14, 44 15, 44 17 C 43 28, 41 42, 45 56 C 48 66, 51 74, 50 82 C 49 86, 46 88, 42 88 C 30 87, 22 80, 17 68 C 14 60, 15 44, 18 36 Z" fill="#684B5E"/>
+  <!-- Right profile: Candidate garment, lower and narrower, sharing the curved inner contour -->
+  <path d="M 58 28 C 66 30, 74 38, 78 48 C 81 56, 80 68, 77 76 C 75 80, 72 82, 68 82 C 60 82, 57 74, 58 66 C 60 52, 58 38, 57 30 C 57 28, 57.5 28, 58 28 Z" fill="#866B7C"/>
 </svg>

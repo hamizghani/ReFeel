@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #ffffff;
+      color: #0f172a;
+      display: inline-block;
+      padding: 32px;
+    }
+    .figure-container {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 28px 32px 24px 32px;
+      box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06);
+    }
+    .header {
+      margin-bottom: 24px;
+      border-bottom: 1px solid #f1f5f9;
+      padding-bottom: 16px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #047857;
+      background: #ecfdf5;
+      border: 1px solid #a7f3d0;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .caption {
+      margin-top: 20px;
+      padding-top: 14px;
+      border-top: 1px solid #f1f5f9;
+      font-size: 13px;
+      line-height: 1.6;
+      color: #475569;
+    }
+    .caption strong {
+      color: #0f172a;
+    }
+  </style>
+</head>
+<body>
+  <div class="figure-container">
+    <div class="header">
+      <span class="badge">ReFeel Technical Architecture</span>
+      <h1>Figure 3.3: Pairwise Comparison Logic and Four Information Boundaries</h1>
+    </div>
+    <div class="canvas">
+      <svg width="980" height="490" viewBox="0 0 980 490" xmlns="http://www.w3.org/2000/svg" style="font-family: inherit;">
+  
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+  </marker>
+  <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+  </marker>
+  <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 10 5 L 0 9 z" fill="#dc2626"/>
+  </marker>
+</defs>
+  <!-- Left: Four Information Tiers -->
+  <rect x="15" y="15" width="315" height="460" rx="12" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="25" y="25" width="295" height="28" rx="6" fill="#f8fafc"/>
+  <text x="35" y="44" font-size="12" font-weight="700" fill="#0f172a">FOUR INFORMATION TIERS</text>
+  <text x="35" y="70" font-size="10.5" fill="#64748b">Strict epistemological boundaries</text>
+
+  <rect x="25" y="85" width="295" height="80" rx="8" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="37" y="110" font-size="11.5" font-weight="700" fill="#166534">1. Direct Observations</text>
+  <text x="37" y="130" font-size="10" fill="#15803d">• Unretouched original video clips & photos</text>
+  <text x="37" y="148" font-size="10" fill="#15803d">• Visible condition close-up crops (never retouched)</text>
+
+  <rect x="25" y="175" width="295" height="80" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="37" y="200" font-size="11.5" font-weight="700" fill="#1e3a8a">2. Declarations</text>
+  <text x="37" y="220" font-size="10" fill="#1e40af">• Confirmed care-label text (fiber composition)</text>
+  <text x="37" y="238" font-size="10" fill="#1e40af">• Merchant-declared garment category & size</text>
+
+  <rect x="25" y="265" width="295" height="90" rx="8" fill="#faf5ff" stroke="#d8b4fe"/>
+  <text x="37" y="290" font-size="11.5" font-weight="700" fill="#6b21a8">3. Model Estimates</text>
+  <text x="37" y="310" font-size="10" fill="#7e22ce">• Relative drape, sheen response & opacity</text>
+  <text x="37" y="328" font-size="10" fill="#7e22ce">• Observed stretch (visible pull, NOT elasticity)</text>
+  <text x="37" y="344" font-size="9.5" fill="#7e22ce">• Pinned to protocol & model version</text>
+
+  <rect x="25" y="365" width="295" height="95" rx="8" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="37" y="390" font-size="11.5" font-weight="700" fill="#991b1b">4. Explicit Unknowns (Never Estimated)</text>
+  <text x="37" y="410" font-size="10" fill="#7f1d1d">• Skin tactile softness & hand-feel warmth</text>
+  <text x="37" y="428" font-size="10" fill="#7f1d1d">• True mechanical fabric elasticity (MPa)</text>
+  <text x="37" y="446" font-size="10" fill="#7f1d1d">• Fabric breathability, internal odor, cleanliness</text>
+
+  <!-- Middle: Pairwise Comparison Engine -->
+  <rect x="350" y="15" width="280" height="460" rx="12" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="360" y="25" width="260" height="28" rx="6" fill="#fffbeb"/>
+  <text x="370" y="44" font-size="12" font-weight="700" fill="#b45309">PAIRWISE COMPARISON LOGIC</text>
+  <text x="370" y="70" font-size="10.5" fill="#64748b">Only shared, verified evidence compared</text>
+
+  <rect x="360" y="85" width="260" height="70" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="372" y="110" font-size="11" font-weight="600" fill="#0f172a">Category Compatibility Check</text>
+  <text x="372" y="130" font-size="9.5" fill="#475569">Garments must share category; cut & size</text>
+  <text x="372" y="146" font-size="9.5" fill="#475569">affect hang independently of fabric</text>
+
+  <rect x="360" y="165" width="260" height="85" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="372" y="190" font-size="11" font-weight="600" fill="#0f172a">Shared Descriptor Intersection</text>
+  <text x="372" y="210" font-size="9.5" fill="#475569">Uses only D_shared = D_A ∩ D_B</text>
+  <text x="372" y="228" font-size="9.5" font-weight="600" fill="#dc2626">Non-imputation: missing evidence marked</text>
+  <text x="372" y="242" font-size="9.5" font-weight="600" fill="#dc2626">as "Unavailable" (no guessing / filling)</text>
+
+  <rect x="360" y="260" width="260" height="95" rx="8" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="372" y="285" font-size="11" font-weight="700" fill="#166534">Pessimistic Weighting</text>
+  <text x="372" y="306" font-size="10.5" font-weight="600" fill="#15803d">Wi = BuyerPriority_i × min(rA,i , rB,i)</text>
+  <text x="372" y="326" font-size="9.5" fill="#14532d">Weaker reliability governs certainty;</text>
+  <text x="372" y="342" font-size="9.5" fill="#14532d">buyer sets priority weights</text>
+
+  <rect x="360" y="365" width="260" height="95" rx="8" fill="#fffbeb" stroke="#fcd34d"/>
+  <text x="372" y="390" font-size="11" font-weight="700" fill="#78350f">Shared Evidence Threshold</text>
+  <text x="372" y="412" font-size="9.5" fill="#92400e">If shared evidence falls below threshold:</text>
+  <text x="372" y="430" font-size="9.5" font-weight="600" fill="#b45309">Asks for recapture rather than guessing</text>
+  <text x="372" y="446" font-size="9.5" font-weight="600" fill="#b45309">or asserting an overall verdict</text>
+
+  <!-- Right: Buyer Experience -->
+  <rect x="650" y="15" width="315" height="460" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <rect x="660" y="25" width="295" height="28" rx="6" fill="#eff6ff"/>
+  <text x="670" y="44" font-size="12" font-weight="700" fill="#1e3a8a">BUYER INSPECTION VIEW</text>
+  <text x="670" y="70" font-size="10.5" fill="#64748b">Transparent relative comparisons</text>
+
+  <rect x="660" y="90" width="295" height="175" rx="8" fill="#faf5ff" stroke="#d8b4fe"/>
+  <text x="675" y="118" font-size="12" font-weight="700" fill="#6b21a8">Property-by-Property Differences</text>
+  <text x="675" y="145" font-size="11" fill="#0f172a">• "Similar drape behavior"</text>
+  <text x="675" y="170" font-size="11" fill="#0f172a">• "Less observed stretch under gentle pull"</text>
+  <text x="675" y="195" font-size="11" fill="#0f172a">• "Shinier surface in recorded light"</text>
+  <text x="675" y="222" font-size="10" font-style="italic" fill="#64748b">No synthetic overall score or comfort assertions;</text>
+  <text x="675" y="238" font-size="10" font-style="italic" fill="#64748b">preserves separate observable facts</text>
+
+  <rect x="660" y="280" width="295" height="150" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="675" y="308" font-size="12" font-weight="700" fill="#1e3a8a">Click-to-Verify Evidence Proof</text>
+  <text x="675" y="335" font-size="10.5" fill="#1e40af">• Tap statement to open original clip/crop</text>
+  <text x="675" y="358" font-size="10.5" fill="#1e40af">• View side-by-side synchronized motion</text>
+  <text x="675" y="380" font-size="10.5" fill="#1e40af">• Inspect unretouched visible wear photo</text>
+  <text x="675" y="405" font-size="9.5" font-style="italic" fill="#3b82f6">Every claim links back to immutable R2 file</text>
+
+  <!-- Connectors -->
+  <path d="M 330 300 L 360 210" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 620 305 L 660 170" fill="none" stroke="#2563eb" stroke-width="1.8" marker-end="url(#arrow-blue)"/>
+  <path d="M 330 125 C 500 100, 520 290, 660 330" fill="none" stroke="#059669" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arrow-green)"/>
+</svg>
+    </div>
+    <div class="caption">
+      <strong>Figure 3.3:</strong> Strict epistemological separation of observations, declarations, estimates, and unknowns, combined with zero-imputation intersection and min-reliability weighting.
+    </div>
+  </div>
+</body>
+</html>
